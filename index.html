@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NEWTV 環境知識題庫系統</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- 主選單 -->
+        <div id="menu-screen" class="screen active">
+            <header class="app-header">
+                <div class="badge">環境知識競賽</div>
+                <h1>NEWTV</h1>
+                <p class="subtitle">全題庫合輯 · 快節奏智能刷題系統</p>
+            </header>
+
+            <div class="settings-card">
+                <div class="setting-item">
+                    <label for="bank-select">選擇範圍：</label>
+                    <select id="bank-select">
+                        <option value="all" selected>🌟 全體題庫合輯 (全部 509 題)</option>
+                        <option value="校內選拔賽">校內選拔賽 (第 1 ~ 50 題)</option>
+                        <option value="暑期練習7/2">暑期練習 7/2 (第 51 ~ 100 題)</option>
+                        <option value="暑期練習7/6">暑期練習 7/6 (第 101 ~ 150 題)</option>
+                        <option value="暑期練習7/9">暑期練習 7/9 (第 151 ~ 200 題)</option>
+                        <option value="暑期練習7/13">暑期練習 7/13 (第 201 ~ 250 題)</option>
+                        <option value="暑期練習7/16">暑期練習 7/16 (第 251 ~ 300 題)</option>
+                        <option value="暑期練習7/20">暑期練習 7/20 (第 301 ~ 350 題)</option>
+                        <option value="暑期練習7/23">暑期練習 7/23 (第 351 ~ 400 題)</option>
+                        <option value="暑期練習7/27">暑期練習 7/27 (第 401 ~ 450 題)</option>
+                        <option value="暑期練習7/30">暑期練習 7/30 (第 451 ~ 500 題)</option>
+                        <option value="新手教學">新手教學 (9 題)</option>
+                    </select>
+                </div>
+
+                <div class="setting-item">
+                    <label for="count-select">本次題數：</label>
+                    <select id="count-select">
+                        <option value="all" selected>🌟 全部題目（全題庫 509 題）</option>
+                        <option value="20">20 題 (快速暖身)</option>
+                        <option value="50">50 題 (標準練習)</option>
+                        <option value="100">100 題 (深度衝刺)</option>
+                        <option value="200">200 題 (馬拉松)</option>
+                        <option value="custom">✏️ 自訂題數...</option>
+                    </select>
+                    <div id="custom-count-wrapper" class="custom-count-wrapper" style="display: none;">
+                        <div class="custom-input-row">
+                            <input type="number" id="custom-count-input" min="1" max="509" placeholder="輸入題數">
+                            <span id="custom-count-hint" class="custom-hint">題 (上限 509 題)</span>
+                        </div>
+                        <div id="custom-count-warning" class="custom-warning" style="display: none;"></div>
+                    </div>
+                </div>
+
+                <div class="setting-item">
+                    <label for="order-select">出題順序：</label>
+                    <select id="order-select">
+                        <option value="random" selected>🎲 隨機亂序出題</option>
+                        <option value="sequential">📖 依序循序出題</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="menu-buttons">
+                <button id="btn-start" class="primary-btn pulse">開始測驗 🚀（共 <span id="start-count-badge">509</span> 題）</button>
+            </div>
+
+            <div class="instructions-card">
+                <h3>💡 答題方式與操作說明</h3>
+                <ul>
+                    <li><strong>1. 選擇答案：</strong>點擊選項，或按鍵盤 <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> / <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> / <kbd>D</kbd> <kbd>F</kbd> <kbd>J</kbd> <kbd>K</kbd>（可隨時更換選取）。</li>
+                    <li><strong>2. 確認答案：</strong>點擊「確認答案」按鈕或按 <kbd>Enter</kbd> / <kbd>Space</kbd> 送出。</li>
+                    <li><strong>3. 查看解析與下一題：</strong>送出後立即顯示完整解析，再按 <kbd>Enter</kbd> / <kbd>Space</kbd> 前往下一題。</li>
+                </ul>
+            </div>
+
+            <div id="historical-stats" class="stats-bar">
+                <span>歷史作答：<strong id="hist-total">0</strong> 題</span>
+                <span>累計正確率：<strong id="hist-accuracy">0</strong>%</span>
+            </div>
+        </div>
+
+        <!-- 遊戲畫面 -->
+        <div id="play-screen" class="screen">
+            <div id="status-bar">
+                <div class="progress-info">
+                    <span id="q-category-tag" class="category-tag">全體合輯</span>
+                    <span id="score-container">進度 <span id="score-value">1</span> / <span id="total-questions">509</span></span>
+                </div>
+                <div class="progress-track">
+                    <div id="progress-fill" class="progress-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div id="question-container">
+                <h2 id="question-text">載入題目中...</h2>
+            </div>
+
+            <div id="options-container">
+                <button class="option-btn" data-index="0" data-key="A">
+                    <span class="opt-badge">A</span>
+                    <span class="option-text" id="opt-0">選項 A</span>
+                </button>
+                <button class="option-btn" data-index="1" data-key="B">
+                    <span class="opt-badge">B</span>
+                    <span class="option-text" id="opt-1">選項 B</span>
+                </button>
+                <button class="option-btn" data-index="2" data-key="C">
+                    <span class="opt-badge">C</span>
+                    <span class="option-text" id="opt-2">選項 C</span>
+                </button>
+                <button class="option-btn" data-index="3" data-key="D">
+                    <span class="opt-badge">D</span>
+                    <span class="option-text" id="opt-3">選項 D</span>
+                </button>
+            </div>
+
+            <!-- 確認按鈕區（選取選項後啟用） -->
+            <div id="action-box" class="action-box">
+                <button id="btn-confirm" class="primary-btn confirm-btn" disabled>請點選答案</button>
+            </div>
+
+            <!-- 答題反饋與詳細解析（按確認後顯示） -->
+            <div id="feedback-box" class="feedback-box" style="display: none;">
+                <div id="feedback-badge" class="feedback-badge"></div>
+                <div id="explanation-card" class="explanation-card">
+                    <div class="explanation-title">💡 完整解析與觀念說明</div>
+                    <div id="explanation-body" class="explanation-body"></div>
+                </div>
+                <button id="btn-next" class="primary-btn next-btn">下一題 ➔ (Space / Enter)</button>
+            </div>
+        </div>
+
+        <!-- 結果畫面 -->
+        <div id="result-screen" class="screen">
+            <header class="app-header">
+                <h1 id="result-title">🎉 測驗完成！</h1>
+            </header>
+
+            <div class="result-card">
+                <div class="result-score-circle">
+                    <div class="score-percent"><span id="accuracy-value">0</span><small>%</small></div>
+                    <div class="score-label">正確率</div>
+                </div>
+                <div class="result-details">
+                    <div class="detail-item correct">
+                        <span class="label">答對題數</span>
+                        <span class="val" id="correct-count">0</span>
+                    </div>
+                    <div class="detail-item wrong">
+                        <span class="label">答錯題數</span>
+                        <span class="val" id="wrong-count">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button id="btn-retry-wrong" class="warning-btn" style="display: none;">🔥 練習本次錯題</button>
+                <button id="btn-restart" class="primary-btn">回主選單</button>
+            </div>
+
+            <div class="review-section">
+                <div class="review-header">
+                    <h3>📝 作答紀錄與詳細解析</h3>
+                    <div class="filter-group">
+                        <button id="filter-all" class="filter-btn active">全部 (<span id="count-all">0</span>)</button>
+                        <button id="filter-wrong" class="filter-btn">只看錯題 (<span id="count-wrong">0</span>)</button>
+                    </div>
+                </div>
+                <div id="review-container" class="review-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 載入全題庫資料與主邏輯腳本 -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
