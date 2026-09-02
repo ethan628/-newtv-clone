@@ -102,6 +102,7 @@ function startGame() {
     shuffledQuestions = shuffleArray(questions);
     
     document.getElementById('total-questions').innerText = shuffledQuestions.length;
+    document.getElementById('progress-history').innerHTML = '';
     
     updateStatus();
     loadQuestion();
@@ -122,7 +123,7 @@ function loadQuestion() {
     document.getElementById('question-text').innerText = qData.q;
     
     for (let i = 0; i < 4; i++) {
-        document.getElementById(`opt-${i}`).innerText = qData.options[i];
+        optionBtns[i].innerHTML = `<span class="option-text" id="opt-${i}">${qData.options[i]}</span>`;
         optionBtns[i].classList.remove('flash-correct', 'flash-wrong');
     }
     updateStatus();
@@ -136,12 +137,17 @@ function handleAnswer(selectedIndex) {
     const isCorrect = (selectedIndex === qData.answer);
     
     const selectedBtn = optionBtns[selectedIndex];
+    const progressHistory = document.getElementById('progress-history');
     
     if (isCorrect) {
         selectedBtn.classList.add('flash-correct');
+        selectedBtn.innerHTML = "⭕ " + selectedBtn.innerHTML;
+        progressHistory.innerHTML += '<span style="color: #4caf50; font-size: 1.5rem;">⭕</span>';
         correctCount++;
     } else {
         selectedBtn.classList.add('flash-wrong');
+        selectedBtn.innerHTML = "❌ " + selectedBtn.innerHTML;
+        progressHistory.innerHTML += '<span style="color: #f44336; font-size: 1.5rem;">❌</span>';
         wrongCount++;
         // 標示正確答案
         optionBtns[qData.answer].classList.add('flash-correct');
@@ -153,7 +159,7 @@ function handleAnswer(selectedIndex) {
         currentQuestionIndex++;
         gameActive = true;
         loadQuestion();
-    }, 300); // 延遲300毫秒換題，製造節奏感
+    }, 500); // 延遲500毫秒換題，製造節奏感
 }
 
 function endGame() {
