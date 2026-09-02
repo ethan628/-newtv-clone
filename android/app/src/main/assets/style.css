@@ -1,4 +1,4 @@
-﻿* {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -88,10 +88,18 @@ button {
     transition: all 0.1s ease-in-out;
 }
 
-button:hover, button:active {
+button:active {
     background-color: #ff3366;
     border-color: #fff;
-    transform: scale(1.05);
+    transform: scale(0.95);
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color: #ff3366;
+        border-color: #fff;
+        transform: scale(1.05);
+    }
 }
 
 button span {
@@ -155,6 +163,19 @@ button:hover span {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+@media (hover: hover) {
+    .option-btn:hover {
+        background-color: #3a3a3a;
+        transform: scale(1.02);
+    }
+}
+
+.option-btn:active {
+    background-color: #444;
+    transform: scale(0.98);
 }
 
 .option-text {
@@ -170,12 +191,138 @@ button:hover span {
     background-color: #aa0000 !important;
 }
 
-/* 蝯??恍 */
+/* 結果畫面 */
 .result-stats {
-    margin: 30px 0;
-    font-size: 1.5rem;
-    line-height: 2;
+    margin: 20px 0;
+    font-size: 1.3rem;
+    line-height: 1.8;
     text-align: center;
+}
+
+.result-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* 解析區塊樣式 */
+.explanation-box {
+    width: 100%;
+    background: rgba(30, 30, 40, 0.95);
+    border: 2px solid #5c6bc0;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: fadeIn 0.25s ease-out;
+}
+
+.explanation-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.explanation-badge {
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.explanation-badge.correct {
+    background-color: #2e7d32;
+    color: #fff;
+}
+
+.explanation-badge.wrong {
+    background-color: #c62828;
+    color: #fff;
+}
+
+.explanation-title {
+    color: #82b1ff;
+}
+
+.explanation-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    text-align: left;
+}
+
+.btn-next {
+    align-self: flex-end;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+.btn-next:active {
+    transform: scale(0.96);
+    background-color: #303f9f;
+}
+
+/* 結算解析回顧列表 */
+.review-container {
+    width: 100%;
+    max-height: 260px;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+.review-item {
+    background: #2a2a2a;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 4px solid #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.review-item.correct {
+    border-left-color: #4caf50;
+}
+
+.review-item.wrong {
+    border-left-color: #f44336;
+}
+
+.review-q {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.review-ans {
+    color: #bbb;
+    margin-bottom: 4px;
+}
+
+.review-exp {
+    color: #80deea;
+    font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 600px) {
@@ -187,6 +334,10 @@ button:hover span {
     }
     #question-text {
         font-size: 1.8rem;
+    }
+    .option-btn {
+        padding: 18px 15px;
+        font-size: 1.4rem;
     }
 }
 .historical-stats { margin-top: 20px; font-size: 1rem; color: #ffeb3b; background: rgba(0,0,0,0.4); padding: 10px; border-radius: 8px; }
