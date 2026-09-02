@@ -168,4 +168,29 @@ function endGame() {
     document.getElementById('wrong-count').innerText = wrongCount;
     
     document.getElementById('result-title').innerText = "測驗完成！";
+    
+    // 儲存至 localStorage
+    let histTotal = parseInt(localStorage.getItem('newtv_hist_total') || '0');
+    let histCorrect = parseInt(localStorage.getItem('newtv_hist_correct') || '0');
+    
+    histTotal += totalAnswered;
+    histCorrect += correctCount;
+    
+    localStorage.setItem('newtv_hist_total', histTotal);
+    localStorage.setItem('newtv_hist_correct', histCorrect);
+    
+    updateHistoricalStats();
 }
+
+function updateHistoricalStats() {
+    let histTotal = parseInt(localStorage.getItem('newtv_hist_total') || '0');
+    let histCorrect = parseInt(localStorage.getItem('newtv_hist_correct') || '0');
+    
+    let histAccuracy = histTotal === 0 ? 0 : Math.round((histCorrect / histTotal) * 100);
+    
+    document.getElementById('hist-total').innerText = histTotal;
+    document.getElementById('hist-accuracy').innerText = histAccuracy;
+}
+
+// 初始載入時更新歷史統計
+updateHistoricalStats();

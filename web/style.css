@@ -1,4 +1,4 @@
-* {
+﻿* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body, html {
     flex-direction: column;
 }
 
-/* CRT 掃描線特效 */
+/* CRT ??蝺??*/
 #game-container::after {
     content: " ";
     display: block;
@@ -108,7 +108,7 @@ button:hover span {
     line-height: 1.5;
 }
 
-/* 遊戲畫面 */
+/* ??恍 */
 #status-bar {
     width: 100%;
     display: flex;
@@ -161,7 +161,7 @@ button:hover span {
     text-align: center;
 }
 
-/* 視覺回饋 */
+/* 閬死?? */
 .flash-correct {
     background-color: #00aa00 !important;
 }
@@ -170,7 +170,7 @@ button:hover span {
     background-color: #aa0000 !important;
 }
 
-/* 結果畫面 */
+/* 蝯??恍 */
 .result-stats {
     margin: 30px 0;
     font-size: 1.5rem;
@@ -189,3 +189,6 @@ button:hover span {
         font-size: 1.8rem;
     }
 }
+.historical-stats { margin-top: 20px; font-size: 1rem; color: #ffeb3b; background: rgba(0,0,0,0.4); padding: 10px; border-radius: 8px; }
+
+
