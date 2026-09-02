@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NEWTV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- 主選單 -->
+        <div id="menu-screen" class="screen active">
+            <h1>NEWTV</h1>
+            <p>一個快節奏的答題遊戲</p>
+            <div class="menu-buttons">
+                <button id="btn-start">開始遊戲</button>
+            </div>
+            <div class="instructions">
+                <strong>使用方式：</strong><br>
+                1. 畫面上方會顯示題目。<br>
+                2. 根據題目，直接點擊下方四個選項大按鈕進行作答。<br>
+                3. 答錯不會提早結束，請盡情作答。<br>
+                4. 完成所有題目後，系統會結算您的正確率！
+            </div>
+        </div>
+
+        <!-- 遊戲畫面 -->
+        <div id="play-screen" class="screen">
+            <div id="status-bar">
+                <div id="score-container">進度: <span id="score-value">0</span> / <span id="total-questions">0</span></div>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text">載入中...</h2>
+            </div>
+            <div id="options-container">
+                <button class="option-btn" data-index="0"><span class="option-text" id="opt-0">選項 A</span></button>
+                <button class="option-btn" data-index="1"><span class="option-text" id="opt-1">選項 B</span></button>
+                <button class="option-btn" data-index="2"><span class="option-text" id="opt-2">選項 C</span></button>
+                <button class="option-btn" data-index="3"><span class="option-text" id="opt-3">選項 D</span></button>
+            </div>
+        </div>
+
+        <!-- 結果畫面 -->
+        <div id="result-screen" class="screen">
+            <h1 id="result-title">遊戲結束</h1>
+            <div class="result-stats">
+                <p>正確率: <span id="accuracy-value">0</span>%</p>
+                <p>答對: <span id="correct-count">0</span></p>
+                <p>答錯: <span id="wrong-count">0</span></p>
+            </div>
+            <button id="btn-restart">回主畫面</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
