@@ -65,10 +65,10 @@ body {
     color: #e6edf3;
     padding: 6px 14px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     font-weight: 600;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
     transition: all 0.2s ease;
@@ -82,8 +82,12 @@ body {
 }
 
 .google-icon {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    max-width: 18px;
+    max-height: 18px;
     flex-shrink: 0;
 }
 
@@ -91,20 +95,6 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.gear-btn {
-    background: none;
-    border: none;
-    font-size: 1.1rem;
-    cursor: pointer;
-    opacity: 0.6;
-    transition: opacity 0.2s;
-    padding: 4px;
-}
-
-.gear-btn:hover {
-    opacity: 1;
 }
 
 .user-avatar {
@@ -169,104 +159,6 @@ body {
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
-}
-
-/* Modal Popup */
-.modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(4px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    padding: 20px;
-}
-
-.google-modal-card {
-    background: #1c2128;
-    border: 1px solid #30363d;
-    border-radius: 14px;
-    width: 100%;
-    max-width: 460px;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.8);
-}
-
-.modal-header h2 {
-    font-size: 1.18rem;
-    font-weight: 700;
-    color: #f0f6fc;
-    margin-bottom: 4px;
-}
-
-.modal-header p {
-    font-size: 0.82rem;
-    color: #8b949e;
-}
-
-.modal-body {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.modal-form-item {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.modal-form-item label {
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: #c9d1d9;
-}
-
-.modal-form-item textarea {
-    background: #0d1117;
-    border: 1px solid #30363d;
-    color: #58a6ff;
-    padding: 10px 12px;
-    border-radius: 8px;
-    font-size: 0.82rem;
-    font-family: monospace;
-    outline: none;
-    resize: vertical;
-}
-
-.modal-form-item textarea:focus {
-    border-color: #58a6ff;
-}
-
-.modal-actions {
-    display: flex;
-    gap: 10px;
-}
-
-.cancel-btn {
-    background: #21262d;
-    border: 1px solid #30363d;
-    color: #8b949e;
-    border-radius: 8px;
-    padding: 10px 16px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    cursor: pointer;
-    flex: 1;
-}
-
-.modal-submit-btn {
-    flex: 2;
-    padding: 10px 16px;
-    font-size: 0.95rem;
 }
 
 .screen {
@@ -548,6 +440,38 @@ kbd {
     margin-bottom: 8px;
 }
 
+.status-right-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.timer-badge {
+    background: #1f242c;
+    border: 1px solid #388bfd;
+    color: #58a6ff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    font-family: monospace;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.timer-badge.warning {
+    background: #d2992222;
+    border-color: #f85149;
+    color: #f85149;
+    animation: timerPulse 0.6s infinite alternate;
+}
+
+@keyframes timerPulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.08); }
+}
+
 .category-tag {
     background: #1f6feb22;
     color: #58a6ff;
@@ -564,12 +488,31 @@ kbd {
     background: #21262d;
     border-radius: 3px;
     overflow: hidden;
+    margin-bottom: 4px;
 }
 
 .progress-fill {
     height: 100%;
     background: #238636;
     transition: width 0.3s ease;
+}
+
+.timer-track {
+    width: 100%;
+    height: 4px;
+    background: #21262d;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.timer-fill {
+    height: 100%;
+    background: #58a6ff;
+    transition: width 1s linear;
+}
+
+.timer-fill.warning {
+    background: #f85149;
 }
 
 #question-container {

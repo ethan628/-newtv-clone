@@ -21,6 +21,11 @@ let isAnswerConfirmed = false;
 let roundQuestions = [];
 let roundRecords = [];
 
+// 計時器狀態
+let perQuestionTimeLimit = 15; // 預設 15 秒 (0 為無限制)
+let currentTimerSeconds = 15;
+let timerInterval = null;
+
 const screens = {
     menu: document.getElementById('menu-screen'),
     play: document.getElementById('play-screen'),
@@ -29,12 +34,20 @@ const screens = {
 
 const bankSelect = document.getElementById('bank-select');
 const countSelect = document.getElementById('count-select');
+const timerSelect = document.getElementById('timer-select');
 const orderSelect = document.getElementById('order-select');
 const startCountBadge = document.getElementById('start-count-badge');
 const customCountWrapper = document.getElementById('custom-count-wrapper');
 const customCountInput = document.getElementById('custom-count-input');
 const customCountHint = document.getElementById('custom-count-hint');
 const customCountWarning = document.getElementById('custom-count-warning');
+const customTimerWrapper = document.getElementById('custom-timer-wrapper');
+const customTimerInput = document.getElementById('custom-timer-input');
+
+const timerBadge = document.getElementById('timer-badge');
+const timerSecondsElem = document.getElementById('timer-seconds');
+const timerTrack = document.getElementById('timer-track');
+const timerFill = document.getElementById('timer-fill');
 
 const actionBox = document.getElementById('action-box');
 const btnConfirm = document.getElementById('btn-confirm');
@@ -53,18 +66,11 @@ let currentFilter = 'all';
 const loggedOutView = document.getElementById('logged-out-view');
 const loggedInView = document.getElementById('logged-in-view');
 const btnGoogleLogin = document.getElementById('btn-google-login');
-const btnOpenFirebaseConfig = document.getElementById('btn-open-firebase-config');
 const userAvatar = document.getElementById('user-avatar');
 const userName = document.getElementById('user-name');
 const userEmail = document.getElementById('user-email');
 const cloudSyncStatus = document.getElementById('cloud-sync-status');
 const btnLogout = document.getElementById('btn-logout');
-
-// Firebase Modal Elements
-const firebaseModalBackdrop = document.getElementById('firebase-modal-backdrop');
-const firebaseConfigInput = document.getElementById('firebase-config-input');
-const btnModalCancel = document.getElementById('btn-modal-cancel');
-const btnModalSave = document.getElementById('btn-modal-save');
 
 function showScreen(screenName) {
     Object.values(screens).forEach(s => s.classList.remove('active'));
@@ -133,7 +139,6 @@ function loadUserCloudData(userId) {
                 if (cloudSyncStatus) cloudSyncStatus.innerText = "☁️ 雲端已連線";
                 updateHistoricalStats();
             } else {
-                // 首次登入，建立初始紀錄
                 syncUserCloudData(0, 0, null);
                 if (cloudSyncStatus) cloudSyncStatus.innerText = "☁️ 雲端已建立";
             }
@@ -188,7 +193,6 @@ function updateAuthUI() {
 }
 
 function triggerGoogleSignIn() {
-    // 檢查運行協定
     if (window.location.protocol === 'file:') {
         alert("⚠️ Google 官方安全政策限制：\n請執行資料夾內的「啟動本地伺服器.bat」在 http://localhost:8000 下登入，或在部署後的 HTTPS 網站上登入！");
         return;
@@ -196,7 +200,7 @@ function triggerGoogleSignIn() {
     
     if (!firebaseInitialized) {
         if (!initFirebase()) {
-            firebaseModalBackdrop.style.display = 'flex';
+            alert("Firebase 初始化失敗，請確認網路連線。");
             return;
         }
     }
@@ -226,38 +230,6 @@ function triggerGoogleSignIn() {
 // 綁定登入/登出事件
 if (btnGoogleLogin) {
     btnGoogleLogin.addEventListener('click', triggerGoogleSignIn);
-}
-
-if (btnOpenFirebaseConfig) {
-    btnOpenFirebaseConfig.addEventListener('click', () => {
-        const currentConf = localStorage.getItem('newtv_firebase_config') || JSON.stringify(DEFAULT_FIREBASE_CONFIG, null, 2);
-        firebaseConfigInput.value = currentConf;
-        firebaseModalBackdrop.style.display = 'flex';
-    });
-}
-
-if (btnModalCancel) {
-    btnModalCancel.addEventListener('click', () => {
-        firebaseModalBackdrop.style.display = 'none';
-    });
-}
-
-if (btnModalSave) {
-    btnModalSave.addEventListener('click', () => {
-        const raw = firebaseConfigInput.value.trim();
-        try {
-            let clean = raw.replace(/^(const|let|var)\s+\w+\s*=\s*/, '').replace(/;\s*$/, '').trim();
-            if (!clean.startsWith('{')) clean = '{' + clean + '}';
-            clean = clean.replace(/([{,]\s*)([a-zA-Z0-9_]+)\s*:/g, '$1"$2":').replace(/'/g, '"');
-            const conf = JSON.parse(clean);
-            if (!conf.apiKey) throw new Error("無 apiKey");
-            localStorage.setItem('newtv_firebase_config', JSON.stringify(conf));
-            firebaseModalBackdrop.style.display = 'none';
-            location.reload();
-        } catch (e) {
-            alert("請輸入正確的 Firebase Config 物件！");
-        }
-    });
 }
 
 if (btnLogout) {
@@ -340,6 +312,18 @@ function updateStartButtonCount() {
     }
 }
 
+// 監聽限時選單
+if (timerSelect) {
+    timerSelect.addEventListener('change', () => {
+        if (timerSelect.value === 'custom') {
+            customTimerWrapper.style.display = 'flex';
+            customTimerInput.focus();
+        } else {
+            customTimerWrapper.style.display = 'none';
+        }
+    });
+}
+
 bankSelect.addEventListener('change', updateStartButtonCount);
 countSelect.addEventListener('change', () => {
     updateStartButtonCount();
@@ -352,7 +336,10 @@ updateStartButtonCount();
 
 // 綁定主按鈕
 document.getElementById('btn-start').addEventListener('click', () => startTest());
-document.getElementById('btn-restart').addEventListener('click', () => showScreen('menu'));
+document.getElementById('btn-restart').addEventListener('click', () => {
+    stopTimer();
+    showScreen('menu');
+});
 btnConfirm.addEventListener('click', () => confirmAnswer());
 btnNext.addEventListener('click', () => goToNextQuestion());
 
@@ -404,9 +391,109 @@ function selectOption(index) {
     btnConfirm.classList.add('pulse');
 }
 
+// ---------------- 倒數計時器邏輯 ----------------
+function startQuestionTimer() {
+    stopTimer();
+    
+    if (perQuestionTimeLimit <= 0) {
+        // 不限時間
+        timerBadge.style.display = 'inline-flex';
+        timerBadge.innerHTML = `⏱️ <span>無限制</span>`;
+        timerBadge.classList.remove('warning');
+        timerTrack.style.display = 'none';
+        return;
+    }
+    
+    timerBadge.style.display = 'inline-flex';
+    timerBadge.classList.remove('warning');
+    timerTrack.style.display = 'block';
+    timerFill.classList.remove('warning');
+    
+    currentTimerSeconds = perQuestionTimeLimit;
+    timerSecondsElem.innerText = currentTimerSeconds;
+    timerFill.style.width = '100%';
+    
+    timerInterval = setInterval(() => {
+        if (!gameActive || isAnswerConfirmed) {
+            stopTimer();
+            return;
+        }
+        
+        currentTimerSeconds--;
+        if (currentTimerSeconds < 0) currentTimerSeconds = 0;
+        timerSecondsElem.innerText = currentTimerSeconds;
+        
+        const pct = (currentTimerSeconds / perQuestionTimeLimit) * 100;
+        timerFill.style.width = `${pct}%`;
+        
+        if (currentTimerSeconds <= 5) {
+            timerBadge.classList.add('warning');
+            timerFill.classList.add('warning');
+        }
+        
+        if (currentTimerSeconds <= 0) {
+            stopTimer();
+            handleTimeExpired();
+        }
+    }, 1000);
+}
+
+function stopTimer() {
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+    if (timerBadge) {
+        timerBadge.classList.remove('warning');
+    }
+    if (timerFill) {
+        timerFill.classList.remove('warning');
+    }
+}
+
+function handleTimeExpired() {
+    if (!gameActive || isAnswerConfirmed) return;
+    
+    // 如果時間到前已選選項，直接提交該選項；否則判定超時未作答
+    if (selectedOptionIndex >= 0) {
+        confirmAnswer();
+    } else {
+        isAnswerConfirmed = true;
+        stopTimer();
+        optionBtns.forEach(btn => btn.disabled = true);
+        actionBox.style.display = 'none';
+        
+        const qData = roundQuestions[currentQuestionIndex];
+        const optLetters = ['A', 'B', 'C', 'D'];
+        wrongCount++;
+        
+        const correctBtn = optionBtns[qData.answer];
+        if (correctBtn) correctBtn.classList.add('flash-correct');
+        
+        feedbackBadge.innerText = `⏰ 時間到！超時未作答。正確答案是 (${optLetters[qData.answer]}) ${qData.options[qData.answer]}`;
+        feedbackBadge.className = 'feedback-badge wrong';
+        
+        const expText = qData.explanation || `正確選項為 (${optLetters[qData.answer]}) ${qData.options[qData.answer]}。`;
+        explanationBody.innerText = expText;
+        
+        roundRecords.push({
+            originalData: qData,
+            q: qData.q,
+            id: qData.id,
+            yourAnswer: `(未作答/超時)`,
+            correctAnswer: `(${optLetters[qData.answer]}) ${qData.options[qData.answer]}`,
+            isCorrect: false,
+            explanation: expText
+        });
+        
+        feedbackBox.style.display = 'flex';
+    }
+}
+
 function confirmAnswer() {
     if (!gameActive || isAnswerConfirmed || selectedOptionIndex < 0) return;
     isAnswerConfirmed = true;
+    stopTimer(); // 送出答案後立刻停止倒數，讓使用者安心看解析
     
     optionBtns.forEach(btn => btn.disabled = true);
     actionBox.style.display = 'none';
@@ -455,16 +542,9 @@ function confirmAnswer() {
 document.addEventListener('keydown', (e) => {
     const key = e.key.toUpperCase();
     
-    if (firebaseModalBackdrop.style.display === 'flex') {
-        if (key === 'ESCAPE') {
-            firebaseModalBackdrop.style.display = 'none';
-        }
-        return;
-    }
-    
     if (screens.menu.classList.contains('active')) {
         if (key === 'ENTER' || key === ' ') {
-            if (document.activeElement === customCountInput) {
+            if (document.activeElement === customCountInput || document.activeElement === customTimerInput) {
                 e.preventDefault();
                 startTest();
                 return;
@@ -492,18 +572,10 @@ document.addEventListener('keydown', (e) => {
             }
             
             let targetIdx = -1;
-            if (key === '1') targetIdx = 0;
-            else if (key === '2') targetIdx = 1;
-            else if (key === '3') targetIdx = 2;
-            else if (key === '4') targetIdx = 3;
-            else if (key === 'A') targetIdx = 0;
+            if (key === 'A') targetIdx = 0;
             else if (key === 'B') targetIdx = 1;
             else if (key === 'C') targetIdx = 2;
             else if (key === 'D') targetIdx = 3;
-            else if (key === 'D') targetIdx = 0;
-            else if (key === 'F') targetIdx = 1;
-            else if (key === 'J') targetIdx = 2;
-            else if (key === 'K') targetIdx = 3;
             
             if (targetIdx >= 0) {
                 e.preventDefault();
@@ -526,6 +598,16 @@ function startTest() {
     const selectedBank = bankSelect.value;
     const selectedCount = countSelect.value;
     const selectedOrder = orderSelect.value;
+    const selectedTimer = timerSelect ? timerSelect.value : "15";
+    
+    // 解析每題秒數設定
+    if (selectedTimer === 'custom') {
+        let tVal = parseInt(customTimerInput.value);
+        if (isNaN(tVal) || tVal <= 0) tVal = 15;
+        perQuestionTimeLimit = Math.max(3, Math.min(300, tVal));
+    } else {
+        perQuestionTimeLimit = parseInt(selectedTimer);
+    }
     
     let pool = [];
     if (selectedBank === 'all') {
@@ -610,6 +692,9 @@ function loadQuestion() {
     }
     
     gameActive = true;
+    
+    // 啟動本題倒數計時
+    startQuestionTimer();
 }
 
 function goToNextQuestion() {
@@ -618,6 +703,7 @@ function goToNextQuestion() {
 }
 
 function endGame() {
+    stopTimer();
     gameActive = false;
     isAnswerConfirmed = false;
     showScreen('result');

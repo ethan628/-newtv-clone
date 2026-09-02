@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>NEWTV 環境知識題庫系統</title>
-    <link rel="stylesheet" href="style.css?v=20260902_501">
+    <link rel="stylesheet" href="style.css?v=20260902_502">
     <!-- 引入 Firebase 官方驗證與 Firestore 雲端資料庫 SDK -->
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
@@ -91,6 +91,24 @@
                 </div>
 
                 <div class="setting-item">
+                    <label for="timer-select">每題限時：</label>
+                    <select id="timer-select">
+                        <option value="15" selected>⏱️ 15 秒（競賽標準 / 預設）</option>
+                        <option value="10">⚡ 10 秒（極速挑戰）</option>
+                        <option value="20">🕒 20 秒（充裕作答）</option>
+                        <option value="30">⏳ 30 秒（深度思考）</option>
+                        <option value="0">♾️ 不限時間（休閒練習）</option>
+                        <option value="custom">✏️ 自訂秒數...</option>
+                    </select>
+                    <div id="custom-timer-wrapper" class="custom-count-wrapper" style="display: none;">
+                        <div class="custom-input-row">
+                            <input type="number" id="custom-timer-input" min="3" max="300" placeholder="輸入秒數" value="15">
+                            <span class="custom-hint">秒 (3 ~ 300 秒)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setting-item">
                     <label for="order-select">出題順序：</label>
                     <select id="order-select">
                         <option value="random" selected>🎲 隨機亂序出題</option>
@@ -106,9 +124,9 @@
             <div class="instructions-card">
                 <h3>💡 答題方式與操作說明</h3>
                 <ul>
-                    <li><strong>1. 選擇答案：</strong>點擊選項，或按鍵盤 <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> / <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> / <kbd>D</kbd> <kbd>F</kbd> <kbd>J</kbd> <kbd>K</kbd>（可隨時更換選取）。</li>
+                    <li><strong>1. 選擇答案：</strong>點擊選項，或按鍵盤 <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>（可隨時更換選取）。</li>
                     <li><strong>2. 確認答案：</strong>點擊「確認答案」按鈕或按 <kbd>Enter</kbd> / <kbd>Space</kbd> 送出。</li>
-                    <li><strong>3. 查看解析與下一題：</strong>送出後立即顯示完整解析，再按 <kbd>Enter</kbd> / <kbd>Space</kbd> 前往下一題。</li>
+                    <li><strong>3. 倒數計時：</strong>每題預設 15 秒，時間結束將自動送出；送出後計時暫停，可安心閱讀完整解析。</li>
                 </ul>
             </div>
 
@@ -123,10 +141,16 @@
             <div id="status-bar">
                 <div class="progress-info">
                     <span id="q-category-tag" class="category-tag">全體合輯</span>
-                    <span id="score-container">進度 <span id="score-value">1</span> / <span id="total-questions">500</span></span>
+                    <div class="status-right-group">
+                        <span id="timer-badge" class="timer-badge">⏱️ <span id="timer-seconds">15</span>s</span>
+                        <span id="score-container">進度 <span id="score-value">1</span> / <span id="total-questions">500</span></span>
+                    </div>
                 </div>
                 <div class="progress-track">
                     <div id="progress-fill" class="progress-fill" style="width: 0%;"></div>
+                </div>
+                <div id="timer-track" class="timer-track">
+                    <div id="timer-fill" class="timer-fill" style="width: 100%;"></div>
                 </div>
             </div>
 
@@ -211,7 +235,7 @@
     </div>
 
     <!-- 載入全題庫資料與主邏輯腳本 -->
-    <script src="questions.js?v=20260902_501"></script>
-    <script src="script.js?v=20260902_501"></script>
+    <script src="questions.js?v=20260902_502"></script>
+    <script src="script.js?v=20260902_502"></script>
 </body>
 </html>
