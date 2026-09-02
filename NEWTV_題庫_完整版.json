@@ -1,0 +1,5159 @@
+{
+  "total_questions": 500,
+  "question_banks": [
+    {
+      "bank_id": 1,
+      "bank_name": "校內選拔賽",
+      "start": 1,
+      "end": 50
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "暑期練習7/2",
+      "start": 51,
+      "end": 100
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "暑期練習7/6",
+      "start": 101,
+      "end": 150
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "暑期練習7/9",
+      "start": 151,
+      "end": 200
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "暑期練習7/13",
+      "start": 201,
+      "end": 250
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "暑期練習7/16",
+      "start": 251,
+      "end": 300
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "暑期練習7/20",
+      "start": 301,
+      "end": 350
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "暑期練習7/23",
+      "start": 351,
+      "end": 400
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "暑期練習7/27",
+      "start": 401,
+      "end": 450
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "暑期練習7/30",
+      "start": 451,
+      "end": 500
+    }
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "bank_name": "校內選拔賽",
+      "question": "2015年聯合國氣候峰會中通過的氣候協議(巴黎協定)，各國須致力控制地球升溫不能超過工業革命前多少度？",
+      "option_a": "1℃之內",
+      "option_b": "2℃之內",
+      "option_c": "4℃之內",
+      "option_d": "5℃之內",
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者不是設置空氣品質淨化區的基本理念？",
+      "option_a": "藉由植物的生理特性來減少塵埃與懸浮微粒",
+      "option_b": "提供單一物種的生存環境",
+      "option_c": "減緩廢棄物、噪音、水污染等人為環境污染",
+      "option_d": "提供生態模擬及生態教育的場所",
+      "answer": "B"
+    },
+    {
+      "question_number": 3,
+      "bank_name": "校內選拔賽",
+      "question": "測量道路噪音時，儀器應設置於距地面多少高度進行測量？",
+      "option_a": "0.5~0.7公尺",
+      "option_b": "0.8~1公尺",
+      "option_c": "1.2~1.5公尺",
+      "option_d": "1.6~2公尺",
+      "answer": "C"
+    },
+    {
+      "question_number": 4,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者是因開採砂石時未做好水土保持所造成的影響？",
+      "option_a": "土石流",
+      "option_b": "熱島效應",
+      "option_c": "空氣污染",
+      "option_d": "全球暖化",
+      "answer": "A"
+    },
+    {
+      "question_number": 5,
+      "bank_name": "校內選拔賽",
+      "question": "2024年，東沙環礁群島附近出現大量棘冠海星，牠們啃食石珊瑚，嚴重危及當地珊瑚生態。專家推測，棘冠海星數量快速增加，可能與捕食牠們的大法螺遭人類大量捕捉、數量減少有關。請問，大法螺與棘冠海星之間的關係屬於哪一種？",
+      "option_a": "掠食",
+      "option_b": "競爭",
+      "option_c": "片利共生",
+      "option_d": "寄生",
+      "answer": "A"
+    },
+    {
+      "question_number": 6,
+      "bank_name": "校內選拔賽",
+      "question": "環境部提醒民眾，颱風過後飲水須煮沸再飲用，如擔心水有異味，煮沸後應將蓋子打開至少幾分鐘以上？",
+      "option_a": "1分鐘",
+      "option_b": "3分鐘",
+      "option_c": "15分鐘",
+      "option_d": "30分鐘",
+      "answer": "B"
+    },
+    {
+      "question_number": 7,
+      "bank_name": "校內選拔賽",
+      "question": "哪一項做法可以延長衣物壽命？",
+      "option_a": "保護衣物材質，使用乾洗清潔",
+      "option_b": "每天清洗保持衣物潔淨",
+      "option_c": "為求衣物乾燥，經常使用烘衣機",
+      "option_d": "衣服翻面晾曬並斟酌時間",
+      "answer": "D"
+    },
+    {
+      "question_number": 8,
+      "bank_name": "校內選拔賽",
+      "question": "國際「世界水資源日」係指每年的哪一天？",
+      "option_a": "2月28日",
+      "option_b": "3月22日",
+      "option_c": "4月20日",
+      "option_d": "6月5日",
+      "answer": "B"
+    },
+    {
+      "question_number": 9,
+      "bank_name": "校內選拔賽",
+      "question": "「位於凹岸的村落因河岸持續地退縮而被迫遷村。」文中所述的河岸地退縮現象，主要是哪一種河流作用所形成？",
+      "option_a": "磨蝕",
+      "option_b": "溶蝕",
+      "option_c": "吹蝕",
+      "option_d": "侵蝕",
+      "answer": "D"
+    },
+    {
+      "question_number": 10,
+      "bank_name": "校內選拔賽",
+      "question": "以下有關碳稅的敘述何者不正確？",
+      "option_a": "碳稅指的是對生產商品和服務，在過程中任何階段依據使用化石燃料的碳含量所徵的",
+      "option_b": "碳稅的目的是彰顯碳排放所隱含的社會成本。",
+      "option_c": "透過提高化石燃料的價格有可能達到減少溫室氣體排放的目的",
+      "option_d": "碳稅是一種經濟行為，與我們的生活毫無關係",
+      "answer": "D"
+    },
+    {
+      "question_number": 11,
+      "bank_name": "校內選拔賽",
+      "question": "如廁後將衛生紙直接丟入馬桶沖掉，無法減少下列哪項環境衛生問題？",
+      "option_a": "減少蚊蠅孳生",
+      "option_b": "減少如廁舒適",
+      "option_c": "減少細菌或傳染病傳播",
+      "option_d": "減少廁所異味",
+      "answer": "B"
+    },
+    {
+      "question_number": 12,
+      "bank_name": "校內選拔賽",
+      "question": "何謂碳匯？",
+      "option_a": "針對排放二氧化碳的企業徵收的貨幣",
+      "option_b": "將二氧化碳持續移除後儲存於自然或人為系統中",
+      "option_c": "二氧化碳的供給管道",
+      "option_d": "所有排放源產生的二氧化碳",
+      "answer": "B"
+    },
+    {
+      "question_number": 13,
+      "bank_name": "校內選拔賽",
+      "question": "我們如何稱呼農糧產品及各種消費品在生產過程中所消耗的水資源？",
+      "option_a": "水耗量",
+      "option_b": "水商品",
+      "option_c": "水足跡",
+      "option_d": "水能量",
+      "answer": "C"
+    },
+    {
+      "question_number": 14,
+      "bank_name": "校內選拔賽",
+      "question": "臺灣造林應優先考量的區域不包括下列哪些地區？",
+      "option_a": "山坡地",
+      "option_b": "復耕性低或污染整治完成之農地",
+      "option_c": "都會公園",
+      "option_d": "嚴重地層下陷地區",
+      "answer": "C"
+    },
+    {
+      "question_number": 15,
+      "bank_name": "校內選拔賽",
+      "question": "以下哪個選項最能準確地定義「淨零排放」？",
+      "option_a": "減少人類活動，避免溫室氣體排放",
+      "option_b": "排放的溫室氣體總量，與吸收或封存的量加總為零",
+      "option_c": "使用先進技術，將大氣中的溫室氣體完全排除",
+      "option_d": "全球所有國家設定相同的碳排放目標",
+      "answer": "B"
+    },
+    {
+      "question_number": 16,
+      "bank_name": "校內選拔賽",
+      "question": "關於環境危害的對應，下列何者正確？",
+      "option_a": "游離輻射—物理性危害",
+      "option_b": "振動—生物性危害",
+      "option_c": "噪音—化學性危害",
+      "option_d": "過敏—物理性危害",
+      "answer": "A"
+    },
+    {
+      "question_number": 17,
+      "bank_name": "校內選拔賽",
+      "question": "自107年1月1日起，購物用塑膠袋之管制對象，已由原本7大類擴大為幾類？",
+      "option_a": "10大類",
+      "option_b": "12大類",
+      "option_c": "14大類",
+      "option_d": "16大類",
+      "answer": "C"
+    },
+    {
+      "question_number": 18,
+      "bank_name": "校內選拔賽",
+      "question": "臺灣由哪一個政府部門訂定「農藥殘留容許量標準」，抽查已上市農產品的食品安全，以防止POPs殘留危害人體健康？",
+      "option_a": "衛生福利部",
+      "option_b": "農業部",
+      "option_c": "環境部",
+      "option_d": "經濟部",
+      "answer": "A"
+    },
+    {
+      "question_number": 19,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者「不是」飲用水水質標準中物理性之標準項目？",
+      "option_a": "臭度",
+      "option_b": "濁度",
+      "option_c": "硬度",
+      "option_d": "色度",
+      "answer": "C"
+    },
+    {
+      "question_number": 20,
+      "bank_name": "校內選拔賽",
+      "question": "下列關於土石流的敘述，哪一個「錯誤」？",
+      "option_a": "人類不當開發山坡地，會加劇土石流的發生",
+      "option_b": "應在山坡地上多種植根較深的植物，以穩固疏鬆的土石",
+      "option_c": "開發山坡地時，應做好排水系統，才能減緩土石流發生",
+      "option_d": "開發山坡地時，應選擇陡坡，因為其排水系統良好，能夠避免土石流發生",
+      "answer": "D"
+    },
+    {
+      "question_number": 21,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者是環境自燃導致森林大火的原因？",
+      "option_a": "高溫及太乾燥所產生的大火",
+      "option_b": "為了土地開發所產生的大火",
+      "option_c": "因為人類在森林留下火種導致大火",
+      "option_d": "飛機墜落引發火災",
+      "answer": "A"
+    },
+    {
+      "question_number": 22,
+      "bank_name": "校內選拔賽",
+      "question": "面臨缺水危機，各水庫蓄水率偏低，政府啟動抗旱行動，從三個面向推動節水措施。以下何者不是節水的面向？",
+      "option_a": "再生水",
+      "option_b": "雨水貯留",
+      "option_c": "海水淡化",
+      "option_d": "抽地下水",
+      "answer": "D"
+    },
+    {
+      "question_number": 23,
+      "bank_name": "校內選拔賽",
+      "question": "「在維持基本生活所需，並追求更佳生活品質之同時，降低天然資源與毒性物質之使用及污染物排放，目的在不影響後代子孫權益的消費模式。」是何種消費模式？",
+      "option_a": "在地消費",
+      "option_b": "經濟消費",
+      "option_c": "綠色消費",
+      "option_d": "刺激消費",
+      "answer": "C"
+    },
+    {
+      "question_number": 24,
+      "bank_name": "校內選拔賽",
+      "question": "依據《文化資產保存法》，「自然地景與自然紀念物」也屬於文化資產的一部分。請問負責管理這類文化資產的哪一個中央主管機關？",
+      "option_a": "文化部",
+      "option_b": "衛生福利部",
+      "option_c": "農業部",
+      "option_d": "環境部",
+      "answer": "C"
+    },
+    {
+      "question_number": 25,
+      "bank_name": "校內選拔賽",
+      "question": "啤酒中最重要的發酵微生物是什麼？",
+      "option_a": "鏈球菌",
+      "option_b": "酵母菌",
+      "option_c": "擬桿菌",
+      "option_d": "綠瘤菌",
+      "answer": "B"
+    },
+    {
+      "question_number": 26,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者不是環保標章產品的特性？",
+      "option_a": "可回收",
+      "option_b": "較貴",
+      "option_c": "省資源",
+      "option_d": "低污染",
+      "answer": "B"
+    },
+    {
+      "question_number": 27,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者屬於點源污染？",
+      "option_a": "施灌肥料",
+      "option_b": "工廠廢水",
+      "option_c": "噴灑農藥",
+      "option_d": "酸雨",
+      "answer": "B"
+    },
+    {
+      "question_number": 28,
+      "bank_name": "校內選拔賽",
+      "question": "下列哪一項非我國針對污染防治制定的專門法規？",
+      "option_a": "公害糾紛處理法",
+      "option_b": "廢棄物清理法",
+      "option_c": "空氣污染防制法",
+      "option_d": "水污染防治法",
+      "answer": "A"
+    },
+    {
+      "question_number": 29,
+      "bank_name": "校內選拔賽",
+      "question": "這個國定考古遺址位在宜蘭與花蓮交界處，東側緊鄰太平洋。經歷了新石器時代到金屬器時代的變遷，於蘇花改工程中被發現，出土銅幣、玻璃、瓷器、瑪瑙等，顯示當時海上貿易相當活絡。請問以上敘述的是哪一個考古遺址？",
+      "option_a": "丸山考古遺址",
+      "option_b": "大坌坑考古遺址",
+      "option_c": "Blihun漢本考古遺址",
+      "option_d": "曲冰考古遺址",
+      "answer": "C"
+    },
+    {
+      "question_number": 30,
+      "bank_name": "校內選拔賽",
+      "question": "當藻類因優養化大量繁殖，夜間常會造成魚類大量死亡的原因為何？",
+      "option_a": "水溫過低",
+      "option_b": "缺乏食物",
+      "option_c": "溶氧不足",
+      "option_d": "酸鹼度過高",
+      "answer": "C"
+    },
+    {
+      "question_number": 31,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者為PM2.5所使用的粒徑單位？",
+      "option_a": "公分(cm)",
+      "option_b": "毫米(mm)",
+      "option_c": "微米(µm)",
+      "option_d": "奈米(nm)",
+      "answer": "C"
+    },
+    {
+      "question_number": 32,
+      "bank_name": "校內選拔賽",
+      "question": "與自然萬物和諧共處，以「燒墾游耕」方式放火燒草而不施肥，請問這是哪一族群的傳統農耕技法？",
+      "option_a": "泰雅族",
+      "option_b": "平埔族",
+      "option_c": "西拉雅族",
+      "option_d": "邵族",
+      "answer": "C"
+    },
+    {
+      "question_number": 33,
+      "bank_name": "校內選拔賽",
+      "question": "下列對於「藍碳」及「碳中和」之敘述何者正確？",
+      "option_a": "藍碳無法儲存碳，不具減碳效益",
+      "option_b": "藍碳可作為碳排放抵換方式之一",
+      "option_c": "藍碳生態系只能產生氧氣，無其他用途",
+      "option_d": "碳中和僅與陸地森林有關，無涉海洋",
+      "answer": "B"
+    },
+    {
+      "question_number": 34,
+      "bank_name": "校內選拔賽",
+      "question": "關於社區參與對生態永續發展的影響，下列哪一項敘述最不恰當？",
+      "option_a": "社區參與可以推動有效的生態旅遊，減少對環境的破壞。",
+      "option_b": "社區居民一起參與環境保護，有助於提升社區凝聚力。",
+      "option_c": "社區的聲音可能影響政策的制定與執行。",
+      "option_d": "生態保育應由政府主導，社區配合為宜。",
+      "answer": "D"
+    },
+    {
+      "question_number": 35,
+      "bank_name": "校內選拔賽",
+      "question": "DDT造成生物放大效應的原因為何？",
+      "option_a": "因DDT在生物體內無法分解，在生物體內的濃度隨著食物鏈的階層逐漸增加",
+      "option_b": "因高級消費者體內分解DDT的能力較生產者低",
+      "option_c": "因為較大型的動物偏好捕食具DDT的生物",
+      "option_d": "因DDT使受污染生物的總生物量增大",
+      "answer": "A"
+    },
+    {
+      "question_number": 36,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者是因超抽地下水所導致的狀況？",
+      "option_a": "近海土地鹽化",
+      "option_b": "河川枯竭",
+      "option_c": "土地生產力提高",
+      "option_d": "珊瑚死亡",
+      "answer": "A"
+    },
+    {
+      "question_number": 37,
+      "bank_name": "校內選拔賽",
+      "question": "宜蘭頭城海邊常常可以看到很多海洋垃圾，縣政府和學校合作，帶領學生們一起去海邊做什麼活動，讓大家更認識環保呢？",
+      "option_a": "舉辦大胃王比賽推廣漁特產品",
+      "option_b": "舉辦淨灘活動，撿拾海廢垃圾",
+      "option_c": "舉辦海上摩托車比賽促進觀光",
+      "option_d": "晚上放煙火慶祝欣賞海邊星空",
+      "answer": "B"
+    },
+    {
+      "question_number": 38,
+      "bank_name": "校內選拔賽",
+      "question": "環境部推行的「環保集點制度」中，下列哪一個通路不是合作兌換通路？",
+      "option_a": "7-ELEVEN",
+      "option_b": "全家便利商店",
+      "option_c": "家樂福",
+      "option_d": "燦坤3C",
+      "answer": "C"
+    },
+    {
+      "question_number": 39,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者非我國「減碳行動計畫」六大部門之一？",
+      "option_a": "住商部門",
+      "option_b": "農業部門",
+      "option_c": "資訊部門",
+      "option_d": "製造部門",
+      "answer": "C"
+    },
+    {
+      "question_number": 40,
+      "bank_name": "校內選拔賽",
+      "question": "哪一個「永續發展目標（SDGs）」與減少污染最有關？",
+      "option_a": "責任消費與生產",
+      "option_b": "經濟發展",
+      "option_c": "消除貧窮",
+      "option_d": "性別平等",
+      "answer": "A"
+    },
+    {
+      "question_number": 41,
+      "bank_name": "校內選拔賽",
+      "question": "沿海城市預測將受海平面上升與強颱侵襲影響，城市正在規劃「氣候韌性城市」。下列哪一項最符合氣候韌性城市的設計理念？",
+      "option_a": "增加觀光飯店設施",
+      "option_b": "擴大港口貿易容量",
+      "option_c": "廢除氣象預警系統以節省成本",
+      "option_d": "提高防洪堤與綠地滯洪設施",
+      "answer": "D"
+    },
+    {
+      "question_number": 42,
+      "bank_name": "校內選拔賽",
+      "question": "在台灣離島的「海水淡化廠」主要供應對象是？",
+      "option_a": "工業用水",
+      "option_b": "農業用水",
+      "option_c": "民生用水",
+      "option_d": "服務業用水",
+      "answer": "C"
+    },
+    {
+      "question_number": 43,
+      "bank_name": "校內選拔賽",
+      "question": "以下哪一種行為符合『源頭減量』的環保原則？",
+      "option_a": "自帶環保購物袋",
+      "option_b": "多拿幾個塑膠袋",
+      "option_c": "使用塑膠吸管",
+      "option_d": "將垃圾丟棄山區",
+      "answer": "A"
+    },
+    {
+      "question_number": 44,
+      "bank_name": "校內選拔賽",
+      "question": "依據吃好魚宣言所提出的「海鮮選購三優先」下列何者非優先考量？",
+      "option_a": "國產魚優先",
+      "option_b": "有標章優先",
+      "option_c": "中低階優先",
+      "option_d": "仔稚魚優先",
+      "answer": "D"
+    },
+    {
+      "question_number": 45,
+      "bank_name": "校內選拔賽",
+      "question": "以下哪一項不是防治土壤與地下水污染主要關注的場址？",
+      "option_a": "農地",
+      "option_b": "加油站及大型儲油槽",
+      "option_c": "不明廢棄物非法棄置場址",
+      "option_d": "河川堤岸綠地",
+      "answer": "D"
+    },
+    {
+      "question_number": 46,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者是利用垃圾焚化廠處理垃圾的最主要優點？",
+      "option_a": "消除所有毒性",
+      "option_b": "減少原本的垃圾體積",
+      "option_c": "降低空氣污染",
+      "option_d": "簡化處理垃圾的程序",
+      "answer": "B"
+    },
+    {
+      "question_number": 47,
+      "bank_name": "校內選拔賽",
+      "question": "有關水足跡(water footprint)的概念「不包括」以下哪一項思維？",
+      "option_a": "標示產品製程之耗水量",
+      "option_b": "鼓勵購買使用國外進口的瓶裝水",
+      "option_c": "推動水資源回收再利用及節約用水獎勵機制",
+      "option_d": "推動產業建立節水製程",
+      "answer": "B"
+    },
+    {
+      "question_number": 48,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者為泰雅族傳統織布的重要原料？",
+      "option_a": "棉花",
+      "option_b": "亞麻",
+      "option_c": "黃麻",
+      "option_d": "苧麻",
+      "answer": "D"
+    },
+    {
+      "question_number": 49,
+      "bank_name": "校內選拔賽",
+      "question": "以下哪一種細菌對珊瑚的生長有重要的影響？",
+      "option_a": "鏈黴菌",
+      "option_b": "葡萄球菌",
+      "option_c": "乳酸菌",
+      "option_d": "綠硫菌",
+      "answer": "D"
+    },
+    {
+      "question_number": 50,
+      "bank_name": "校內選拔賽",
+      "question": "下列何者不是我國永續能源政策綱領的「二高二低」政策原則之一？",
+      "option_a": "低排放",
+      "option_b": "低依賴",
+      "option_c": "高效率",
+      "option_d": "高經濟",
+      "answer": "D"
+    },
+    {
+      "question_number": 51,
+      "bank_name": "暑期練習7/2",
+      "question": "根據《文化資產保存法》，下列何者敘述錯誤？",
+      "option_a": "毀損或移走古蹟，可能判刑並罰錢。",
+      "option_b": "文化資產若損壞，要回復原狀，若無法回復則賠償損害。",
+      "option_c": "國寶或重要古物要出國，需先申請主管機關核准。",
+      "option_d": "公有古物想要複製收藏，為個人行為，政府不會干涉。",
+      "answer": "D"
+    },
+    {
+      "question_number": 52,
+      "bank_name": "暑期練習7/2",
+      "question": "有關綠建築的概念以下何者錯誤？",
+      "option_a": "在建築淨零的概念中同時包括減少使用碳及減少蘊含碳",
+      "option_b": "使用碳主要來自照明或用電",
+      "option_c": "蘊含碳主要來自建材的製程或原料材質",
+      "option_d": "蘊含碳基本上都是固定的，無論哪種選擇都無法達成溫室氣體的",
+      "answer": "D"
+    },
+    {
+      "question_number": 53,
+      "bank_name": "暑期練習7/2",
+      "question": "下列關於土石流的防災方法，何者有誤？",
+      "option_a": "建造擋土牆",
+      "option_b": "疏通排水系統",
+      "option_c": "避開災害敏感區",
+      "option_d": "廣泛種植淺根系植物",
+      "answer": "D"
+    },
+    {
+      "question_number": 54,
+      "bank_name": "暑期練習7/2",
+      "question": "為減少一次性用品浪費，環境部公告「一次用旅宿用品限制使用對象及實施方式」，旅宿業及其他住宿業者不得提供容量小於多少的盥洗或保養用品？",
+      "option_a": "180mL",
+      "option_b": "200mL",
+      "option_c": "220mL",
+      "option_d": "240mL",
+      "answer": "A"
+    },
+    {
+      "question_number": 55,
+      "bank_name": "暑期練習7/2",
+      "question": "什麼原因讓人類不惜造成環境污染，也要開採稀土金屬？",
+      "option_a": "只需少量稀土金屬，即可發電",
+      "option_b": "可以提煉出黃金",
+      "option_c": "為3C產品中不可或缺的材料",
+      "option_d": "可以製成珍貴藥物",
+      "answer": "C"
+    },
+    {
+      "question_number": 56,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者為PM2.5所使用的粒徑單位？",
+      "option_a": "公分(cm)",
+      "option_b": "毫米(mm)",
+      "option_c": "微米(µm)",
+      "option_d": "奈米(nm)",
+      "answer": "C"
+    },
+    {
+      "question_number": 57,
+      "bank_name": "暑期練習7/2",
+      "question": "酵母菌在沒有氧氣的環境下，會將糖分轉換為哪兩種物質？",
+      "option_a": "氧氣和二氧化碳",
+      "option_b": "酒精和二氧化碳",
+      "option_c": "酒精和水",
+      "option_d": "二氧化碳和乳酸",
+      "answer": "B"
+    },
+    {
+      "question_number": 58,
+      "bank_name": "暑期練習7/2",
+      "question": "如果想了解臺灣是如何保護環境的，應該找哪一個政府單位？",
+      "option_a": "農業部",
+      "option_b": "環境部",
+      "option_c": "教育部",
+      "option_d": "衛生福利部",
+      "answer": "B"
+    },
+    {
+      "question_number": 59,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者是目前臺灣生物資源遭受威脅的主因之一？",
+      "option_a": "生物因天擇被淘汰",
+      "option_b": "因原生生物彼此競爭大，導致物種減少",
+      "option_c": "土地過度開發或不當利用",
+      "option_d": "遭到天敵捕獵",
+      "answer": "C"
+    },
+    {
+      "question_number": 60,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者非我國「減碳行動計畫」六大部門之一？",
+      "option_a": "住商部門",
+      "option_b": "農業部門",
+      "option_c": "資訊部門",
+      "option_d": "製造部門",
+      "answer": "C"
+    },
+    {
+      "question_number": 61,
+      "bank_name": "暑期練習7/2",
+      "question": "「可再生能源」是指由各種可持續補充的自然資源(包括日光、風、雨、潮汐、地熱等)中取得的能源型式。下列與可再生能源有關的敘述，何者錯誤？",
+      "option_a": "太陽輻射的能量是由其內部的核能轉換而來",
+      "option_b": "風力發電需要設置在合適的地點，才能有效運作",
+      "option_c": "地熱能危險性太高，不適合做為常態使用的能源型式",
+      "option_d": "潮汐之所以可以提供能量，是源自太陽與月球對海水的引力作用",
+      "answer": "C"
+    },
+    {
+      "question_number": 62,
+      "bank_name": "暑期練習7/2",
+      "question": "購買哪一項產品最符合低碳飲食的做法？",
+      "option_a": "高級進口和牛",
+      "option_b": "在地當季新鮮高麗菜",
+      "option_c": "香甜誘人杯子蛋糕",
+      "option_d": "好吃美味起司披薩",
+      "answer": "B"
+    },
+    {
+      "question_number": 63,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者是環境自燃導致森林大火的原因？",
+      "option_a": "高溫及太乾燥所產生的大火",
+      "option_b": "為了土地開發所產生的大火",
+      "option_c": "因為人類在森林留下火種導致大火",
+      "option_d": "飛機墜落引發火災",
+      "answer": "A"
+    },
+    {
+      "question_number": 64,
+      "bank_name": "暑期練習7/2",
+      "question": "為什麼每個人都應該參與減緩氣候變遷的行動？",
+      "option_a": "因為氣候變遷只影響其他國家",
+      "option_b": "個人行動無法改變氣候變遷",
+      "option_c": "每個人的小行動累積起來可以帶來正面改變",
+      "option_d": "氣候變遷只需要政府處理，和人民無關",
+      "answer": "C"
+    },
+    {
+      "question_number": 65,
+      "bank_name": "暑期練習7/2",
+      "question": "大家一起種樹綠化環境，下列哪一項不是種樹的好處？",
+      "option_a": "增加土壤的吸水力",
+      "option_b": "調節濕度",
+      "option_c": "產生落葉，造成髒亂",
+      "option_d": "吸收空氣中的二氧化碳",
+      "answer": "C"
+    },
+    {
+      "question_number": 66,
+      "bank_name": "暑期練習7/2",
+      "question": "最近新聞常常報導台灣天氣變得越來越奇怪，有時候好久不下雨，有時候又下大暴雨。根據113年的國家氣候變遷科學報告，台灣政府應該加強哪方面的準備來應對這些極端天氣呢？",
+      "option_a": "建立防災應變和調適的政策",
+      "option_b": "多舉辦一些大型煙火慶典",
+      "option_c": "鼓勵大家多吹冷氣降溫消暑",
+      "option_d": "禁止種植樹木以免落葉太多",
+      "answer": "A"
+    },
+    {
+      "question_number": 67,
+      "bank_name": "暑期練習7/2",
+      "question": "每逢秋、冬季節，臺灣各個河口形成賞鳥最佳地點。若要欣賞大量「黑面琵鷺」過冬景象，以下何處最有機會？",
+      "option_a": "高屏溪口",
+      "option_b": "大甲溪口",
+      "option_c": "曾文溪口",
+      "option_d": "淡水河口",
+      "answer": "C"
+    },
+    {
+      "question_number": 68,
+      "bank_name": "暑期練習7/2",
+      "question": "有關省水標章的描述，以下何者不正確？",
+      "option_a": "標章中的箭頭向上，代表將中心的水滴接起，強調回收再利用",
+      "option_b": "右邊的三條水帶代表著愛水、節水、親水，鼓勵民眾愛護水資源",
+      "option_c": "省水標章只有藍色一種顏色，若看到金色的標章代表是偽造的標章",
+      "option_d": "貼有省水標章的器材與一般傳統器材相比，表示可以節省一半以上的用水量",
+      "answer": "C"
+    },
+    {
+      "question_number": 69,
+      "bank_name": "暑期練習7/2",
+      "question": "依《事業廢棄物再利用管理辦法》，核發之許可文件期限最長為幾年？",
+      "option_a": "2年",
+      "option_b": "3年",
+      "option_c": "5年",
+      "option_d": "10年",
+      "answer": "B"
+    },
+    {
+      "question_number": 70,
+      "bank_name": "暑期練習7/2",
+      "question": "如廁後將衛生紙直接丟入馬桶沖掉，無法減少下列哪項環境衛生問題？",
+      "option_a": "減少蚊蠅孳生",
+      "option_b": "減少如廁舒適",
+      "option_c": "減少細菌或傳染病傳播",
+      "option_d": "減少廁所異味",
+      "answer": "B"
+    },
+    {
+      "question_number": 71,
+      "bank_name": "暑期練習7/2",
+      "question": "DDT造成生物放大效應的原因為何？",
+      "option_a": "因DDT在生物體內無法分解，在生物體內的濃度隨著食物鏈的階層逐漸增加",
+      "option_b": "因高級消費者體內分解DDT的能力較生產者低",
+      "option_c": "因為較大型的動物偏好捕食具DDT的生物",
+      "option_d": "因DDT使受污染生物的總生物量增大",
+      "answer": "A"
+    },
+    {
+      "question_number": 72,
+      "bank_name": "暑期練習7/2",
+      "question": "下列關於土石流的敘述，哪一個「錯誤」？",
+      "option_a": "人類不當開發山坡地，會加劇土石流的發生",
+      "option_b": "應在山坡地上多種植根較深的植物，以穩固疏鬆的土石",
+      "option_c": "開發山坡地時，應做好排水系統，才能減緩土石流發生",
+      "option_d": "開發山坡地時，應選擇陡坡，因為其排水系統良好，能夠避免土石流發生",
+      "answer": "D"
+    },
+    {
+      "question_number": 73,
+      "bank_name": "暑期練習7/2",
+      "question": "當藻類因優養化大量繁殖，夜間常會造成魚類大量死亡的原因為何？",
+      "option_a": "水溫過低",
+      "option_b": "缺乏食物",
+      "option_c": "溶氧不足",
+      "option_d": "酸鹼度過高",
+      "answer": "C"
+    },
+    {
+      "question_number": 74,
+      "bank_name": "暑期練習7/2",
+      "question": "面臨缺水危機，各水庫蓄水率偏低，政府啟動抗旱行動，從三個面向推動節水措施。以下何者不是節水的面向？",
+      "option_a": "再生水",
+      "option_b": "雨水貯留",
+      "option_c": "海水淡化",
+      "option_d": "抽地下水",
+      "answer": "D"
+    },
+    {
+      "question_number": 75,
+      "bank_name": "暑期練習7/2",
+      "question": "關於環境危害的對應，下列何者正確？",
+      "option_a": "游離輻射—物理性危害",
+      "option_b": "振動—生物性危害",
+      "option_c": "噪音—化學性危害",
+      "option_d": "過敏—物理性危害",
+      "answer": "A"
+    },
+    {
+      "question_number": 76,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者不是設置空氣品質淨化區的基本理念？",
+      "option_a": "藉由植物的生理特性來減少塵埃與懸浮微粒",
+      "option_b": "提供單一物種的生存環境",
+      "option_c": "減緩廢棄物、噪音、水污染等人為環境污染",
+      "option_d": "提供生態模擬及生態教育的場所",
+      "answer": "B"
+    },
+    {
+      "question_number": 77,
+      "bank_name": "暑期練習7/2",
+      "question": "在臺灣本島的「海水淡化廠」主要供應的對象是？",
+      "option_a": "民生用水",
+      "option_b": "農業用水",
+      "option_c": "工業用水",
+      "option_d": "服務業用水",
+      "answer": "C"
+    },
+    {
+      "question_number": 78,
+      "bank_name": "暑期練習7/2",
+      "question": "風力推動風機葉片轉動，過程中會先產生哪種能量，最後再透過發電機轉換成電能？",
+      "option_a": "光能",
+      "option_b": "機械能",
+      "option_c": "熱能",
+      "option_d": "聲能",
+      "answer": "B"
+    },
+    {
+      "question_number": 79,
+      "bank_name": "暑期練習7/2",
+      "question": "下列哪一項非我國針對污染防治制定的專門法規？",
+      "option_a": "公害糾紛處理法",
+      "option_b": "廢棄物清理法",
+      "option_c": "空氣污染防制法",
+      "option_d": "水污染防治法",
+      "answer": "A"
+    },
+    {
+      "question_number": 80,
+      "bank_name": "暑期練習7/2",
+      "question": "哪一種日常通勤方式碳排放最少？",
+      "option_a": "走路或騎腳踏車",
+      "option_b": "搭乘捷運或公車",
+      "option_c": "使用電動機車",
+      "option_d": "駕駛私人汽車",
+      "answer": "A"
+    },
+    {
+      "question_number": 81,
+      "bank_name": "暑期練習7/2",
+      "question": "「潮汐發電」的發電原理為何？",
+      "option_a": "利用海水的溫差",
+      "option_b": "利用海水的波動",
+      "option_c": "利用海流的流動",
+      "option_d": "利用海水的水位差",
+      "answer": "D"
+    },
+    {
+      "question_number": 82,
+      "bank_name": "暑期練習7/2",
+      "question": "高雄市在颱風期間發生嚴重淹水，分析發現許多排水系統堵塞。哪一項政策有助於減少此類問題？",
+      "option_a": "建築物越蓋越高，以免淹水",
+      "option_b": "廢除公園與綠地,以減少落葉",
+      "option_c": "強化城市排水與綠基礎建設",
+      "option_d": "鼓勵通勤者使用機車通勤",
+      "answer": "C"
+    },
+    {
+      "question_number": 83,
+      "bank_name": "暑期練習7/2",
+      "question": "微生物在人體內數量最多的地方是在哪裡？",
+      "option_a": "口腔",
+      "option_b": "皮膚",
+      "option_c": "腸道",
+      "option_d": "鼻腔",
+      "answer": "C"
+    },
+    {
+      "question_number": 84,
+      "bank_name": "暑期練習7/2",
+      "question": "何年在比利時發生「戴奧辛雞事件」，因含戴奧辛的機油混入500公噸飼料，導致大量雞、豬、牛遭撲滅？",
+      "option_a": "1995",
+      "option_b": "1999",
+      "option_c": "2012",
+      "option_d": "2015",
+      "answer": "B"
+    },
+    {
+      "question_number": 85,
+      "bank_name": "暑期練習7/2",
+      "question": "水庫淤積導致蓄水容量下降，應採取哪一項措施以恢復其蓄水功能？",
+      "option_a": "利用人造雨提升蓄水量",
+      "option_b": "提高抽水量以應對需求",
+      "option_c": "定期進行泥沙清淤作業",
+      "option_d": "興建新的水庫以取代原有水源",
+      "answer": "C"
+    },
+    {
+      "question_number": 86,
+      "bank_name": "暑期練習7/2",
+      "question": "針對河川污染問題，以下哪一項做法最符合永續發展的整治策略？",
+      "option_a": "倒入消毒水殺菌",
+      "option_b": "以用水泥鋪設保護堤岸",
+      "option_c": "拔除水中植物淨化水質",
+      "option_d": "建設人工濕地進行自然淨化",
+      "answer": "D"
+    },
+    {
+      "question_number": 87,
+      "bank_name": "暑期練習7/2",
+      "question": "「在維持基本生活所需，並追求更佳生活品質之同時，降低天然資源與毒性物質之使用及污染物排放，目的在不影響後代子孫權益的消費模式。」是何種消費模式？",
+      "option_a": "在地消費",
+      "option_b": "經濟消費",
+      "option_c": "綠色消費",
+      "option_d": "刺激消費",
+      "answer": "C"
+    },
+    {
+      "question_number": 88,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者是土石流的特徵？",
+      "option_a": "表面流速慢，下面流速快",
+      "option_b": "表面流速快，下面流速慢",
+      "option_c": "泥沙濃度低",
+      "option_d": "衝擊力不大",
+      "answer": "B"
+    },
+    {
+      "question_number": 89,
+      "bank_name": "暑期練習7/2",
+      "question": "國際「世界水資源日」係指每年的哪一天？",
+      "option_a": "2月28日",
+      "option_b": "3月22日",
+      "option_c": "4月20日",
+      "option_d": "6月5日",
+      "answer": "B"
+    },
+    {
+      "question_number": 90,
+      "bank_name": "暑期練習7/2",
+      "question": "根據世界衛生組織（WHO）數據，2024年全球登革熱病例約有82%集中於哪個國家？",
+      "option_a": "巴西",
+      "option_b": "中國",
+      "option_c": "印度",
+      "option_d": "泰國",
+      "answer": "A"
+    },
+    {
+      "question_number": 91,
+      "bank_name": "暑期練習7/2",
+      "question": "「位於凹岸的村落因河岸持續地退縮而被迫遷村。」文中所述的河岸地退縮現象，主要是哪一種河流作用所形成？",
+      "option_a": "磨蝕",
+      "option_b": "溶蝕",
+      "option_c": "吹蝕",
+      "option_d": "侵蝕",
+      "answer": "D"
+    },
+    {
+      "question_number": 92,
+      "bank_name": "暑期練習7/2",
+      "question": "針對防災四階段來說，下列何者屬於「復原」(Recovery)的措施？",
+      "option_a": "重建公共建設",
+      "option_b": "災民的收容與撤離",
+      "option_c": "防止二次災害發生",
+      "option_d": "擬定疏散避難演練",
+      "answer": "A"
+    },
+    {
+      "question_number": 93,
+      "bank_name": "暑期練習7/2",
+      "question": "根據影片內容，氣候變遷正在影響台灣的自然環境。以下哪一項正確描述了台灣目前面臨的氣候災害？",
+      "option_a": "降雨變得更規律，季節分明",
+      "option_b": "極端天氣變多，例如暴雨、乾旱",
+      "option_c": "雨天會完全消失，一年四季都是晴天",
+      "option_d": "夏天變得很短，冬天越來越寒冷",
+      "answer": "B"
+    },
+    {
+      "question_number": 94,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者不屬於二日綠色旅遊行程的必要條件？",
+      "option_a": "環保餐廳/綠食飯桌用餐",
+      "option_b": "環境教育設施場所或生態遊憩場所",
+      "option_c": "搭乘大眾運輸",
+      "option_d": "環保標章旅館住宿",
+      "answer": "C"
+    },
+    {
+      "question_number": 95,
+      "bank_name": "暑期練習7/2",
+      "question": "臺灣原住民族在語言和文化上應屬於何種語系？",
+      "option_a": "南島語系",
+      "option_b": "美洲語系",
+      "option_c": "印歐語系",
+      "option_d": "南亞語系",
+      "answer": "A"
+    },
+    {
+      "question_number": 96,
+      "bank_name": "暑期練習7/2",
+      "question": "依據吃好魚宣言所提出的「海鮮選購三優先」下列何者非優先考量？",
+      "option_a": "國產魚優先",
+      "option_b": "有標章優先",
+      "option_c": "中低階優先",
+      "option_d": "仔稚魚優先",
+      "answer": "D"
+    },
+    {
+      "question_number": 97,
+      "bank_name": "暑期練習7/2",
+      "question": "為了達到源頭減量，環境部於112年7月訂定了哪一項限制，並在114年1月1日起正式生效？",
+      "option_a": "旅宿業不得主動提供一次性個人用品。",
+      "option_b": "菜市場不得主動提供塑膠袋給民眾。",
+      "option_c": "網購包裝材料不可使用含聚氯乙烯塑膠材質。",
+      "option_d": "全國飲料店全面禁用一次性塑膠杯。",
+      "answer": "A"
+    },
+    {
+      "question_number": 98,
+      "bank_name": "暑期練習7/2",
+      "question": "下列何者不是微生物的應用？",
+      "option_a": "用微生物讓泡菜變酸，可保存更久。",
+      "option_b": "應用微生物來發酵麥汁，製作啤酒。",
+      "option_c": "某種微生物可幫助豆科植物吸收空氣裡的氮。",
+      "option_d": "微生物可直接清除空氣中的懸浮微粒。",
+      "answer": "D"
+    },
+    {
+      "question_number": 99,
+      "bank_name": "暑期練習7/2",
+      "question": "關於「省水標章」的說明，下列何者錯誤？",
+      "option_a": "目前省水標章為「自願性標章」，政府鼓勵洗衣機和馬桶等用水器具積極申請。",
+      "option_b": "省水標章分為「普級」和「金級」兩種等級。",
+      "option_c": "標章上的三條水帶代表「愛水、節水、親水」。",
+      "option_d": "用水器具需經過認證檢驗通過，才可獲得省水標章。",
+      "answer": "A"
+    },
+    {
+      "question_number": 100,
+      "bank_name": "暑期練習7/2",
+      "question": "釩液流電池適合作為什麼用途？",
+      "option_a": "安裝在手機中，讓手機可以用好幾天不用充電。",
+      "option_b": "放在手電筒裡，可以照明更久。",
+      "option_c": "用來儲存太陽能或風力發的電，幫助穩定供電。",
+      "option_d": "電動車的充電電池，因為它安全又能儲電。",
+      "answer": "C"
+    },
+    {
+      "question_number": 101,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何者是生態敏感地區的重要性？",
+      "option_a": "可以種植農作物",
+      "option_b": "可以建造房屋",
+      "option_c": "提供野生動物棲息地",
+      "option_d": "可以提供大量能源",
+      "answer": "C"
+    },
+    {
+      "question_number": 102,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個選項「不屬於」石化工業的產品？",
+      "option_a": "塑膠",
+      "option_b": "人造纖維",
+      "option_c": "玻璃",
+      "option_d": "黏著劑",
+      "answer": "C"
+    },
+    {
+      "question_number": 103,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何者為地下水高污染潛勢區？",
+      "option_a": "百貨公司",
+      "option_b": "加油站",
+      "option_c": "電影院",
+      "option_d": "遊樂園",
+      "answer": "B"
+    },
+    {
+      "question_number": 104,
+      "bank_name": "暑期練習7/6",
+      "question": "為鼓勵電子產品繳費責任業者朝物料循環再利用方向設計，環保署自112年7月1日起針對電視機、冷暖氣機、洗衣機、電冰箱、電風扇等物品，優先於產品中添加多少%以上塑膠再生料？",
+      "option_a": "10%",
+      "option_b": "25%",
+      "option_c": "30%",
+      "option_d": "45%",
+      "answer": "B"
+    },
+    {
+      "question_number": 105,
+      "bank_name": "暑期練習7/6",
+      "question": "對於環境荷爾蒙，民眾在自我提升防範方面，專家建議從食物的選擇上進行。請問下列何種防範行為是錯誤的？",
+      "option_a": "多吃原型食物",
+      "option_b": "少吃加工食品",
+      "option_c": "選擇同一攤位的食物",
+      "option_d": "同時挑選不同種類的食材",
+      "answer": "C"
+    },
+    {
+      "question_number": 106,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪一項「不是」我國訂定「國家氣候變遷調適政策綱領」的原因？",
+      "option_a": "健全與提升國家調適能力",
+      "option_b": "控制國家溫室氣體的排放",
+      "option_c": "降低社會脆弱度",
+      "option_d": "建立我國整合性的運作機制",
+      "answer": "B"
+    },
+    {
+      "question_number": 107,
+      "bank_name": "暑期練習7/6",
+      "question": "有關風化作用的敘述，下列哪個選項是「錯誤」的？",
+      "option_a": "海蝕平臺是風化作用所形成",
+      "option_b": "風化作用是大岩石逐漸崩解成小碎塊的過程",
+      "option_c": "在氣候溫暖潮濕的環境當中，岩石容易與水產生化學反應而逐漸鬆軟",
+      "option_d": "風化作用的最終產物為土壤",
+      "answer": "A"
+    },
+    {
+      "question_number": 108,
+      "bank_name": "暑期練習7/6",
+      "question": "目前臺灣用水量比重佔最多的是下列哪一個？",
+      "option_a": "工業用水",
+      "option_b": "農業用水",
+      "option_c": "民生用水",
+      "option_d": "電廠用水",
+      "answer": "B"
+    },
+    {
+      "question_number": 109,
+      "bank_name": "暑期練習7/6",
+      "question": "因臺灣位於歐亞大陸板塊與菲律賓板塊交界處，地震頻繁，對於地震的應變措施下列何者有誤？",
+      "option_a": "地震發生時應躲在黃金三角處",
+      "option_b": "地震發生時應躲在冰箱旁，確保食物充足",
+      "option_c": "若發生強烈地震應趕緊開門，防止門變形逃不出去",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 110,
+      "bank_name": "暑期練習7/6",
+      "question": "一般來說，侵襲臺灣的颱風路徑主要受何者影響？",
+      "option_a": "北太平洋洋流",
+      "option_b": "黑潮",
+      "option_c": "北太平洋高壓環流",
+      "option_d": "蒙古高壓環流",
+      "answer": "C"
+    },
+    {
+      "question_number": 111,
+      "bank_name": "暑期練習7/6",
+      "question": "PM2.5除了來自於污染源直接排放外，亦可能經由下列哪一項化學反應產生？",
+      "option_a": "光化反應",
+      "option_b": "酸鹼反應",
+      "option_c": "沉澱反應",
+      "option_d": "光合作用",
+      "answer": "A"
+    },
+    {
+      "question_number": 112,
+      "bank_name": "暑期練習7/6",
+      "question": "壬基酚主要做為工業清潔劑中「非離子型界面活性劑」，另外也用於抗氧化劑、紡織印染助劑、農藥乳化劑等領域，但平常我們接觸的壬基酚，卻更多是從哪裡來的？",
+      "option_a": "食物中",
+      "option_b": "空氣中",
+      "option_c": "土壤中",
+      "option_d": "廢棄物中",
+      "answer": "A"
+    },
+    {
+      "question_number": 113,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個水庫主要供應屏東地區的用水？",
+      "option_a": "曾文水庫",
+      "option_b": "牡丹水庫",
+      "option_c": "赤崁水庫",
+      "option_d": "石門水庫",
+      "answer": "B"
+    },
+    {
+      "question_number": 114,
+      "bank_name": "暑期練習7/6",
+      "question": "下列對馬卡道澤蟹的敘述何者錯誤？",
+      "option_a": "常躲在落葉堆或邊坡的土洞裡",
+      "option_b": "在全台都可以看到",
+      "option_c": "在2009年才被判定為新物種",
+      "option_d": "長期生活在獨立的範圍內，很少與其他族群交流",
+      "answer": "B"
+    },
+    {
+      "question_number": 115,
+      "bank_name": "暑期練習7/6",
+      "question": "在酸雨相當嚴重的城市蓋房子，下列何者是不適合的建材？",
+      "option_a": "花崗岩",
+      "option_b": "玄武岩",
+      "option_c": "大理岩",
+      "option_d": "安山岩",
+      "answer": "C"
+    },
+    {
+      "question_number": 116,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何項非聯合國永續發展目標SDGs之一？",
+      "option_a": "氣候行動",
+      "option_b": "減少不平等",
+      "option_c": "優質教育",
+      "option_d": "綠色生活",
+      "answer": "D"
+    },
+    {
+      "question_number": 117,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何者對於濕沉降的敘述是「錯誤」？",
+      "option_a": "氣狀污染物隨雨、雪等降下",
+      "option_b": "氣狀污染物經由風力帶至海洋",
+      "option_c": "大氣中污染物質去除的重要機制",
+      "option_d": "自然降雨是濕沉降最重要的機制",
+      "answer": "B"
+    },
+    {
+      "question_number": 118,
+      "bank_name": "暑期練習7/6",
+      "question": "為處理垃圾爆量問題環境部擬於2023年提出《資源循環促進法》來因應，下列對此法案的敘述何者錯誤？",
+      "option_a": "此法案係將《廢棄物清理法》及《資源回收再利用法》整併",
+      "option_b": "此法案目地在翻轉廢棄物定義，推動資源極大化，廢棄物極小化",
+      "option_c": "此法擬對不具再利用價值的廢棄物，公告為政府責任物，由政府吸收處理費用",
+      "option_d": "此法也會對汙染環境的業者加重其刑責",
+      "answer": "D"
+    },
+    {
+      "question_number": 119,
+      "bank_name": "暑期練習7/6",
+      "question": "電磁波防治相關法規，是哪一中央機關所制訂及執行？",
+      "option_a": "衛生福利部",
+      "option_b": "行政院環境部",
+      "option_c": "公共工程委員會",
+      "option_d": "勞動部",
+      "answer": "B"
+    },
+    {
+      "question_number": 120,
+      "bank_name": "暑期練習7/6",
+      "question": "下列臺灣特有種生物中，何者從平地至海拔3千公尺皆有其蹤跡？",
+      "option_a": "臺灣雲豹",
+      "option_b": "臺灣帝雉",
+      "option_c": "臺灣寬尾鳳蝶",
+      "option_d": "臺灣山豬",
+      "answer": "D"
+    },
+    {
+      "question_number": 121,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個選項「不是」臺灣現行的環保法規？",
+      "option_a": "野生動物保護法",
+      "option_b": "水污染防治法",
+      "option_c": "噪音管制法",
+      "option_d": "京都議定書",
+      "answer": "D"
+    },
+    {
+      "question_number": 122,
+      "bank_name": "暑期練習7/6",
+      "question": "關於「北極放大效應」的敘述，何者錯誤？",
+      "option_a": "該效應是指北半球排放之溫室氣體向北竄升，累積在北極的現象",
+      "option_b": "南極也會有「南極放大效應」，但其效果不顯著",
+      "option_c": "該效應使北極附近的溫度變化比地球其他地區的變化都來得大",
+      "option_d": "金星也有該效應，使得金星的兩極與赤道幾乎是等溫",
+      "answer": "A"
+    },
+    {
+      "question_number": 123,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何種法規是目前臺灣沒有特別公告的？",
+      "option_a": "噪音管制法",
+      "option_b": "水污染防治法",
+      "option_c": "振動管制法",
+      "option_d": "環境影響評估法",
+      "answer": "C"
+    },
+    {
+      "question_number": 124,
+      "bank_name": "暑期練習7/6",
+      "question": "基因改造食品可以大量增加作物產量，且無明顯不好的影響，但卻還是很多人反對食用基因改造食品，其原因為何？",
+      "option_a": "成本太高",
+      "option_b": "可能含有一些致敏原，會導致死亡",
+      "option_c": "與非基因改造食品外觀差異大",
+      "option_d": "基因改造食品口感差",
+      "answer": "B"
+    },
+    {
+      "question_number": 125,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個選項「不是」海洋的功能？",
+      "option_a": "提供人類食物",
+      "option_b": "再生能源",
+      "option_c": "防洪治水",
+      "option_d": "調節氣溫",
+      "answer": "C"
+    },
+    {
+      "question_number": 126,
+      "bank_name": "暑期練習7/6",
+      "question": "在醫院工作因為中央空調系統沒有定期消毒保養而引起醫護人員得到退伍軍人症，是屬於哪種類型的危害？",
+      "option_a": "物理性危害",
+      "option_b": "化學性危害",
+      "option_c": "生物性危害",
+      "option_d": "心理性危害",
+      "answer": "C"
+    },
+    {
+      "question_number": 127,
+      "bank_name": "暑期練習7/6",
+      "question": "1987年聯合國提出《我們的未來》報告書，其中指出「永續發展」的理念是？",
+      "option_a": "完全禁用氟氯碳化物",
+      "option_b": "滿足當代需求，且不損及後代滿足其需要之發展",
+      "option_c": "2008~2012年達到二氧化碳減量5~8%",
+      "option_d": "各國減少硫化物排出量及削減氮氧化物30%",
+      "answer": "B"
+    },
+    {
+      "question_number": 128,
+      "bank_name": "暑期練習7/6",
+      "question": "因應宜蘭多雨的氣候，下列何者是「宜蘭厝」的建築特色？",
+      "option_a": "平臺式屋頂",
+      "option_b": "拱形屋頂",
+      "option_c": "斜屋頂",
+      "option_d": "圓形屋頂",
+      "answer": "C"
+    },
+    {
+      "question_number": 129,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個選項是酸雨對環境或生物造成的影響？",
+      "option_a": "減緩植物生長",
+      "option_b": "造成水體優養化",
+      "option_c": "使南極上空臭氧洞擴大",
+      "option_d": "造成溫、寒帶的生物棲息地往更高緯度處遷移",
+      "answer": "A"
+    },
+    {
+      "question_number": 130,
+      "bank_name": "暑期練習7/6",
+      "question": "DDT造成生物放大的原因為何？",
+      "option_a": "因食物塔階層愈高，總生物量愈大，DDT累積量也愈高",
+      "option_b": "因高級消費者體內分解DDT的能力較生產者低",
+      "option_c": "因DDT在生物體內無法分解，無法排出",
+      "option_d": "因DDT使受污染生物的總生物量增大",
+      "answer": "C"
+    },
+    {
+      "question_number": 131,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何者「不是」土壤自淨作用？",
+      "option_a": "污染物進入土壤後經化學降解變為無毒害物質",
+      "option_b": "利用土壤中的微生物，將污染經由分解或礦化作用使污染物轉換",
+      "option_c": "土壤經過大雨沖刷能將污染物洗掉",
+      "option_d": "土壤中的污染物通過複雜多樣的物理過程，使其濃度降低、毒性減輕",
+      "answer": "C"
+    },
+    {
+      "question_number": 132,
+      "bank_name": "暑期練習7/6",
+      "question": "中央氣象局對颱風強弱的分類標準，是依據下列哪一項決定的？",
+      "option_a": "颱風中心附近平均的最大風速",
+      "option_b": "颱風地區雲層厚度",
+      "option_c": "颱風中心颱風眼的大小",
+      "option_d": "颱風的暴風直徑",
+      "answer": "A"
+    },
+    {
+      "question_number": 133,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪種兩棲爬蟲類是臺灣的外來種？",
+      "option_a": "莫氏樹蛙",
+      "option_b": "菊池氏龜殼花",
+      "option_c": "楚南氏山椒魚",
+      "option_d": "巴西烏龜",
+      "answer": "D"
+    },
+    {
+      "question_number": 134,
+      "bank_name": "暑期練習7/6",
+      "question": "下列何者「不屬於」公告回收的電子電器物品？",
+      "option_a": "電冰箱",
+      "option_b": "微波爐",
+      "option_c": "洗衣機",
+      "option_d": "電視機",
+      "answer": "B"
+    },
+    {
+      "question_number": 135,
+      "bank_name": "暑期練習7/6",
+      "question": "臺灣時有山崩發生，下列何者「不是」臺灣山崩的主因？",
+      "option_a": "臺灣地處地殼不穩定處",
+      "option_b": "臺灣山地面積廣，地勢陡峭",
+      "option_c": "地處高溫多雨之地，化學風化物質多",
+      "option_d": "春季雪水多，增加潤滑力",
+      "answer": "D"
+    },
+    {
+      "question_number": 136,
+      "bank_name": "暑期練習7/6",
+      "question": "請問下列何者為澎湖南方四島國家公園的主要特色？",
+      "option_a": "玄武岩地質",
+      "option_b": "亞熱帶海島型",
+      "option_c": "潟湖",
+      "option_d": "沙洲",
+      "answer": "A"
+    },
+    {
+      "question_number": 137,
+      "bank_name": "暑期練習7/6",
+      "question": "公害造成損害時，「程度鑑定」主要為了確認下列何者？",
+      "option_a": "何種污染物造成損害",
+      "option_b": "造成損害之污染來源",
+      "option_c": "評估危害程度",
+      "option_d": "以上皆是",
+      "answer": "C"
+    },
+    {
+      "question_number": 138,
+      "bank_name": "暑期練習7/6",
+      "question": "我國2050淨零排放路徑有12項關鍵戰略，其中「淨零綠生活」策略有六大面向，請問下列何者選項不是？",
+      "option_a": "零浪費低碳飲食",
+      "option_b": "友善環境綠時尚",
+      "option_c": "綠色設計源頭減量",
+      "option_d": "使用取代擁有",
+      "answer": "C"
+    },
+    {
+      "question_number": 139,
+      "bank_name": "暑期練習7/6",
+      "question": "大氣層是保護地球的一大功臣，有關大氣層的重要性，下列何者是「錯誤」的？",
+      "option_a": "可阻擋所有宇宙射線和紫外線的入侵",
+      "option_b": "可幫助地表維持適當的溫度",
+      "option_c": "大氣環流具有調節氣候的功能",
+      "option_d": "可阻擋隕石直接撞地球",
+      "answer": "A"
+    },
+    {
+      "question_number": 140,
+      "bank_name": "暑期練習7/6",
+      "question": "我們引進臺灣原本沒有的動物以增加生物的種類，會帶來下列何種影響？",
+      "option_a": "增加生物的多樣性",
+      "option_b": "促進生態平衡",
+      "option_c": "提高生物繁殖能力",
+      "option_d": "會使當地原來生物受到攻擊",
+      "answer": "D"
+    },
+    {
+      "question_number": 141,
+      "bank_name": "暑期練習7/6",
+      "question": "「根壓」的形成原因為下列哪個選項？",
+      "option_a": "根部在土壤中因泥土的擠壓所造成的壓力",
+      "option_b": "根部接受由葉部運輸來的蔗糖，使根部細胞壓力變大",
+      "option_c": "根部細胞的細胞質濃度比土壤高，導致水的滲透壓差而產生根壓",
+      "option_d": "根部在土壤中與其他植物的根競爭養分所造成的壓力",
+      "answer": "C"
+    },
+    {
+      "question_number": 142,
+      "bank_name": "暑期練習7/6",
+      "question": "下列各地出現的主要岩石配對何者錯誤？",
+      "option_a": "鼻頭角:砂岩",
+      "option_b": "火炎山:礫岩",
+      "option_c": "清水斷崖:大理岩",
+      "option_d": "金門:玄武岩",
+      "answer": "D"
+    },
+    {
+      "question_number": 143,
+      "bank_name": "暑期練習7/6",
+      "question": "環境部公告「一次用旅宿用品限制使用對象及實施方式」規範，旅宿業者不得主動陳列下列何者選項供民眾使用？",
+      "option_a": "水",
+      "option_b": "室內拖鞋",
+      "option_c": "衛生紙",
+      "option_d": "浴帽",
+      "answer": "D"
+    },
+    {
+      "question_number": 144,
+      "bank_name": "暑期練習7/6",
+      "question": "水牛在臺灣的開拓史上，扮演著甚麼角色？",
+      "option_a": "風水",
+      "option_b": "畜養",
+      "option_c": "開墾",
+      "option_d": "宗教",
+      "answer": "C"
+    },
+    {
+      "question_number": 145,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪個選項「不屬於」細菌外型的分類之一？",
+      "option_a": "球狀",
+      "option_b": "桿狀",
+      "option_c": "螺旋狀",
+      "option_d": "橄欖球狀",
+      "answer": "D"
+    },
+    {
+      "question_number": 146,
+      "bank_name": "暑期練習7/6",
+      "question": "下列哪一種微生物長久以來一直被當作水污染的指標生物？",
+      "option_a": "霍亂弧菌",
+      "option_b": "沙門氏桿菌",
+      "option_c": "大腸桿菌",
+      "option_d": "志賀氏桿菌",
+      "answer": "C"
+    },
+    {
+      "question_number": 147,
+      "bank_name": "暑期練習7/6",
+      "question": "「前雷後雨，落不濕土」、「一粒雨擲死一個人」，以上臺灣諺語所形容的降水類型，主要成因是下列哪個選項？",
+      "option_a": "地形抬升",
+      "option_b": "鋒面滯留",
+      "option_c": "熱力對流",
+      "option_d": "強烈低氣壓",
+      "answer": "C"
+    },
+    {
+      "question_number": 148,
+      "bank_name": "暑期練習7/6",
+      "question": "減塑旅遊要達成下列哪些行動？",
+      "option_a": "自備、重複、少用",
+      "option_b": "輕便行李",
+      "option_c": "多使用旅館備品",
+      "option_d": "多使用一次性衛生用品",
+      "answer": "A"
+    },
+    {
+      "question_number": 149,
+      "bank_name": "暑期練習7/6",
+      "question": "水蒸氣遇冷會產生霜或露，下列哪個選項是正確的敘述？",
+      "option_a": "霜是透明的液態",
+      "option_b": "露是白色的固體",
+      "option_c": "霜常見於寒冬的地面上",
+      "option_d": "露常見於秋天清晨的地面",
+      "answer": "D"
+    },
+    {
+      "question_number": 150,
+      "bank_name": "暑期練習7/6",
+      "question": "有國慶鳥之稱的灰面鵟鷹，在國慶前後會成群過境哪一個國家公園？",
+      "option_a": "澎湖南方四島國家公園",
+      "option_b": "墾丁國家公園",
+      "option_c": "台江國家公園",
+      "option_d": "雪霸國家公園",
+      "answer": "B"
+    },
+    {
+      "question_number": 151,
+      "bank_name": "暑期練習7/9",
+      "question": "用自來水養魚，為什麼容易造成魚兒死亡？",
+      "option_a": "自來水中沒有氧氣",
+      "option_b": "自來水中沒有養分",
+      "option_c": "自來水中含有餘氯",
+      "option_d": "自來水中含有臭氧",
+      "answer": "C"
+    },
+    {
+      "question_number": 152,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者「不是」水力發電的優點？",
+      "option_a": "不會造成空氣污染",
+      "option_b": "不會有生態衍生問題",
+      "option_c": "運維成本低",
+      "option_d": "可以重複使用",
+      "answer": "B"
+    },
+    {
+      "question_number": 153,
+      "bank_name": "暑期練習7/9",
+      "question": "惜食教育是全民綠生活推動的主軸之一，請問下列選項何者於惜食十大行動中出現？",
+      "option_a": "要均衡",
+      "option_b": "不打包",
+      "option_c": "不可選",
+      "option_d": "吃格外",
+      "answer": "D"
+    },
+    {
+      "question_number": 154,
+      "bank_name": "暑期練習7/9",
+      "question": "屬於一級古蹟的八通關古道景觀主要特色為何？",
+      "option_a": "具有數間百年以上歷史之建物",
+      "option_b": "具特殊文化及藝術價值之廟宇建築",
+      "option_c": "電影「賽德克·巴萊」主要場景",
+      "option_d": "保留許多開墾史蹟的石碑",
+      "answer": "D"
+    },
+    {
+      "question_number": 155,
+      "bank_name": "暑期練習7/9",
+      "question": "以下何者有「臺灣的亞馬遜河」之稱？",
+      "option_a": "香山濕地",
+      "option_b": "哈盆自然保留區",
+      "option_c": "無尾港濕地",
+      "option_d": "蘭陽溪口濕地",
+      "answer": "B"
+    },
+    {
+      "question_number": 156,
+      "bank_name": "暑期練習7/9",
+      "question": "大陸華北地區因工業發達燃燒煤炭，產生二氧化硫，常隨著哪種季風飄來臺灣北部，產生酸雨的問題？",
+      "option_a": "東北季風",
+      "option_b": "東南季風",
+      "option_c": "西北季風",
+      "option_d": "西南季風",
+      "answer": "A"
+    },
+    {
+      "question_number": 157,
+      "bank_name": "暑期練習7/9",
+      "question": "依據紫外線的特性，到達地表輻射量最高者為下列何者？",
+      "option_a": "UV-A",
+      "option_b": "UV-B",
+      "option_c": "UV-C",
+      "option_d": "UV-D",
+      "answer": "A"
+    },
+    {
+      "question_number": 158,
+      "bank_name": "暑期練習7/9",
+      "question": "下列哪一種植物屬於臺灣原生種？",
+      "option_a": "銀合歡",
+      "option_b": "小花蔓澤蘭",
+      "option_c": "大花咸豐草",
+      "option_d": "玉山杜鵑",
+      "answer": "D"
+    },
+    {
+      "question_number": 159,
+      "bank_name": "暑期練習7/9",
+      "question": "水中汞污染物危害性主要是因為它具有下列何種特性？",
+      "option_a": "累積毒性",
+      "option_b": "急毒性",
+      "option_c": "干擾生物之生殖系統",
+      "option_d": "影響人體之呼吸系統",
+      "answer": "A"
+    },
+    {
+      "question_number": 160,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者不是導致珊瑚礁白化的原因?",
+      "option_a": "高溫廢水",
+      "option_b": "海水鹽度改變",
+      "option_c": "海水中的化學反應變化",
+      "option_d": "黑潮經過",
+      "answer": "D"
+    },
+    {
+      "question_number": 161,
+      "bank_name": "暑期練習7/9",
+      "question": "水蒸氣遇冷會產生霜或露，下列哪個選項是正確的敘述？",
+      "option_a": "霜是透明的液態",
+      "option_b": "露是白色的固體",
+      "option_c": "霜常見於寒冬的地面上",
+      "option_d": "露常見於秋天清晨的地面",
+      "answer": "D"
+    },
+    {
+      "question_number": 162,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者「不是」臺灣水圳的用途？",
+      "option_a": "保存歷史遺產價值",
+      "option_b": "展現常民文化",
+      "option_c": "推廣水上摩托車運動",
+      "option_d": "發展休閒遊憩",
+      "answer": "C"
+    },
+    {
+      "question_number": 163,
+      "bank_name": "暑期練習7/9",
+      "question": "天氣現象千變萬化，天氣預報更是一件勞心勞力的工作。有關天氣預報的敘述，下列何者是正確的？",
+      "option_a": "天氣預報僅需參考地面、高空和衛星等觀測資料",
+      "option_b": "紫外線強度並不包含在預報項目內",
+      "option_c": "將觀測資料輸入電腦，即可得到準確的預報資料",
+      "option_d": "影響天氣變化的因素很複雜增加預報工作的困難度",
+      "answer": "D"
+    },
+    {
+      "question_number": 164,
+      "bank_name": "暑期練習7/9",
+      "question": "1998年臺塑公司將一批汞污泥送往柬埔寨，並棄置在海邊，造成當地民眾多人不適，引起國際喧然大波，這種行為違反下列哪一項國際公約？",
+      "option_a": "凡爾賽條約",
+      "option_b": "蒙特婁公約",
+      "option_c": "氣候變化綱要公約",
+      "option_d": "巴塞爾公約",
+      "answer": "D"
+    },
+    {
+      "question_number": 165,
+      "bank_name": "暑期練習7/9",
+      "question": "壬基酚主要做為工業清潔劑中「非離子型界面活性劑」，另外也用於抗氧化劑、紡織印染助劑、農藥乳化劑等領域，但平常我們接觸的壬基酚，卻更多是從哪裡來的？",
+      "option_a": "食物中",
+      "option_b": "空氣中",
+      "option_c": "土壤中",
+      "option_d": "廢棄物中",
+      "answer": "A"
+    },
+    {
+      "question_number": 166,
+      "bank_name": "暑期練習7/9",
+      "question": "水是臺灣重要的資源，高雄甲仙攔河堰主要越域引水到哪個水庫存用？",
+      "option_a": "石門水庫",
+      "option_b": "日月潭水庫",
+      "option_c": "德基水庫",
+      "option_d": "南化水庫",
+      "answer": "D"
+    },
+    {
+      "question_number": 167,
+      "bank_name": "暑期練習7/9",
+      "question": "請問下列何者傳染病傳染途徑並非經由食物或飲水傳染?",
+      "option_a": "小兒麻痺症",
+      "option_b": "沙門氏菌感染症",
+      "option_c": "霍亂",
+      "option_d": "日本腦炎",
+      "answer": "D"
+    },
+    {
+      "question_number": 168,
+      "bank_name": "暑期練習7/9",
+      "question": "當臺灣有地震發生時，常可聽到新聞有相關報導，下列所報導的內容何者是「錯誤」的？",
+      "option_a": "本次地震發生的震央位置在花蓮，震源深度為200公里",
+      "option_b": "震度為花蓮4.2、臺東3.6、宜蘭3.4",
+      "option_c": "地震的大小為芮氏地震規模5.3",
+      "option_d": "發生原因是菲律賓海板塊擠壓歐亞板塊所致",
+      "answer": "B"
+    },
+    {
+      "question_number": 169,
+      "bank_name": "暑期練習7/9",
+      "question": "請問下列選項何者不符合「全民綠生活」的實踐行動?",
+      "option_a": "使用在地食材並提供餐點份量調整服務",
+      "option_b": "種植綠色植栽，淨化室內空氣品質",
+      "option_c": "旅遊景點選擇環境教育設施場所",
+      "option_d": "選購衣物選擇快時尚，促進經濟發展",
+      "answer": "D"
+    },
+    {
+      "question_number": 170,
+      "bank_name": "暑期練習7/9",
+      "question": "環境部與歐洲經貿辦事處在世界清潔日這天舉辦淨灘活動，邀請民眾共同參與，維護海洋環境，以達到哪四個目標?",
+      "option_a": "「禁海」、「入海」、「近海」及「出海」",
+      "option_b": "「親海」、「愛海」、「近海」及「進海」",
+      "option_c": "「淨海」、「知海」、「近海」及「進海」",
+      "option_d": "「淨海」、「愛海」、「護海」及「進海」",
+      "answer": "C"
+    },
+    {
+      "question_number": 171,
+      "bank_name": "暑期練習7/9",
+      "question": "下列哪個是臺灣河川污染的主要來源之一？",
+      "option_a": "土石流",
+      "option_b": "家庭污水",
+      "option_c": "酸沉降",
+      "option_d": "溯溪活動",
+      "answer": "B"
+    },
+    {
+      "question_number": 172,
+      "bank_name": "暑期練習7/9",
+      "question": "小明利用「廣用試紙」測試所收集的酸雨，其試紙會呈現何種顏色？",
+      "option_a": "綠色",
+      "option_b": "紅色",
+      "option_c": "藍色",
+      "option_d": "黑色",
+      "answer": "B"
+    },
+    {
+      "question_number": 173,
+      "bank_name": "暑期練習7/9",
+      "question": "下列哪一個國家公園裡面可以見到珊瑚礁美景？",
+      "option_a": "墾丁國家公園",
+      "option_b": "太魯閣國家公園",
+      "option_c": "玉山國家公園",
+      "option_d": "陽明山國家公園",
+      "answer": "A"
+    },
+    {
+      "question_number": 174,
+      "bank_name": "暑期練習7/9",
+      "question": "民國83年，臺灣美國無線電公司(RCA)桃園廠污染廠區土壤及地下水，主要污染物是以下哪種元素之有機化合物？",
+      "option_a": "砷",
+      "option_b": "鎘",
+      "option_c": "氯",
+      "option_d": "汞",
+      "answer": "C"
+    },
+    {
+      "question_number": 175,
+      "bank_name": "暑期練習7/9",
+      "question": "中元節是中國人重要節令之一，當晚月相為何？",
+      "option_a": "朔月",
+      "option_b": "望月",
+      "option_c": "上弦月",
+      "option_d": "下弦月",
+      "answer": "B"
+    },
+    {
+      "question_number": 176,
+      "bank_name": "暑期練習7/9",
+      "question": "有關食農教育和惜食教育的說法何種「錯誤」？",
+      "option_a": "慣行農法講求的是循環利用",
+      "option_b": "「食農教育法」已立法通過",
+      "option_c": "惜食行動有效支持在地農業",
+      "option_d": "惜食觀念的建立須從小扎根",
+      "answer": "A"
+    },
+    {
+      "question_number": 177,
+      "bank_name": "暑期練習7/9",
+      "question": "為落實產品資源循環與環保再生材料應用，所採策略是推動什麼產品設計的輔導是：",
+      "option_a": "搖籃到搖籃",
+      "option_b": "搖籃到墳墓",
+      "option_c": "墳墓到搖籃",
+      "option_d": "墳墓到墳墓",
+      "answer": "A"
+    },
+    {
+      "question_number": 178,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何種生物不存在於墾丁國家公園?",
+      "option_a": "紫斑蝶",
+      "option_b": "樹皮螳螂",
+      "option_c": "櫻花鉤吻鮭",
+      "option_d": "玉帶鳳蝶",
+      "answer": "C"
+    },
+    {
+      "question_number": 179,
+      "bank_name": "暑期練習7/9",
+      "question": "幾十年前曾有人引進小花蔓澤蘭來綠化環境，今日這種植物已經在臺灣部份地區造成許多原生植物死亡，甚至危害農作物，因此有綠色癌症之稱，關於此現象，下列哪個選項是正確的敘述？",
+      "option_a": "這是天擇的結果，應讓其自然演化",
+      "option_b": "不當引入外來生物，可能破壞原本的生態平衡",
+      "option_c": "應多引入外來種昆蟲，以控制此植物的繁衍",
+      "option_d": "外來種植物可增加本地的生物多樣性",
+      "answer": "B"
+    },
+    {
+      "question_number": 180,
+      "bank_name": "暑期練習7/9",
+      "question": "河川截彎取直會對河道的水理造成什麼現象？",
+      "option_a": "河道長度變長",
+      "option_b": "取直的河道坡降變平緩",
+      "option_c": "下游河道水位降低",
+      "option_d": "下游河道產生淤積",
+      "answer": "D"
+    },
+    {
+      "question_number": 181,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者為植物多樣性增加對生物的影響？",
+      "option_a": "穩固生物繁衍的橋樑",
+      "option_b": "減少抓土力",
+      "option_c": "減少棲息地",
+      "option_d": "當環境變動，整個生態系易導致崩解",
+      "answer": "A"
+    },
+    {
+      "question_number": 182,
+      "bank_name": "暑期練習7/9",
+      "question": "在同樣的冷房能力下，有不同能源效率比(EER)的冷氣，其耗電量最少的是下列何者？",
+      "option_a": "EER=1.2",
+      "option_b": "EER=2.2",
+      "option_c": "EER=3.4",
+      "option_d": "EER=4.3",
+      "answer": "D"
+    },
+    {
+      "question_number": 183,
+      "bank_name": "暑期練習7/9",
+      "question": "根據台灣國立海洋生物博物館環境生態毒物研究團隊透過對鯨豚的研究，發現環境荷爾蒙造成的影響，下列敘述何者正確?",
+      "option_a": "環境荷爾蒙只汙染高階食物鏈的鯨豚，對低階食物鏈的小型魚類沒有影響",
+      "option_b": "鯨豚體內只存在一種環境荷爾蒙",
+      "option_c": "部分的環境荷爾蒙會透過生產及哺乳傳遞給下一代",
+      "option_d": "環境荷爾蒙在海水中只要經過一段時間後，會自然分解掉，不會繼續造成危害",
+      "answer": "C"
+    },
+    {
+      "question_number": 184,
+      "bank_name": "暑期練習7/9",
+      "question": "潮間帶常有許多的螺類，試問下列何者可食用？",
+      "option_a": "花冠芋螺",
+      "option_b": "漁舟蜑螺",
+      "option_c": "斑芋螺",
+      "option_d": "織錦芋螺",
+      "answer": "B"
+    },
+    {
+      "question_number": 185,
+      "bank_name": "暑期練習7/9",
+      "question": "下列有關水土保持的敘述，何者「不正確」？",
+      "option_a": "在低窪地區大量抽取地下水，容易造成地層下陷",
+      "option_b": "在河邊養殖家禽家畜，可能使下游藻類過量孳生",
+      "option_c": "在水庫上游砍伐樹木，會減少水庫的泥沙淤積量",
+      "option_d": "在坡度陡峭的高山上種植蔬果，會造成土壤流失",
+      "answer": "C"
+    },
+    {
+      "question_number": 186,
+      "bank_name": "暑期練習7/9",
+      "question": "黑面琵鷺是世界上非常稀少的鳥種，被列為瀕臨滅絕動物保護，每年9月至10月抵臺，一直待到翌年的3月至5月左右，才陸續飛離臺灣。請問黑面琵鷺主要分布在哪一個地區？",
+      "option_a": "東歐",
+      "option_b": "西亞",
+      "option_c": "東亞",
+      "option_d": "南美洲",
+      "answer": "C"
+    },
+    {
+      "question_number": 187,
+      "bank_name": "暑期練習7/9",
+      "question": "何謂水足跡，下列哪個選項是正確的？",
+      "option_a": "消費者所購買的商品，在生產過程中消耗的用水量",
+      "option_b": "水利用的途徑",
+      "option_c": "水循環的途徑",
+      "option_d": "每人每日用水量紀錄",
+      "answer": "A"
+    },
+    {
+      "question_number": 188,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者是酸雨帶來的危害？",
+      "option_a": "全球暖化",
+      "option_b": "輻射污染",
+      "option_c": "礦產消失",
+      "option_d": "土壤酸化",
+      "answer": "D"
+    },
+    {
+      "question_number": 189,
+      "bank_name": "暑期練習7/9",
+      "question": "下列哪種物質可能於電子發票、提款機提款明細表等感熱紙上被檢出？",
+      "option_a": "雙酚A",
+      "option_b": "壬基酚",
+      "option_c": "DDT",
+      "option_d": "五氯酚",
+      "answer": "A"
+    },
+    {
+      "question_number": 190,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者「不是」成功的社區產業推動的要件?",
+      "option_a": "政治因素",
+      "option_b": "增進社區的應變能力",
+      "option_c": "財務及人力資源的支持",
+      "option_d": "社區當地之生態",
+      "answer": "A"
+    },
+    {
+      "question_number": 191,
+      "bank_name": "暑期練習7/9",
+      "question": "下列何者是引起過度漁撈現象的主要原因？",
+      "option_a": "從事漁業人口增加",
+      "option_b": "撈捕技術進步且消費人口增加",
+      "option_c": "政府鼓勵捕撈",
+      "option_d": "海洋資源取之不盡",
+      "answer": "B"
+    },
+    {
+      "question_number": 192,
+      "bank_name": "暑期練習7/9",
+      "question": "在生物鏈越上端的物種其體內累積持久性有機污染物(POPs)濃度將越高，危害性也將越大，這是說明POPs具有下列何種特性？",
+      "option_a": "持久性",
+      "option_b": "半揮發性",
+      "option_c": "高毒性",
+      "option_d": "生物累積性",
+      "answer": "D"
+    },
+    {
+      "question_number": 193,
+      "bank_name": "暑期練習7/9",
+      "question": "下列哪一條步道獲得世界非營利組織國際寧靜公園授證，成為全球第一條「寧靜步道」，在無人為干擾之下，測得最低音量不到25分貝?",
+      "option_a": "阿里山特富野古道",
+      "option_b": "大漢山浸水營古道",
+      "option_c": "太魯閣錐麓古道",
+      "option_d": "太平山翠峰湖環山步道",
+      "answer": "D"
+    },
+    {
+      "question_number": 194,
+      "bank_name": "暑期練習7/9",
+      "question": "下列那一處濕地不屬於台江國家公園涵蓋的範圍?",
+      "option_a": "八掌溪口濕地",
+      "option_b": "七股鹽田濕地",
+      "option_c": "鹽水溪口濕地",
+      "option_d": "曾文溪口濕地",
+      "answer": "A"
+    },
+    {
+      "question_number": 195,
+      "bank_name": "暑期練習7/9",
+      "question": "環境部為了推動區域環境管理工作，於111年1月1日正式成立什麼單位，來治理區域環境?",
+      "option_a": "地方環境管理中心",
+      "option_b": "三區環境管理中心",
+      "option_c": "中央環境管理中心",
+      "option_d": "四區環境管理中心",
+      "answer": "B"
+    },
+    {
+      "question_number": 196,
+      "bank_name": "暑期練習7/9",
+      "question": "有關潮間帶的敘述，下列哪個選項是「錯誤」的？",
+      "option_a": "位於滿乾潮之間的地帶",
+      "option_b": "提供人們養殖、遊憩與觀光的主要場所",
+      "option_c": "生物能適應短暫缺水及陽光曝晒",
+      "option_d": "此地生態系的生產力，與其它生態系相較，生產力偏低",
+      "answer": "D"
+    },
+    {
+      "question_number": 197,
+      "bank_name": "暑期練習7/9",
+      "question": "有關社區的垃圾分類何者正確？",
+      "option_a": "保麗龍回收歸類在廢塑膠內",
+      "option_b": "紙類回收必須把紙上的塑膠膜／袋清掉獨立回收",
+      "option_c": "回收任何瓶罐類物品都要將裡面的液體倒乾淨",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 198,
+      "bank_name": "暑期練習7/9",
+      "question": "1950年日本富山縣當地居民罹患「痛痛病」，是下列何種金屬所導致？",
+      "option_a": "鎘",
+      "option_b": "鎳",
+      "option_c": "砷",
+      "option_d": "汞",
+      "answer": "A"
+    },
+    {
+      "question_number": 199,
+      "bank_name": "暑期練習7/9",
+      "question": "下列有關鉛的生物偵測的敘述何者「錯誤」？",
+      "option_a": "有機鉛化合物的吸收，主要是由皮膚吸收",
+      "option_b": "循環中的鉛，90%會與紅血球結合",
+      "option_c": "90%的鉛會最後儲存於骨骼",
+      "option_d": "有機鉛的暴露，最好的偵測指標則是血中鉛濃度",
+      "answer": "D"
+    },
+    {
+      "question_number": 200,
+      "bank_name": "暑期練習7/9",
+      "question": "在臺灣，下列哪一種作法符合餐飲業實施節能減碳？",
+      "option_a": "採購高山種植的蔬果",
+      "option_b": "採購當地蔬果",
+      "option_c": "採購最便宜的的蔬果",
+      "option_d": "採購自國外進口的蔬果",
+      "answer": "B"
+    },
+    {
+      "question_number": 201,
+      "bank_name": "暑期練習7/13",
+      "question": "為了減少港口區域的空氣污染，哪些措施被採用？",
+      "option_a": "增加船舶數量以分散污染",
+      "option_b": "使用低硫燃油和岸電設施",
+      "option_c": "建設更多的工業區",
+      "option_d": "減少貨物進出口",
+      "answer": "B"
+    },
+    {
+      "question_number": 202,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者「不符合」永續發展的理念？",
+      "option_a": "發展綠色科技",
+      "option_b": "人類發展不超出環境承載力",
+      "option_c": "以環境保護為導向，降低人類生活品質",
+      "option_d": "促進地球村概念，加強國際合作",
+      "answer": "C"
+    },
+    {
+      "question_number": 203,
+      "bank_name": "暑期練習7/13",
+      "question": "下列關於土石流的防災方法，何者有誤？",
+      "option_a": "建造擋土牆",
+      "option_b": "疏通排水系統",
+      "option_c": "避開災害敏感區",
+      "option_d": "廣泛種植淺根系植物",
+      "answer": "D"
+    },
+    {
+      "question_number": 204,
+      "bank_name": "暑期練習7/13",
+      "question": "一般認為職業事故發生的主要原因為何？",
+      "option_a": "工作人員的不安全動作或行為",
+      "option_b": "工作場所噪音干擾",
+      "option_c": "工作場所的照明不佳",
+      "option_d": "工作場所髒亂",
+      "answer": "A"
+    },
+    {
+      "question_number": 205,
+      "bank_name": "暑期練習7/13",
+      "question": "關於我國淨零轉型的目標敍述，何者有誤？",
+      "option_a": "確保我國的能源安全",
+      "option_b": "提升產業的海外獲益",
+      "option_c": "引發全民共同落實低碳生活",
+      "option_d": "透過社會溝通降低減碳方案的衝擊",
+      "answer": "B"
+    },
+    {
+      "question_number": 206,
+      "bank_name": "暑期練習7/13",
+      "question": "根據「淨零政策與法規」影片，巴黎協定的目標是將全球平均氣溫增加限制在多少度以內？",
+      "option_a": "1度",
+      "option_b": "1.5度",
+      "option_c": "2度",
+      "option_d": "5度",
+      "answer": "C"
+    },
+    {
+      "question_number": 207,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者對以後的子孫在環境資源上的使用比較公平？",
+      "option_a": "資源應該全在有錢人手上",
+      "option_b": "資源不應任意浪費",
+      "option_c": "增加貧富差距",
+      "option_d": "資源永遠用不完可以任意浪費",
+      "answer": "B"
+    },
+    {
+      "question_number": 208,
+      "bank_name": "暑期練習7/13",
+      "question": "全球已經有多少國家提出2050淨零排放的宣誓與行動？",
+      "option_a": "70多國",
+      "option_b": "90多國",
+      "option_c": "110多國",
+      "option_d": "130多國",
+      "answer": "D"
+    },
+    {
+      "question_number": 209,
+      "bank_name": "暑期練習7/13",
+      "question": "關於生物多樣性的敘述何者正確？",
+      "option_a": "小的生態系中，一物種消失，對食物網的穩定性影可響將愈雨小水回收利",
+      "option_b": "生物棲息環境變化少的生態系，生物多樣性愈高",
+      "option_c": "單一樹種的育林方式有利於生態系的穩定，並能避免病蟲害的侵犯",
+      "option_d": "生物多樣性愈高，生態系愈容易維持平衡穩定",
+      "answer": "D"
+    },
+    {
+      "question_number": 210,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者是超抽地下水所產生的狀況？",
+      "option_a": "河川枯竭",
+      "option_b": "珊瑚死亡",
+      "option_c": "土地生產力提高",
+      "option_d": "近海土地鹽化",
+      "answer": "D"
+    },
+    {
+      "question_number": 211,
+      "bank_name": "暑期練習7/13",
+      "question": "請問下列哪一個選項最能代表「從搖籃到搖籃」(cradle to cradle)的設計思維？",
+      "option_a": "產品在使用後成為垃圾，進入垃圾填埋場。",
+      "option_b": "產品的設計、生產及回收模仿自然界的新陳代謝系統，所有的廢棄物都可以變成資源。",
+      "option_c": "產品的設計只考慮生產成本，而不考慮環境影響。",
+      "option_d": "產品在消費使用後成為廢棄物，不再具有任何價值。",
+      "answer": "B"
+    },
+    {
+      "question_number": 212,
+      "bank_name": "暑期練習7/13",
+      "question": "根據國家氣候變遷科學報告，如果氣候變遷未被控制，臺灣的高山森林面積會有什麼變化？",
+      "option_a": "增加面積",
+      "option_b": "減少面積",
+      "option_c": "向低海拔移動",
+      "option_d": "保持不變",
+      "answer": "B"
+    },
+    {
+      "question_number": 213,
+      "bank_name": "暑期練習7/13",
+      "question": "工業廢水中造成土壤重金屬污染的物質有哪些？",
+      "option_a": "砷",
+      "option_b": "鉻",
+      "option_c": "汞",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 214,
+      "bank_name": "暑期練習7/13",
+      "question": "霧和霾在相對濕度上的區別是什麼？",
+      "option_a": "霧在乾燥空氣中形成，相對濕度低於75%",
+      "option_b": "霾在潮濕空氣中形成，相對濕度高於75%",
+      "option_c": "霧在潮濕空氣中形成，相對濕度高於75%",
+      "option_d": "霾在乾燥空氣中形成，相對濕度高於75%",
+      "answer": "C"
+    },
+    {
+      "question_number": 215,
+      "bank_name": "暑期練習7/13",
+      "question": "過去引進小花蔓澤蘭來綠化環境，今日這種植物已經在臺灣中南部地區造成許多原生植物死亡，甚至危害農作物，因此有綠色癌症之稱，關於此現象，下列哪個選項是正確的敘述？",
+      "option_a": "不當引入外來生物，可能破壞原本的生態平衡",
+      "option_b": "這是天擇的結果，應讓其自然演化",
+      "option_c": "應多引入外來種昆蟲，以控制此植物的繁衍",
+      "option_d": "外來種植物可增加本地的生物多樣性",
+      "answer": "A"
+    },
+    {
+      "question_number": 216,
+      "bank_name": "暑期練習7/13",
+      "question": "如何增加衣服使用的壽命?",
+      "option_a": "定期整理衣櫃",
+      "option_b": "二手衣物交流",
+      "option_c": "嘗試舊衣改造",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 217,
+      "bank_name": "暑期練習7/13",
+      "question": "文化資產保存法有七大項，其中之一的自然地景指的是什麼？",
+      "option_a": "蘊藏過去人類生活所遺留具歷史文化意義之遺物",
+      "option_b": "具保育自然價值之自然區域、地形、植物及礦物",
+      "option_c": "與國民生活有關之傳統並有特殊文化意義之風俗",
+      "option_d": "流傳於各族群與地方之傳統技藝與藝能",
+      "answer": "B"
+    },
+    {
+      "question_number": 218,
+      "bank_name": "暑期練習7/13",
+      "question": "何者含量太低時會在短時內造成魚類死亡？",
+      "option_a": "水中含氧量",
+      "option_b": "有機物質",
+      "option_c": "氨氮含量",
+      "option_d": "總磷含量",
+      "answer": "A"
+    },
+    {
+      "question_number": 219,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何種噪音類型的分貝數最大?",
+      "option_a": "飛機起降",
+      "option_b": "民俗噪音",
+      "option_c": "營建工地",
+      "option_d": "市場叫賣聲",
+      "answer": "A"
+    },
+    {
+      "question_number": 220,
+      "bank_name": "暑期練習7/13",
+      "question": "我國河川揚塵可能發生的原因為何？",
+      "option_a": "河川有大量裸露地",
+      "option_b": "河川水量暴漲",
+      "option_c": "河川襲奪現象產生",
+      "option_d": "河川產生下切現象",
+      "answer": "A"
+    },
+    {
+      "question_number": 221,
+      "bank_name": "暑期練習7/13",
+      "question": "以下屬於外來入侵物種的共有幾種？甲、吳郭魚 | 乙、小花蔓澤蘭 | 丙、福壽螺 | 丁、布袋蓮",
+      "option_a": "1種",
+      "option_b": "2種",
+      "option_c": "3種",
+      "option_d": "4種",
+      "answer": "D"
+    },
+    {
+      "question_number": 222,
+      "bank_name": "暑期練習7/13",
+      "question": "如果要蓋一座符合環保概念的園區，下列哪個選項的作為\"不適合\"出現？",
+      "option_a": "採購進口建材",
+      "option_b": "選購節能標章的設施",
+      "option_c": "採用太陽能發電系統",
+      "option_d": "利用風力發電",
+      "answer": "A"
+    },
+    {
+      "question_number": 223,
+      "bank_name": "暑期練習7/13",
+      "question": "關於將廚餘從一般垃圾中分出來的敍述，何者為非？",
+      "option_a": "能夠減少垃圾放置時所產生的惡臭",
+      "option_b": "能夠用以填土造地",
+      "option_c": "能夠增加垃圾焚化時的能源效率",
+      "option_d": "能夠減少戴奧辛的產生及傳播機率",
+      "answer": "B"
+    },
+    {
+      "question_number": 224,
+      "bank_name": "暑期練習7/13",
+      "question": "地球日是每年的哪天?",
+      "option_a": "4月22日",
+      "option_b": "6月5日",
+      "option_c": "6月8日",
+      "option_d": "10月16日",
+      "answer": "A"
+    },
+    {
+      "question_number": 225,
+      "bank_name": "暑期練習7/13",
+      "question": "河川裡重要的植物營養物質為何？",
+      "option_a": "重金屬",
+      "option_b": "氮磷",
+      "option_c": "懸浮固體",
+      "option_d": "水中溶氧",
+      "answer": "B"
+    },
+    {
+      "question_number": 226,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者「不屬於」減少人為的噪音方式或作為?",
+      "option_a": "電視機音量大小應適中",
+      "option_b": "娛樂場所加裝隔音設備",
+      "option_c": "逢年過節應鼓樂喧天",
+      "option_d": "施工前須做好防護措施",
+      "answer": "C"
+    },
+    {
+      "question_number": 227,
+      "bank_name": "暑期練習7/13",
+      "question": "《文化資產保存法》中的自然地景、自然紀念物所指為何？",
+      "option_a": "流傳於各族群與地方之傳統技藝與藝能",
+      "option_b": "指具保育自然價值之自然區域、特殊地形、地質現象、珍貴稀有植物及礦物",
+      "option_c": "與國民生活有關之傳統並有特殊文化意義之風俗",
+      "option_d": "蘊藏過去人類生活所遺留具歷史文化意義之遺物",
+      "answer": "B"
+    },
+    {
+      "question_number": 228,
+      "bank_name": "暑期練習7/13",
+      "question": "以聚乙烯對苯二甲酸酯（PET）為原料的填充容器，俗稱什麼？",
+      "option_a": "鋁箔包",
+      "option_b": "紙容器",
+      "option_c": "寶特瓶",
+      "option_d": "保麗龍",
+      "answer": "C"
+    },
+    {
+      "question_number": 229,
+      "bank_name": "暑期練習7/13",
+      "question": "關於「淨零排放」的描述，何者正確？",
+      "option_a": "指溫室氣體排放量與碳匯量達成平衡。",
+      "option_b": "代表二氧化碳將被完全捕捉或儲存。",
+      "option_c": "各國協定不再排放溫室氣體，並推動負碳工程，如再生能源等。",
+      "option_d": "表示將達成溫室氣體零排放。",
+      "answer": "A"
+    },
+    {
+      "question_number": 230,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何種污水在淡水河流域占較高比例?",
+      "option_a": "事業污水",
+      "option_b": "畜牧污染",
+      "option_c": "生活污染",
+      "option_d": "農業污染",
+      "answer": "C"
+    },
+    {
+      "question_number": 231,
+      "bank_name": "暑期練習7/13",
+      "question": "下列哪一項是地球暖化對人類的影響？",
+      "option_a": "增加糧食生產",
+      "option_b": "水資源更加充裕",
+      "option_c": "增加傳染病發生機會",
+      "option_d": "環境更適合居住",
+      "answer": "C"
+    },
+    {
+      "question_number": 232,
+      "bank_name": "暑期練習7/13",
+      "question": "根據環境部資源循環署的說明，紙餐具在回收後送到專業處理廠，可以回收再製成什麼？",
+      "option_a": "金屬製品和玻璃製品",
+      "option_b": "纖維製品和木製品",
+      "option_c": "紙製品和塑膠粒",
+      "option_d": "布製品和橡膠製品",
+      "answer": "C"
+    },
+    {
+      "question_number": 233,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何種現象可以證明全球暖化正在發生?",
+      "option_a": "北極熊數量增加",
+      "option_b": "高山植物往平地擴散",
+      "option_c": "珊瑚大量增生",
+      "option_d": "冰河面積衰退",
+      "answer": "D"
+    },
+    {
+      "question_number": 234,
+      "bank_name": "暑期練習7/13",
+      "question": "根據「淨零政策與法規」影片，哪一年聯合國大會決議設立《政府間氣候變化綱要公約談判委員會》？",
+      "option_a": "1985年",
+      "option_b": "1990年",
+      "option_c": "1995年",
+      "option_d": "2000年",
+      "answer": "B"
+    },
+    {
+      "question_number": 235,
+      "bank_name": "暑期練習7/13",
+      "question": "依照「網際網路購物包裝限制使用對象及實施方式」的規定，網際網路零售業者其紙類包裝材料(箱)需要有多少比例以上的回收紙含量？",
+      "option_a": "25%",
+      "option_b": "50%",
+      "option_c": "75%",
+      "option_d": "90%",
+      "answer": "D"
+    },
+    {
+      "question_number": 236,
+      "bank_name": "暑期練習7/13",
+      "question": "若民眾想知道周遭居住環境的懸浮微粒濃度，可至哪個網站查詢?",
+      "option_a": "環境教育終身學習網",
+      "option_b": "綠色生活資訊網",
+      "option_c": "環境影響評估書件查詢系統",
+      "option_d": "空氣品質監測網",
+      "answer": "D"
+    },
+    {
+      "question_number": 237,
+      "bank_name": "暑期練習7/13",
+      "question": "下列哪一種不是溫室氣體的種類?",
+      "option_a": "甲烷",
+      "option_b": "二氧化碳",
+      "option_c": "氧氣",
+      "option_d": "氧化亞氮",
+      "answer": "C"
+    },
+    {
+      "question_number": 238,
+      "bank_name": "暑期練習7/13",
+      "question": "2021年氣候變化綱要公約第26次聯合國締約國大會將「2050淨零碳排」列入全球共識，此協定稱之為何？",
+      "option_a": "巴黎氣候協定",
+      "option_b": "京都議定書",
+      "option_c": "格拉斯哥氣候公約",
+      "option_d": "里約熱內盧氣候協議",
+      "answer": "C"
+    },
+    {
+      "question_number": 239,
+      "bank_name": "暑期練習7/13",
+      "question": "為了保育臺灣生態，政府劃定許多不同類別的特殊區域，請問下列哪一種完全不需申請就可直接進入？",
+      "option_a": "自然保留區",
+      "option_b": "野生動物保護區",
+      "option_c": "自然保護區",
+      "option_d": "國家自然公園",
+      "answer": "D"
+    },
+    {
+      "question_number": 240,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者對於土壤自淨作用的描述是正確的？",
+      "option_a": "由人類添加化學物分解",
+      "option_b": "主要由微生物分解",
+      "option_c": "透過動物飲食吸收",
+      "option_d": "藉由種植植物吸收",
+      "answer": "B"
+    },
+    {
+      "question_number": 241,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者不符合「淨零綠生活」的生活態度及消費模式?",
+      "option_a": "採購材質單一或使用再生材料的服飾",
+      "option_b": "選擇居住在綠色的建築",
+      "option_c": "選擇提供環保餐具的餐廳用餐",
+      "option_d": "拒絕大量排放溫室氣體的商品",
+      "answer": "B"
+    },
+    {
+      "question_number": 242,
+      "bank_name": "暑期練習7/13",
+      "question": "聯合國所發表的「二十一世紀議程」(Agenda21)的意義為何？",
+      "option_a": "推動永續發展",
+      "option_b": "發展宇航技術",
+      "option_c": "解決全球金融危機",
+      "option_d": "發展基因改造工程",
+      "answer": "A"
+    },
+    {
+      "question_number": 243,
+      "bank_name": "暑期練習7/13",
+      "question": "海嘯在深海處的傳遞速度與以下哪一交通工具相當？",
+      "option_a": "噴射機",
+      "option_b": "高鐵",
+      "option_c": "高速公路上的汽車",
+      "option_d": "自行車",
+      "answer": "A"
+    },
+    {
+      "question_number": 244,
+      "bank_name": "暑期練習7/13",
+      "question": "下列何者「不是」環境部建立空氣品質監測的主要目的？",
+      "option_a": "防制空氣污染",
+      "option_b": "防止紫外線過高",
+      "option_c": "提升空氣品質",
+      "option_d": "掌握監測數據",
+      "answer": "B"
+    },
+    {
+      "question_number": 245,
+      "bank_name": "暑期練習7/13",
+      "question": "因為哪一種原因使得生物分布逐漸往高海拔或高緯度移動？",
+      "option_a": "聖嬰現象",
+      "option_b": "臭氧層破洞",
+      "option_c": "酸雨",
+      "option_d": "全球暖化",
+      "answer": "D"
+    },
+    {
+      "question_number": 246,
+      "bank_name": "暑期練習7/13",
+      "question": "下列有關毒性實驗中的LD50，其敘述何者正確？",
+      "option_a": "LD是指中毒劑量",
+      "option_b": "50是指動物產生中毒的百分比",
+      "option_c": "LD50愈小，致命性愈大",
+      "option_d": "有些化學物質對人類的LD50可以直接測試",
+      "answer": "C"
+    },
+    {
+      "question_number": 247,
+      "bank_name": "暑期練習7/13",
+      "question": "國際志工日是幾月幾日?",
+      "option_a": "4月22日",
+      "option_b": "6月5日",
+      "option_c": "11月12日",
+      "option_d": "12月5日",
+      "answer": "D"
+    },
+    {
+      "question_number": 248,
+      "bank_name": "暑期練習7/13",
+      "question": "下列哪一個不是「淨零綠生活」中購買的推廣核心?",
+      "option_a": "增加網購便利",
+      "option_b": "二手商品循環使用",
+      "option_c": "綠色消費",
+      "option_d": "以租代購，以修代買",
+      "answer": "A"
+    },
+    {
+      "question_number": 249,
+      "bank_name": "暑期練習7/13",
+      "question": "遇公害發生，民眾最常見處理方式為何？",
+      "option_a": "向法院申告",
+      "option_b": "向環保機關檢舉",
+      "option_c": "發函環境部處理",
+      "option_d": "向立法委員反映",
+      "answer": "B"
+    },
+    {
+      "question_number": 250,
+      "bank_name": "暑期練習7/13",
+      "question": "根據IPCC的報告，如果地球暖化2度，可能發生什麼事情？",
+      "option_a": "全年結冰",
+      "option_b": "半年結冰",
+      "option_c": "3個月結冰",
+      "option_d": "北極海可能每10年出現一次完全無冰狀態",
+      "answer": "D"
+    },
+    {
+      "question_number": 251,
+      "bank_name": "暑期練習7/16",
+      "question": "我國的飲用水來源主要為何？",
+      "option_a": "河川水",
+      "option_b": "逆滲透水",
+      "option_c": "海水",
+      "option_d": "回收水",
+      "answer": "A"
+    },
+    {
+      "question_number": 252,
+      "bank_name": "暑期練習7/16",
+      "question": "以臺灣的地形、季風及降雨等氣象條件來說，哪一季節的空氣品質較差？",
+      "option_a": "春",
+      "option_b": "夏",
+      "option_c": "秋",
+      "option_d": "冬",
+      "answer": "D"
+    },
+    {
+      "question_number": 253,
+      "bank_name": "暑期練習7/16",
+      "question": "請問訂定各縣市「地方調適執行方案」為「氣候變遷調適專章」哪一法條？",
+      "option_a": "第17條",
+      "option_b": "第18條",
+      "option_c": "第19條",
+      "option_d": "第20條",
+      "answer": "D"
+    },
+    {
+      "question_number": 254,
+      "bank_name": "暑期練習7/16",
+      "question": "下列有關我國「2050淨零轉型」，的四大轉型策略，何者有誤？",
+      "option_a": "能源轉型",
+      "option_b": "產業轉型",
+      "option_c": "生活轉型",
+      "option_d": "環境轉型",
+      "answer": "D"
+    },
+    {
+      "question_number": 255,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「淨零政策與法規」影片，哪一年聯合國大會決議設立《政府間氣候變化綱要公約談判委員會》？",
+      "option_a": "1985年",
+      "option_b": "1990年",
+      "option_c": "1995年",
+      "option_d": "2000年",
+      "answer": "B"
+    },
+    {
+      "question_number": 256,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者不符合「淨零綠生活」的生活態度及消費模式?",
+      "option_a": "採購材質單一或使用再生材料的服飾",
+      "option_b": "選擇居住在綠色的建築",
+      "option_c": "選擇提供環保餐具的餐廳用餐",
+      "option_d": "拒絕大量排放溫室氣體的商品",
+      "answer": "B"
+    },
+    {
+      "question_number": 257,
+      "bank_name": "暑期練習7/16",
+      "question": "在污水排放處附近將污水就地淨化，避免污水直接排入河水，此法通常稱之為何?",
+      "option_a": "跨區處理",
+      "option_b": "停滯處理",
+      "option_c": "集中處理",
+      "option_d": "現地處理",
+      "answer": "D"
+    },
+    {
+      "question_number": 258,
+      "bank_name": "暑期練習7/16",
+      "question": "下列駕駛習慣，哪一個無法達到節能環保的作用？",
+      "option_a": "把車停在陰涼的地方",
+      "option_b": "開車前先暖車",
+      "option_c": "開車保持穩定速度不急催急煞",
+      "option_d": "檢查胎壓",
+      "answer": "B"
+    },
+    {
+      "question_number": 259,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「氣候變遷與調適政策法規」影片內容，CCUS技術中的第一個C代表什麼？",
+      "option_a": "Capture",
+      "option_b": "Carbon",
+      "option_c": "Climate",
+      "option_d": "Control",
+      "answer": "B"
+    },
+    {
+      "question_number": 260,
+      "bank_name": "暑期練習7/16",
+      "question": "哪一個行為對環境的衝擊較小？",
+      "option_a": "購買當地自產自銷的芒果",
+      "option_b": "購買冷藏的非產季水果",
+      "option_c": "購買空運冷凍藍莓",
+      "option_d": "購買包裝精緻的進口水果",
+      "answer": "A"
+    },
+    {
+      "question_number": 261,
+      "bank_name": "暑期練習7/16",
+      "question": "所謂的「淨零排放」是什麼?",
+      "option_a": "不可以排放出任何溫室氣體",
+      "option_b": "讓溫室氣體的排放量達到最低，並利用技術抵銷剩餘的排放量",
+      "option_c": "使用技術移除大氣中所有的溫室氣體",
+      "option_d": "排放別的氣體來對抗溫室氣體",
+      "answer": "B"
+    },
+    {
+      "question_number": 262,
+      "bank_name": "暑期練習7/16",
+      "question": "2015年,氣候變化綱要公約第21次締約國大會通過巴黎協定，旨在限制全球平均溫度增加在攝氏幾度之內？",
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "4",
+      "answer": "B"
+    },
+    {
+      "question_number": 263,
+      "bank_name": "暑期練習7/16",
+      "question": "「減碳要淨力，生活要帶綠」影片中提到，環保駕駛應該怎麼做？",
+      "option_a": "開快車",
+      "option_b": "不使用空調",
+      "option_c": "將音響開到最大聲",
+      "option_d": "定期清理車內不必要的雜物",
+      "answer": "D"
+    },
+    {
+      "question_number": 264,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者是產生沙塵暴的主要原因？",
+      "option_a": "颱風",
+      "option_b": "空氣污染",
+      "option_c": "種植樹木",
+      "option_d": "沙漠化",
+      "answer": "D"
+    },
+    {
+      "question_number": 265,
+      "bank_name": "暑期練習7/16",
+      "question": "以聚乙烯對苯二甲酸酯（PET）為原料的填充容器，俗稱什麼？",
+      "option_a": "鋁箔包",
+      "option_b": "紙容器",
+      "option_c": "寶特瓶",
+      "option_d": "保麗龍",
+      "answer": "C"
+    },
+    {
+      "question_number": 266,
+      "bank_name": "暑期練習7/16",
+      "question": "以下哪一項是綠色消費的主要精神？",
+      "option_a": "購買便宜的產品",
+      "option_b": "選擇對環境傷害較少的商品",
+      "option_c": "購買最流行的產品",
+      "option_d": "選擇顏色最漂亮的商品",
+      "answer": "B"
+    },
+    {
+      "question_number": 267,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「減碳要淨力，生活要帶綠」影片內容，生態旅遊的特點是什麼？",
+      "option_a": "價格便宜",
+      "option_b": "時間短",
+      "option_c": "環保、減碳、自然人文的深度旅遊",
+      "option_d": "只適合年輕人",
+      "answer": "C"
+    },
+    {
+      "question_number": 268,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者是臺灣周圍海域的季節性洄游魚類？",
+      "option_a": "黑鮪魚",
+      "option_b": "吳郭魚",
+      "option_c": "香魚",
+      "option_d": "鯰魚",
+      "answer": "A"
+    },
+    {
+      "question_number": 269,
+      "bank_name": "暑期練習7/16",
+      "question": "若民眾想知道周遭居住環境的懸浮微粒濃度，可至哪個網站查詢?",
+      "option_a": "環境教育終身學習網",
+      "option_b": "綠色生活資訊網",
+      "option_c": "環境影響評估書件查詢系統",
+      "option_d": "空氣品質監測網",
+      "answer": "D"
+    },
+    {
+      "question_number": 270,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何種污水在淡水河流域占較高比例?",
+      "option_a": "事業污水",
+      "option_b": "畜牧污染",
+      "option_c": "生活污染",
+      "option_d": "農業污染",
+      "answer": "C"
+    },
+    {
+      "question_number": 271,
+      "bank_name": "暑期練習7/16",
+      "question": "請問我國於112/2/15修正「溫室氣體減量管理法」為何種法？",
+      "option_a": "氣候變遷因應法",
+      "option_b": "氣侯因應調適專法",
+      "option_c": "淨零碳排專法",
+      "option_d": "氣候變遷調適專章",
+      "answer": "A"
+    },
+    {
+      "question_number": 272,
+      "bank_name": "暑期練習7/16",
+      "question": "面對工業科技所造成的環境破壞危機，要如何因應？",
+      "option_a": "逐步將工業轉型為農業",
+      "option_b": "修改憲法禁止工業發展",
+      "option_c": "制定良善的環保法令，兼顧經濟與環境需求",
+      "option_d": "將工業區設在人口稀少的地方",
+      "answer": "C"
+    },
+    {
+      "question_number": 273,
+      "bank_name": "暑期練習7/16",
+      "question": "〈節能減碳無悔措施全民行動方案〉，提出十項無悔措施供民眾參考實踐。下列何者不屬於十項無悔措施?",
+      "option_a": "自備杯筷帕與袋",
+      "option_b": "冷氣控溫不外洩",
+      "option_c": "出門多開車",
+      "option_d": "多吃蔬食少出肉",
+      "answer": "C"
+    },
+    {
+      "question_number": 274,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者不符合響應「環保餐廳」的三大要點?",
+      "option_a": "做好源頭減量",
+      "option_b": "使用在地食材",
+      "option_c": "拒絕網路推銷",
+      "option_d": "推行惜食點餐",
+      "answer": "C"
+    },
+    {
+      "question_number": 275,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者不是目前臺灣的國家公園?",
+      "option_a": "阿里山國家公園",
+      "option_b": "雪霸國家公園",
+      "option_c": "陽明山國家公園",
+      "option_d": "臺江國家公園",
+      "answer": "A"
+    },
+    {
+      "question_number": 276,
+      "bank_name": "暑期練習7/16",
+      "question": "連續五日以上最高氣溫超過平均最高氣溫5°C以上，則稱為「熱浪」，下列何者並非熱浪的成因?",
+      "option_a": "全球暖化",
+      "option_b": "熱島效應",
+      "option_c": "焚風",
+      "option_d": "火災",
+      "answer": "D"
+    },
+    {
+      "question_number": 277,
+      "bank_name": "暑期練習7/16",
+      "question": "面臨氣候變遷與極端氣候的衝擊，總統府新成立什麼委員會，採取積極的作為?",
+      "option_a": "國家氣候變遷對策委員會",
+      "option_b": "全社會防衛韌性委員會",
+      "option_c": "健康臺灣推動委員會",
+      "option_d": "國家科學及技術委員會",
+      "answer": "A"
+    },
+    {
+      "question_number": 278,
+      "bank_name": "暑期練習7/16",
+      "question": "影片「減碳要淨力，生活要帶綠」中提到的共享經濟的概念是什麼？",
+      "option_a": "擁有更多財產",
+      "option_b": "出租代替購買",
+      "option_c": "減少工作時間",
+      "option_d": "增加消費",
+      "answer": "B"
+    },
+    {
+      "question_number": 279,
+      "bank_name": "暑期練習7/16",
+      "question": "人類進入到下列哪一個時代，溫室效應越趨嚴重？",
+      "option_a": "石器時代",
+      "option_b": "農業時代",
+      "option_c": "金屬器時代",
+      "option_d": "工業時代",
+      "answer": "D"
+    },
+    {
+      "question_number": 280,
+      "bank_name": "暑期練習7/16",
+      "question": "臺灣西部遺留了許多早期先民所挖掘的埤塘，下列何者為這些埤塘現今功能之一？",
+      "option_a": "大量農作生產",
+      "option_b": "清洗衣物",
+      "option_c": "工業用水",
+      "option_d": "涵養水源",
+      "answer": "D"
+    },
+    {
+      "question_number": 281,
+      "bank_name": "暑期練習7/16",
+      "question": "為了讓民眾的「二手物」有合適物品的處理管道，環境部建置了「全國不用品藏寶地圖」網站，下列何者為此網站成立的宗旨?",
+      "option_a": "愛物野生動物，守護美好家園",
+      "option_b": "愛物惜福、延長物命、減廢回收",
+      "option_c": "保護環境，維護生態，世代永續",
+      "option_d": "愛花草，空氣好，環保做不好，生命就難保",
+      "answer": "B"
+    },
+    {
+      "question_number": 282,
+      "bank_name": "暑期練習7/16",
+      "question": "全臺灣有11個國定遺址，宜蘭境內就有2個，請問是哪兩個？",
+      "option_a": "淇武蘭遺址、新城遺址",
+      "option_b": "大坌坑遺址、十三行遺址",
+      "option_c": "奇立丹遺址、宜蘭農校遺址",
+      "option_d": "丸山遺址、漢本遺址",
+      "answer": "D"
+    },
+    {
+      "question_number": 283,
+      "bank_name": "暑期練習7/16",
+      "question": "《華盛頓公約》的目的為何？",
+      "option_a": "促進資源永續利用",
+      "option_b": "防止全球暖化",
+      "option_c": "防止氣候變遷對生態系造成之衝",
+      "option_d": "保護瀕臨絕種生物",
+      "answer": "D"
+    },
+    {
+      "question_number": 284,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「噪音管制區劃定作業準則」第6條，「夜間」在第一、二類噪音管制區所指時段為何?",
+      "option_a": "晚上十一時至翌日上午七時",
+      "option_b": "晚上十時至翌日上午六時",
+      "option_c": "晚上八時至晚上十時",
+      "option_d": "晚上八時至晚上十一時",
+      "answer": "B"
+    },
+    {
+      "question_number": 285,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「氣候變遷與調適政策法規」影片內容，氣候變遷因應法延續了哪一個法律體系？",
+      "option_a": "溫室氣體減量及管理法",
+      "option_b": "水污染防治法",
+      "option_c": "廢棄物管理法",
+      "option_d": "空氣污染防治法",
+      "answer": "A"
+    },
+    {
+      "question_number": 286,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者「不是」海平面上升後所造成的後果？",
+      "option_a": "人口密度降低",
+      "option_b": "陸地減少",
+      "option_c": "農作物產量減少",
+      "option_d": "農田遭水淹沒",
+      "answer": "A"
+    },
+    {
+      "question_number": 287,
+      "bank_name": "暑期練習7/16",
+      "question": "下列哪一項不是環保祭祀的方法？",
+      "option_a": "少點線香",
+      "option_b": "減少點蠟燭或光明燈",
+      "option_c": "使用大面額紙錢",
+      "option_d": "燃放煙火",
+      "answer": "D"
+    },
+    {
+      "question_number": 288,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何種購物行為「沒有」綠色消費觀念？",
+      "option_a": "買咖啡自備環保杯",
+      "option_b": "購買天然殺蟲劑，減少環境污染",
+      "option_c": "不接受店家提供的免費塑膠袋",
+      "option_d": "單次使用、用過即丟的商品較衛生",
+      "answer": "D"
+    },
+    {
+      "question_number": 289,
+      "bank_name": "暑期練習7/16",
+      "question": "何者位於臺灣東部外海的海洋？",
+      "option_a": "大西洋",
+      "option_b": "臺灣海峽",
+      "option_c": "太平洋",
+      "option_d": "南海",
+      "answer": "C"
+    },
+    {
+      "question_number": 290,
+      "bank_name": "暑期練習7/16",
+      "question": "以下關於「原住民族地區」的敘述何者正確？",
+      "option_a": "係指所有原住民現在居住地區",
+      "option_b": "係指原住民報請政府後指定居住地",
+      "option_c": "係指原住民傳統居住，具歷史淵源及文化地區",
+      "option_d": "係指原住民族與漢人新舊文化融合地區",
+      "answer": "C"
+    },
+    {
+      "question_number": 291,
+      "bank_name": "暑期練習7/16",
+      "question": "家戶垃圾最好的處理方式為何？",
+      "option_a": "源頭減量",
+      "option_b": "衛生掩埋",
+      "option_c": "焚化爐焚燒",
+      "option_d": "棄置山溝",
+      "answer": "A"
+    },
+    {
+      "question_number": 292,
+      "bank_name": "暑期練習7/16",
+      "question": "下列哪一種被認定是含有有害物質的廢棄物？",
+      "option_a": "乾電池",
+      "option_b": "麵包",
+      "option_c": "玻璃",
+      "option_d": "衣服",
+      "answer": "A"
+    },
+    {
+      "question_number": 293,
+      "bank_name": "暑期練習7/16",
+      "question": "環境部為避免露營產生的污水，直接排放污染水體，於113年1月16日修正公告「禁止足使水污染行為」之污水處理新規定，適用於哪些地區?",
+      "option_a": "所有露營場",
+      "option_b": "都市露營場",
+      "option_c": "中低海拔露營場",
+      "option_d": "水污染管制區露營場",
+      "answer": "D"
+    },
+    {
+      "question_number": 294,
+      "bank_name": "暑期練習7/16",
+      "question": "根據「淨零政策與法規」影片，巴黎協定的目標是將全球平均氣溫增加限制在多少度以內？",
+      "option_a": "1度",
+      "option_b": "1.5度",
+      "option_c": "2度",
+      "option_d": "5度",
+      "answer": "C"
+    },
+    {
+      "question_number": 295,
+      "bank_name": "暑期練習7/16",
+      "question": "臺灣地震的發生，大部分是由於下列哪種原因所造成的？",
+      "option_a": "火山爆發",
+      "option_b": "板塊碰撞引起地層擠壓",
+      "option_c": "山崩",
+      "option_d": "海嘯",
+      "answer": "B"
+    },
+    {
+      "question_number": 296,
+      "bank_name": "暑期練習7/16",
+      "question": "霧和霾的區別主要是什麼？",
+      "option_a": "顏色和成分",
+      "option_b": "顏色和溫度",
+      "option_c": "成分和濕度",
+      "option_d": "成分和時間",
+      "answer": "C"
+    },
+    {
+      "question_number": 297,
+      "bank_name": "暑期練習7/16",
+      "question": "2019年全球溫室氣體排放量約500億噸，臺灣的溫室氣體總排放量，大約多少億噸？",
+      "option_a": "1億噸至2億噸",
+      "option_b": "2億噸至3億噸",
+      "option_c": "3億噸至4億噸",
+      "option_d": "4億噸至5億噸",
+      "answer": "B"
+    },
+    {
+      "question_number": 298,
+      "bank_name": "暑期練習7/16",
+      "question": "屏東林邊的地層下陷原因為何？",
+      "option_a": "超抽地下水",
+      "option_b": "颱風導致",
+      "option_c": "積水不退",
+      "option_d": "地震導致",
+      "answer": "A"
+    },
+    {
+      "question_number": 299,
+      "bank_name": "暑期練習7/16",
+      "question": "有關當前在進行碳匯碳捕捉的最新技術CCUS，請問按照CCUS之順序排列而下，何者敘述有誤？",
+      "option_a": "Carbon.碳",
+      "option_b": "Capture.捕捉",
+      "option_c": "Utilization使用率",
+      "option_d": "Separate.分離",
+      "answer": "D"
+    },
+    {
+      "question_number": 300,
+      "bank_name": "暑期練習7/16",
+      "question": "下列何者不是目前常見的氣象衛星雲圖？",
+      "option_a": "可見光雲圖",
+      "option_b": "紅外線雲圖",
+      "option_c": "紫外線雲圖",
+      "option_d": "水氣頻道雲圖",
+      "answer": "C"
+    },
+    {
+      "question_number": 301,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何種法規是目前臺灣沒有特別公告的？",
+      "option_a": "噪音管制法",
+      "option_b": "水污染防治法",
+      "option_c": "振動管制法",
+      "option_d": "環境影響評估法",
+      "answer": "C"
+    },
+    {
+      "question_number": 302,
+      "bank_name": "暑期練習7/20",
+      "question": "關於地質公園的敘述，何者正確？",
+      "option_a": "地質公園定義為擁有觀光價值的場域，並包含地質、考古及文化價值。",
+      "option_b": "聯合國世界旅遊組織希望透過公園促進生態旅遊而推動",
+      "option_c": "地質公園計畫前身是法國非政府組織「世界地質公園網絡」",
+      "option_d": "我國的野柳地質公園即是受核可的世界地質公園",
+      "answer": "C"
+    },
+    {
+      "question_number": 303,
+      "bank_name": "暑期練習7/20",
+      "question": "登革熱是一種環境病、社區病，需清除病媒蚊孳生源，請問以下列何者是防範登革熱的口號?",
+      "option_a": "「看、倒、沖、洗」",
+      "option_b": "「巡、倒、沖、洗」",
+      "option_c": "「查、倒、沖、洗」",
+      "option_d": "「巡、倒、清、刷」",
+      "answer": "D"
+    },
+    {
+      "question_number": 304,
+      "bank_name": "暑期練習7/20",
+      "question": "有關行政院環境保護署推動的資源永續循環再利用(3R)的正確流程，下列敘述何者正確？",
+      "option_a": "源頭減量→回收→再使用",
+      "option_b": "回收→源頭減量→再使用",
+      "option_c": "再使用→源頭減量→回收",
+      "option_d": "源頭減量→再使用→回收",
+      "answer": "D"
+    },
+    {
+      "question_number": 305,
+      "bank_name": "暑期練習7/20",
+      "question": "有關二氧化碳和氧氣的敘述，下列哪個選項是正確的？",
+      "option_a": "汽水的主要成分是溶入氧氣的碳酸水",
+      "option_b": "氧氣不助燃的特性，可作為滅火器使用",
+      "option_c": "酵母菌的發酵作用會產生氧氣，使麵包膨鬆",
+      "option_d": "動物呼出的氣體含有二氧化碳",
+      "answer": "D"
+    },
+    {
+      "question_number": 306,
+      "bank_name": "暑期練習7/20",
+      "question": "黑面琵鷺是世界上非常稀少的鳥種，被列為瀕臨滅絕動物保護，每年9月至10月抵臺，一直待到翌年的3月至5月左右，才陸續飛離臺灣。請問黑面琵鷺主要分布在哪一個地區?",
+      "option_a": "東歐",
+      "option_b": "西亞",
+      "option_c": "東亞",
+      "option_d": "南美洲",
+      "answer": "C"
+    },
+    {
+      "question_number": 307,
+      "bank_name": "暑期練習7/20",
+      "question": "下列那個濕地位於鳳凰山脈與阿里山山脈嶺線分界點，且植物界線分明？",
+      "option_a": "椬梧濕地",
+      "option_b": "大湳湖濕地",
+      "option_c": "草湳濕地",
+      "option_d": "草坔濕地",
+      "answer": "D"
+    },
+    {
+      "question_number": 308,
+      "bank_name": "暑期練習7/20",
+      "question": "下列哪一種元素會使土壤產生紅色的現象？",
+      "option_a": "鉻(ㄍㄜˋ)",
+      "option_b": "鐵",
+      "option_c": "銅",
+      "option_d": "硫",
+      "answer": "B"
+    },
+    {
+      "question_number": 309,
+      "bank_name": "暑期練習7/20",
+      "question": "下列有關『臭氧層』的敘述，何者錯誤？(A:)臭氧自然形成於距地表25至50公里的大氣層中，可以吸收紫外線，[...]",
+      "option_a": "[...]故臭氧層的作用對地球生物極為重要。",
+      "option_b": "於聯合國簽署的《蒙特婁議定書》是世界各國保護臭氧層的轉捩點",
+      "option_c": "臭氧層的破損與極端氣候互為因果",
+      "option_d": "縱使各國再如何努力保護地球，已經遭破壞的臭氧層破洞已經難以復原",
+      "answer": "D"
+    },
+    {
+      "question_number": 310,
+      "bank_name": "暑期練習7/20",
+      "question": "海底珊瑚礁露出水面所形成的島嶼稱之為珊瑚礁島。以下何者為此類型島嶼？",
+      "option_a": "金門島",
+      "option_b": "馬祖列島",
+      "option_c": "綠島",
+      "option_d": "東沙島",
+      "answer": "D"
+    },
+    {
+      "question_number": 311,
+      "bank_name": "暑期練習7/20",
+      "question": "「在中緯度地區，由於某種關鍵因素的影響，天然植被的經向地帶性格外規律，呈現由西(沿海)向東(內陸)依序為森林、草原與沙漠的變化。」上述最為關鍵的影響因素應為下列哪個選項？",
+      "option_a": "洋流",
+      "option_b": "西風",
+      "option_c": "海拔高度",
+      "option_d": "熱帶氣旋",
+      "answer": "B"
+    },
+    {
+      "question_number": 312,
+      "bank_name": "暑期練習7/20",
+      "question": "下列對雙酚A的敘述何者錯誤?",
+      "option_a": "常見於塑膠瓶、玩具上",
+      "option_b": "影響生殖與發育",
+      "option_c": "造成體重過瘦",
+      "option_d": "會造成糖尿病",
+      "answer": "C"
+    },
+    {
+      "question_number": 313,
+      "bank_name": "暑期練習7/20",
+      "question": "有關生物的命名法，下列哪個選項是正確的？",
+      "option_a": "以俗名分類",
+      "option_b": "俗名加上種名",
+      "option_c": "學名",
+      "option_d": "種名",
+      "answer": "C"
+    },
+    {
+      "question_number": 314,
+      "bank_name": "暑期練習7/20",
+      "question": "水庫內的水質優養化對水庫中的魚類最後會造成什麼影響？",
+      "option_a": "水中有更多對魚類生存有幫助的養分",
+      "option_b": "水質變好，但對魚類沒有幫助",
+      "option_c": "水質變差，影響魚類的生存",
+      "option_d": "對魚類完全沒有任何影響",
+      "answer": "C"
+    },
+    {
+      "question_number": 315,
+      "bank_name": "暑期練習7/20",
+      "question": "每年在大量紫斑蝶遷徙時段行經國道三號林內段時，國道高速公路局會封閉國道三號林內段外側車道的讓道方案，用意是什麼？",
+      "option_a": "疏解交通壅塞",
+      "option_b": "保護自然生態",
+      "option_c": "促進觀光發展",
+      "option_d": "顧及行車安全",
+      "answer": "B"
+    },
+    {
+      "question_number": 316,
+      "bank_name": "暑期練習7/20",
+      "question": "幾十年前曾有人引進小花蔓澤蘭來綠化環境，今日這種植物已經在臺灣部份地區造成許多原生植物死亡，甚至危害農作物，因此有綠色癌症之稱，關於此現象，下列哪個選項是正確的敘述？",
+      "option_a": "這是天擇的結果，應讓其自然演化",
+      "option_b": "不當引入外來生物，可能破壞原本的生態平衡",
+      "option_c": "應多引入外來種昆蟲，以控制此植物的繁衍",
+      "option_d": "外來種植物可增加本地的生物多樣性",
+      "answer": "B"
+    },
+    {
+      "question_number": 317,
+      "bank_name": "暑期練習7/20",
+      "question": "臺灣中高海拔山區唯一最廣大而完整的生態保護區是下列那一個？",
+      "option_a": "關渡自然保留區",
+      "option_b": "出雲山自然保留區",
+      "option_c": "葉蘭自然保留區",
+      "option_d": "大武山自然保留區",
+      "answer": "D"
+    },
+    {
+      "question_number": 318,
+      "bank_name": "暑期練習7/20",
+      "question": "以下何種能量會被地球吸收而產生暖化的現象？",
+      "option_a": "紅外線",
+      "option_b": "X光",
+      "option_c": "雷射",
+      "option_d": "α射線",
+      "answer": "A"
+    },
+    {
+      "question_number": 319,
+      "bank_name": "暑期練習7/20",
+      "question": "以下哪些天然災害可能會與氣候變遷效應發生關聯性？(A)洪水 | (B)山崩與土石流 | (C)土地沙漠化 | (D)地層下陷。",
+      "option_a": "[A]",
+      "option_b": "[AB]",
+      "option_c": "[ABC]",
+      "option_d": "[ABCD]",
+      "answer": "D"
+    },
+    {
+      "question_number": 320,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何者為「族群」的意義？",
+      "option_a": "生長於同一時期、同一棲地的同種生物集合",
+      "option_b": "生長於同一時期、同一棲地的所有生物集合",
+      "option_c": "生長於同一時期、不同棲地的同種生物集合",
+      "option_d": "生長於不同時期、同一棲地的所有生物集合",
+      "answer": "A"
+    },
+    {
+      "question_number": 321,
+      "bank_name": "暑期練習7/20",
+      "question": "天氣預報中的「人體舒適度」意指為何？",
+      "option_a": "不同溫度、濕度條件下，人體感覺舒適的程度",
+      "option_b": "不同氣壓條件下，人體感覺舒適的程度",
+      "option_c": "不同太陽光強度，人體感覺舒適的程度",
+      "option_d": "天空雲量多寡，人體感覺舒適的程度",
+      "answer": "A"
+    },
+    {
+      "question_number": 322,
+      "bank_name": "暑期練習7/20",
+      "question": "世界環境日是聯合國鼓勵全球居民提高環保意識和採取環保行動的主要力量。請問聯合國人類環境會議將每年的幾月幾日作為「世界環境日」?",
+      "option_a": "3月21日",
+      "option_b": "4月22日",
+      "option_c": "5月22日",
+      "option_d": "6月5日",
+      "answer": "D"
+    },
+    {
+      "question_number": 323,
+      "bank_name": "暑期練習7/20",
+      "question": "收集酸雨，用石蕊試紙檢驗會有下列哪種變化？",
+      "option_a": "藍色石蕊試紙變紅色",
+      "option_b": "紅、藍石蕊試紙都不變色",
+      "option_c": "紅色石蕊試紙變藍色",
+      "option_d": "都變成黑色",
+      "answer": "A"
+    },
+    {
+      "question_number": 324,
+      "bank_name": "暑期練習7/20",
+      "question": "鵝鑾鼻公園裡，什麼地方是蝴蝶們絕佳的避風港，可以阻擋落山風?",
+      "option_a": "燈塔",
+      "option_b": "矮灌木",
+      "option_c": "棕櫚樹",
+      "option_d": "珊瑚礁岩",
+      "answer": "D"
+    },
+    {
+      "question_number": 325,
+      "bank_name": "暑期練習7/20",
+      "question": "因臺灣位於歐亞大陸板塊與菲律賓板塊交界處，地震頻繁，對於地震的應變措施下列何者有誤?",
+      "option_a": "地震發生時應躲在黃金三角處",
+      "option_b": "地震發生時應躲在冰箱旁，確保食物充足",
+      "option_c": "若發生強烈地震應趕緊開門，防止門變形逃不出去",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 326,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何種方式在校園內可以節省能源？",
+      "option_a": "多乘電梯，少走樓梯",
+      "option_b": "裝設自動感應照明",
+      "option_c": "空調設定於20~23度",
+      "option_d": "共乘計程車",
+      "answer": "B"
+    },
+    {
+      "question_number": 327,
+      "bank_name": "暑期練習7/20",
+      "question": "下列哪一種植物屬於臺灣原生種？",
+      "option_a": "銀合歡",
+      "option_b": "小花蔓澤蘭",
+      "option_c": "大花咸豐草",
+      "option_d": "玉山杜鵑",
+      "answer": "D"
+    },
+    {
+      "question_number": 328,
+      "bank_name": "暑期練習7/20",
+      "question": "下列哪個選項最有可能是近年來全球暖化日益嚴重的主要原因？",
+      "option_a": "被大氣吸收的太陽輻射增加，地表大氣中溫室氣體過低",
+      "option_b": "被大氣反射到太空的太陽輻射增加",
+      "option_c": "被地表反射到太空的太陽輻射增加",
+      "option_d": "被大氣吸收的地表輻射增加",
+      "answer": "D"
+    },
+    {
+      "question_number": 329,
+      "bank_name": "暑期練習7/20",
+      "question": "在衛星雲圖上，臺灣南部被一大片白色的東西所遮住，試問臺灣南部的天氣狀況如何？",
+      "option_a": "陰天或下雨",
+      "option_b": "晴朗炎熱",
+      "option_c": "強風",
+      "option_d": "濃霧",
+      "answer": "A"
+    },
+    {
+      "question_number": 330,
+      "bank_name": "暑期練習7/20",
+      "question": "根據《文化資產保存法》的界定，「澎湖石滬文化景觀－吉貝石滬群」是屬於哪一種類型景觀？",
+      "option_a": "聚落建築群",
+      "option_b": "文化景觀",
+      "option_c": "自然地景",
+      "option_d": "考古遺址",
+      "answer": "B"
+    },
+    {
+      "question_number": 331,
+      "bank_name": "暑期練習7/20",
+      "question": "自然保留區的設置是依下列哪一項法規所推動？",
+      "option_a": "文化資產保存法",
+      "option_b": "國家公園法",
+      "option_c": "野生動物保育法",
+      "option_d": "環境保護基本法",
+      "answer": "A"
+    },
+    {
+      "question_number": 332,
+      "bank_name": "暑期練習7/20",
+      "question": "根據環境教育法第四條，下列選項中哪些是環境教育之對象?",
+      "option_a": "全體國民",
+      "option_b": "政府機關",
+      "option_c": "學校",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 333,
+      "bank_name": "暑期練習7/20",
+      "question": "太魯閣國家公園因海拔落差大，且受下列哪種因素影響，形成明顯垂直的溫差和氣候變化？",
+      "option_a": "東北季風",
+      "option_b": "雨水豐沛",
+      "option_c": "地質構造特殊",
+      "option_d": "冬季降雪",
+      "answer": "A"
+    },
+    {
+      "question_number": 334,
+      "bank_name": "暑期練習7/20",
+      "question": "為因應溫室效應對地球的危害，各國皆著手研擬各種不同類型之減緩策略，以下哪些「不是」臺灣的減緩策略？",
+      "option_a": "發展火力發電技術",
+      "option_b": "節約能源、提高能源效率",
+      "option_c": "開發新興與再生能源",
+      "option_d": "發展溫室氣體減量技術",
+      "answer": "A"
+    },
+    {
+      "question_number": 335,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何者是酸雨帶來的危害？",
+      "option_a": "全球暖化",
+      "option_b": "輻射污染",
+      "option_c": "礦產消失",
+      "option_d": "土壤酸化",
+      "answer": "D"
+    },
+    {
+      "question_number": 336,
+      "bank_name": "暑期練習7/20",
+      "question": "「海砂屋」是因為建築房屋時使用的海砂中含有什麼離子造成混凝土病變？",
+      "option_a": "氯離子",
+      "option_b": "鈉離子",
+      "option_c": "鈣離子",
+      "option_d": "鎂離子",
+      "answer": "A"
+    },
+    {
+      "question_number": 337,
+      "bank_name": "暑期練習7/20",
+      "question": "有關酸雨的敘述，下列敘述哪個選項是正確的？",
+      "option_a": "大氣中的二氧化碳溶解於雨水中所致",
+      "option_b": "酸雨對動物危害比較大，對植物沒有影響",
+      "option_c": "大氣中硫氧化物溶解於雨水中會造成酸雨",
+      "option_d": "主要為工廠排放的廢氣與汽車廢氣無關",
+      "answer": "C"
+    },
+    {
+      "question_number": 338,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何者的蒸發作用是形成雨水最主要的來源？",
+      "option_a": "海洋",
+      "option_b": "河川",
+      "option_c": "湖泊",
+      "option_d": "冰山",
+      "answer": "A"
+    },
+    {
+      "question_number": 339,
+      "bank_name": "暑期練習7/20",
+      "question": "餐飲業者達成幾項「十大惜食行動」即可成為惜食推廣種子店家？",
+      "option_a": "一項",
+      "option_b": "三項",
+      "option_c": "五項",
+      "option_d": "十項",
+      "answer": "B"
+    },
+    {
+      "question_number": 340,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何者是造成臺灣西部沿海地層嚴重下陷的原因？",
+      "option_a": "地殼板塊運動",
+      "option_b": "火山活動",
+      "option_c": "超抽地下水",
+      "option_d": "地震",
+      "answer": "C"
+    },
+    {
+      "question_number": 341,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何者「不是」河川水質監測項目之一？",
+      "option_a": "水溫",
+      "option_b": "酸鹼值",
+      "option_c": "總三鹵甲烷",
+      "option_d": "硝酸鹽氮",
+      "answer": "C"
+    },
+    {
+      "question_number": 342,
+      "bank_name": "暑期練習7/20",
+      "question": "《京都議定書》中規範下列何種溫室氣體？",
+      "option_a": "二氧化碳(CO2)",
+      "option_b": "氧氣(O2)",
+      "option_c": "一氧化碳(CO)",
+      "option_d": "臭氧(O3)",
+      "answer": "A"
+    },
+    {
+      "question_number": 343,
+      "bank_name": "暑期練習7/20",
+      "question": "下列有關鉛的生物偵測的敘述何者「錯誤」？",
+      "option_a": "有機鉛化合物的吸收，主要是由皮膚吸收",
+      "option_b": "循環中的鉛，90%會與紅血球結合",
+      "option_c": "90%的鉛會最後儲存於骨骼",
+      "option_d": "有機鉛的暴露，最好的偵測指標則是血中鉛濃度",
+      "answer": "D"
+    },
+    {
+      "question_number": 344,
+      "bank_name": "暑期練習7/20",
+      "question": "一般家庭由自來水公司配送之水資源，應再經何種淨水程序方可飲用？",
+      "option_a": "可直接飲用",
+      "option_b": "取水於容器中靜置一段時間",
+      "option_c": "經煮沸後可飲用",
+      "option_d": "不可使用於飲食上",
+      "answer": "C"
+    },
+    {
+      "question_number": 345,
+      "bank_name": "暑期練習7/20",
+      "question": "為推動全民食農教育，強化飲食、環境與農業之連結，特制定「食農教育法」。請問其推動方針不包含下列何者?",
+      "option_a": "支持認同在地農業",
+      "option_b": "地產地消永續農業",
+      "option_c": "傳承與創新飲食文化",
+      "option_d": "加入WTO提倡公平貿易",
+      "answer": "D"
+    },
+    {
+      "question_number": 346,
+      "bank_name": "暑期練習7/20",
+      "question": "下列何種組合屬於「海洋能」發電？",
+      "option_a": "潮汐發電、溫差發電",
+      "option_b": "溫差發電、汽電共生發電",
+      "option_c": "洋流發電、燃煤發電",
+      "option_d": "潮汐發電、燃氣發電",
+      "answer": "A"
+    },
+    {
+      "question_number": 347,
+      "bank_name": "暑期練習7/20",
+      "question": "我國第一座海洋國家公園，其珊瑚礁屬於特殊珍貴自然景觀？",
+      "option_a": "澎湖南方四島國家公園",
+      "option_b": "金門國家公園",
+      "option_c": "東沙環礁國家公園",
+      "option_d": "墾丁國家公園",
+      "answer": "C"
+    },
+    {
+      "question_number": 348,
+      "bank_name": "暑期練習7/20",
+      "question": "全球可劃分為熱帶、溫帶、寒帶三個氣候帶。劃分此三個氣候帶的指標為哪兩條緯線？",
+      "option_a": "本初經線、赤道",
+      "option_b": "赤道、回歸線",
+      "option_c": "回歸線、極圈",
+      "option_d": "國際換日線、赤道",
+      "answer": "C"
+    },
+    {
+      "question_number": 349,
+      "bank_name": "暑期練習7/20",
+      "question": "日常耗能以空調與照明用電佔最大比例。一般而言，哪一種燈具的耗電量最高？",
+      "option_a": "鎢絲燈泡",
+      "option_b": "日光燈",
+      "option_c": "LED燈",
+      "option_d": "省電燈泡",
+      "answer": "A"
+    },
+    {
+      "question_number": 350,
+      "bank_name": "暑期練習7/20",
+      "question": "有關空氣污染的敘述，下列何者「錯誤」？",
+      "option_a": "一氧化碳可能造成人體中毒現象",
+      "option_b": "二氧化氮是造成雨水酸化的原因之一",
+      "option_c": "臭氧只對植物有害，對人類沒影響",
+      "option_d": "二氧化硫是造成雨水酸化的原因之一",
+      "answer": "C"
+    },
+    {
+      "question_number": 351,
+      "bank_name": "暑期練習7/23",
+      "question": "公害造成損害時，「程度鑑定」主要為了確認下列何者？",
+      "option_a": "何種污染物造成損害",
+      "option_b": "造成損害之污染來源",
+      "option_c": "評估危害程度",
+      "option_d": "以上皆是",
+      "answer": "C"
+    },
+    {
+      "question_number": 352,
+      "bank_name": "暑期練習7/23",
+      "question": "民國75年高雄縣二仁溪口發生養殖牡蠣因受到水污染而變綠死亡，試問導致綠牡蠣事件的原因是下列哪個選項？",
+      "option_a": "水中藻類大量繁殖",
+      "option_b": "水中有機物質濃度過高",
+      "option_c": "水中含有毒的重金屬",
+      "option_d": "水中溶氧量過高",
+      "answer": "C"
+    },
+    {
+      "question_number": 353,
+      "bank_name": "暑期練習7/23",
+      "question": "有關潮間帶的敘述，下列哪個選項是「錯誤」的？",
+      "option_a": "位於滿乾潮之間的地帶",
+      "option_b": "提供人們養殖、遊憩與觀光的主要場所",
+      "option_c": "生物能適應短暫缺水及陽光曝晒",
+      "option_d": "此地生態系的生產力，與其它生態系相較，生產力偏低",
+      "answer": "D"
+    },
+    {
+      "question_number": 354,
+      "bank_name": "暑期練習7/23",
+      "question": "下列哪個地區可以發現具有肥厚的脂肪層、能生存在低溫環境中的動物？",
+      "option_a": "草原",
+      "option_b": "熱帶雨林",
+      "option_c": "濱海沼澤",
+      "option_d": "極地",
+      "answer": "D"
+    },
+    {
+      "question_number": 355,
+      "bank_name": "暑期練習7/23",
+      "question": "下列哪一項是常見的環境荷爾蒙？",
+      "option_a": "硼酸",
+      "option_b": "氯化鈉",
+      "option_c": "硫酸",
+      "option_d": "DDT",
+      "answer": "D"
+    },
+    {
+      "question_number": 356,
+      "bank_name": "暑期練習7/23",
+      "question": "請問下列選項何者為壽山的舊稱？",
+      "option_a": "打狗山",
+      "option_b": "打猴山",
+      "option_c": "打鳥山",
+      "option_d": "打貓山",
+      "answer": "A"
+    },
+    {
+      "question_number": 357,
+      "bank_name": "暑期練習7/23",
+      "question": "有關大氣中臭氧分布的敘述，下列哪個選項是正確的？",
+      "option_a": "臭氧大部分存在離地面10至50公里的範圍內",
+      "option_b": "大氣中90%的臭氧分布在由地面起至25公里高空的範圍內",
+      "option_c": "離地面25至50公里的高空，臭氧的分布隨高度的增加而增加",
+      "option_d": "離地面10至50公里的範圍內，臭氧的分布隨高度的增加而降低",
+      "answer": "A"
+    },
+    {
+      "question_number": 358,
+      "bank_name": "暑期練習7/23",
+      "question": "天氣現象千變萬化，天氣預報更是一件勞心勞力的工作。有關天氣預報的敘述，下列何者是正確的？",
+      "option_a": "天氣預報僅需參考地面、高空和衛星等觀測資料",
+      "option_b": "紫外線強度並不包含在預報項目內",
+      "option_c": "將觀測資料輸入電腦，即可得到準確的預報資料",
+      "option_d": "影響天氣變化的因素很複雜增加預報工作的困難度",
+      "answer": "D"
+    },
+    {
+      "question_number": 359,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者屬於可以回收的電池？",
+      "option_a": "碳鋅電池",
+      "option_b": "鎳鎘電池",
+      "option_c": "鋰電池",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 360,
+      "bank_name": "暑期練習7/23",
+      "question": "想要一睹閩南文化、僑鄉文化、戰地文化等不同時代的特質，可在下列哪一個國家公園體驗？",
+      "option_a": "東沙環礁國家公園",
+      "option_b": "澎湖南方四島國家公園",
+      "option_c": "金門國家公園",
+      "option_d": "台江國家公園",
+      "answer": "C"
+    },
+    {
+      "question_number": 361,
+      "bank_name": "暑期練習7/23",
+      "question": "潮間帶常有許多的螺類，試問下列何者可食用？",
+      "option_a": "花冠芋螺",
+      "option_b": "漁舟蜑螺",
+      "option_c": "斑芋螺",
+      "option_d": "織錦芋螺",
+      "answer": "B"
+    },
+    {
+      "question_number": 362,
+      "bank_name": "暑期練習7/23",
+      "question": "下列哪一項「不是」臺灣地層下陷的主因？",
+      "option_a": "地層的變化運動",
+      "option_b": "軟弱沖積層的自然壓實",
+      "option_c": "超抽地下水",
+      "option_d": "農地過度開墾",
+      "answer": "D"
+    },
+    {
+      "question_number": 363,
+      "bank_name": "暑期練習7/23",
+      "question": "河川魚群暴斃的主要原因大多為水中溶氧不足，在下列何時段最容易發生魚群暴斃事件？",
+      "option_a": "清晨",
+      "option_b": "中午",
+      "option_c": "傍晚",
+      "option_d": "半夜",
+      "answer": "A"
+    },
+    {
+      "question_number": 364,
+      "bank_name": "暑期練習7/23",
+      "question": "黑面琵鷺是世界上非常稀少的鳥種，被列為瀕臨滅絕動物保護，每年9月至10月抵臺，一直待到翌年的3月至5月左右，才陸續飛離臺灣。請問黑面琵鷺主要分布在哪一個地區？",
+      "option_a": "東歐",
+      "option_b": "西亞",
+      "option_c": "東亞",
+      "option_d": "南美洲",
+      "answer": "C"
+    },
+    {
+      "question_number": 365,
+      "bank_name": "暑期練習7/23",
+      "question": "幾十年前曾有人引進小花蔓澤蘭來綠化環境，今日這種植物已經在臺灣部份地區造成許多原生植物死亡，甚至危害農作物，因此有綠色癌症之稱，關於此現象，下列哪個選項是正確的敘述？",
+      "option_a": "這是天擇的結果，應讓其自然演化",
+      "option_b": "不當引入外來生物，可能破壞原本的生態平衡",
+      "option_c": "應多引入外來種昆蟲，以控制此植物的繁衍",
+      "option_d": "外來種植物可增加本地的生物多樣性",
+      "answer": "B"
+    },
+    {
+      "question_number": 366,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何項對環境賀爾蒙的敘述為錯誤的？",
+      "option_a": "可能存在於塑膠製品中",
+      "option_b": "環境賀爾蒙為疏油性",
+      "option_c": "可能導致孩童性早熟",
+      "option_d": "環境賀爾蒙結構與人體雌激素相似",
+      "answer": "B"
+    },
+    {
+      "question_number": 367,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者為溫室氣體甲烷主要來源之一？",
+      "option_a": "燃燒化石燃料",
+      "option_b": "汽車冷氣的主要冷媒",
+      "option_c": "燃燒木材",
+      "option_d": "家畜腸道發酵作用",
+      "answer": "D"
+    },
+    {
+      "question_number": 368,
+      "bank_name": "暑期練習7/23",
+      "question": "下列對於土壤肥沃的描述何者正確？",
+      "option_a": "土壤很紅",
+      "option_b": "土壤很鬆",
+      "option_c": "提供作物生產需求養份",
+      "option_d": "土壤屬中性，不酸也不鹼",
+      "answer": "C"
+    },
+    {
+      "question_number": 369,
+      "bank_name": "暑期練習7/23",
+      "question": "垃圾源頭減量最有效的方法為？",
+      "option_a": "做好垃圾分類，資源回收",
+      "option_b": "多使用塑膠製品",
+      "option_c": "建造焚化爐，減少垃圾體積",
+      "option_d": "惜物惜福，減少垃圾的產生",
+      "answer": "D"
+    },
+    {
+      "question_number": 370,
+      "bank_name": "暑期練習7/23",
+      "question": "關於壽山國家自然公園，以下敘述何者正確？",
+      "option_a": "太魯閣族人可能曾在此生活",
+      "option_b": "噶瑪蘭族人可能曾在這此生活",
+      "option_c": "馬卡道族人可能曾在這生活",
+      "option_d": "凱達格蘭族人可能曾在此生活",
+      "answer": "C"
+    },
+    {
+      "question_number": 371,
+      "bank_name": "暑期練習7/23",
+      "question": "今年1月6日至8日舉行的「2023黑面琵鷺全球同步普查」記錄到全球共有6,603隻度冬的黑面琵鷺，請問台灣共記錄到幾隻？",
+      "option_a": "1228",
+      "option_b": "2228",
+      "option_c": "4228",
+      "option_d": "6228",
+      "answer": "C"
+    },
+    {
+      "question_number": 372,
+      "bank_name": "暑期練習7/23",
+      "question": "在生物鏈越上端的物種其體內累積持久性有機污染物(POPs)濃度將越高，危害性也將越大，這是說明POPs具有下列何種特性？",
+      "option_a": "持久性",
+      "option_b": "半揮發性",
+      "option_c": "高毒性",
+      "option_d": "生物累積性",
+      "answer": "D"
+    },
+    {
+      "question_number": 373,
+      "bank_name": "暑期練習7/23",
+      "question": "全球溫度上升會使下列何種現象變得更加嚴重？",
+      "option_a": "酸雨現象",
+      "option_b": "聖嬰現象",
+      "option_c": "日蝕現象",
+      "option_d": "地震頻繁現象",
+      "answer": "B"
+    },
+    {
+      "question_number": 374,
+      "bank_name": "暑期練習7/23",
+      "question": "為了防範「登革熱疫情」，做以下何者行為來有效防範「登革熱疫情」？",
+      "option_a": "去除家中及周遭環境的積水",
+      "option_b": "多種植植物",
+      "option_c": "把門打開通風",
+      "option_d": "噴大量的芳香劑",
+      "answer": "A"
+    },
+    {
+      "question_number": 375,
+      "bank_name": "暑期練習7/23",
+      "question": "羅漢門迎佛祖「主神三轎」，若就其角色而言，可分為『』為一號轎，『』為二號轎，『』則為三號轎，參與神尊各有不同的歷史背景與任務功能。請問三轎主神依序為？",
+      "option_a": "土地公轎、佛祖轎、陪香轎",
+      "option_b": "土地公轎、陪香轎、佛祖轎",
+      "option_c": "佛祖轎、土地公轎、陪香轎",
+      "option_d": "佛祖轎、陪香轎、土地公轎",
+      "answer": "B"
+    },
+    {
+      "question_number": 376,
+      "bank_name": "暑期練習7/23",
+      "question": "我們挑選冷氣時應該重視下列何種指標對環境才是更友善的？",
+      "option_a": "HP值",
+      "option_b": "EER值",
+      "option_c": "A值",
+      "option_d": "COD值",
+      "answer": "B"
+    },
+    {
+      "question_number": 377,
+      "bank_name": "暑期練習7/23",
+      "question": "近年來，臺灣大量使用地下水的結果，部分地區開始出現下列哪些現象？(A)優養化；(B)地層下陷；(C)土壤鹽化；(D)湖泊污染；(E)地下水鹹化。",
+      "option_a": "ABC",
+      "option_b": "BCE",
+      "option_c": "BCD",
+      "option_d": "CDE",
+      "answer": "B"
+    },
+    {
+      "question_number": 378,
+      "bank_name": "暑期練習7/23",
+      "question": "宜蘭縣政府發放廚餘回收桶給家戶，避免將廚餘混入一般垃圾送入焚化爐燃燒，廚餘不適合燃燒的原因下列何者正確？",
+      "option_a": "廚餘含有大量水分，會降低焚化爐的焚燒溫度",
+      "option_b": "廚餘進入焚化爐燃燒，會導致戴奧辛的產生",
+      "option_c": "廚餘鹽份太高，也容易傷害爐體",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 379,
+      "bank_name": "暑期練習7/23",
+      "question": "在勞動時大量出汗，鹽份亦會同時損耗，若只補充水份容易引起肌肉抽搐疼痛。此為何種熱危害症狀？",
+      "option_a": "熱中暑",
+      "option_b": "熱痙攣",
+      "option_c": "熱衰竭",
+      "option_d": "心臟衰竭",
+      "answer": "B"
+    },
+    {
+      "question_number": 380,
+      "bank_name": "暑期練習7/23",
+      "question": "有關生物多樣性的觀念，下列哪個選項是「錯誤」的？",
+      "option_a": "引進世界各地區之不同種生物，以增加臺灣的生物多樣性",
+      "option_b": "生物多樣性有利於維持生態系的平衡",
+      "option_c": "生物多樣性有助於自然界物質及能量的流動",
+      "option_d": "與人類較無直接相關的生物種類，也應該加以保留",
+      "answer": "A"
+    },
+    {
+      "question_number": 381,
+      "bank_name": "暑期練習7/23",
+      "question": "為了防治秋行軍蟲，農委會訂定了通緝四步驟，不包括以下何者？",
+      "option_a": "巡察",
+      "option_b": "辨識",
+      "option_c": "通報",
+      "option_d": "用藥",
+      "answer": "D"
+    },
+    {
+      "question_number": 382,
+      "bank_name": "暑期練習7/23",
+      "question": "位於熱帶地區的達悟族如何降低酷暑時住家之高溫？",
+      "option_a": "部落建坡地上享受季節性涼風",
+      "option_b": "儲存冬季積雪，夏日取出降溫",
+      "option_c": "居家四週灑水，降低環境溫度",
+      "option_d": "屋頂開立天窗，增加空氣對流",
+      "answer": "A"
+    },
+    {
+      "question_number": 383,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者是臺灣主要面臨的環境問題之一？",
+      "option_a": "垃圾量逐年減少",
+      "option_b": "輻射外洩",
+      "option_c": "空氣污染嚴重",
+      "option_d": "降雨日增加",
+      "answer": "C"
+    },
+    {
+      "question_number": 384,
+      "bank_name": "暑期練習7/23",
+      "question": "臺灣山坡地質條件不佳，因此經常發生坡地災害。下列關於地層滑動的敘述，何者正確？",
+      "option_a": "地層滑動通常出現在盆地或平地",
+      "option_b": "其運動速率非常快速",
+      "option_c": "當地層滑動過後，此地將不會再出現滑動的可能",
+      "option_d": "產生原因多為豪雨及地質構造運動等天然因素",
+      "answer": "D"
+    },
+    {
+      "question_number": 385,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何項環境賀爾蒙化學物質在應用上配對錯誤？",
+      "option_a": "雙酚A→塑化劑",
+      "option_b": "壬基酚→工業清潔劑",
+      "option_c": "五氯酚→農藥",
+      "option_d": "全氟化合物→阻燃劑",
+      "answer": "D"
+    },
+    {
+      "question_number": 386,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何種現象是造成森林自燃的主要原因？",
+      "option_a": "因為颳風下雨，使樹木不斷摩擦產生",
+      "option_b": "因季節性氣候乾燥，容易產生高溫環境",
+      "option_c": "因土石崩落，造成火災",
+      "option_d": "因人為疏忽造成火災",
+      "answer": "B"
+    },
+    {
+      "question_number": 387,
+      "bank_name": "暑期練習7/23",
+      "question": "新北市蘆洲2021年虐貓「茶茶事件」。當時一名黎姓男子因與女友吵架，竟用熱水將二人共同飼養的貓咪「茶茶」凌虐致死，新北地院依違反下列何者法規處以罰鍰？",
+      "option_a": "《環境教育法》",
+      "option_b": "《動物保護法》",
+      "option_c": "《廢棄物清理法》",
+      "option_d": "《水污染防治法》",
+      "answer": "B"
+    },
+    {
+      "question_number": 388,
+      "bank_name": "暑期練習7/23",
+      "question": "地球平均氣溫愈來愈高，一般認為的主因為下列何者？",
+      "option_a": "火山活動增加",
+      "option_b": "人為二氧化碳的排放量增加",
+      "option_c": "太陽輻射",
+      "option_d": "空氣中帶有硫酸及硝酸成分",
+      "answer": "B"
+    },
+    {
+      "question_number": 389,
+      "bank_name": "暑期練習7/23",
+      "question": "造成土石流的原因有自然跟人為二種因素，為避免人為因素造成土石流，下列何者是我們可以做的？",
+      "option_a": "開墾山坡地，改種茶葉、檳榔樹等經濟作物",
+      "option_b": "將不要的工程廢土填置在山坡地",
+      "option_c": "多在山上開路採礦",
+      "option_d": "在山坡地多種植抓地力強的樹種",
+      "answer": "D"
+    },
+    {
+      "question_number": 390,
+      "bank_name": "暑期練習7/23",
+      "question": "「這種氣體在溫室氣體中，雖然吸收長波輻射能量的能力最低，但是它卻占了溫室氣體總量的大部分，而對溫室效應造成最大的影響。」，上述氣體最可能為下列何者？",
+      "option_a": "甲烷",
+      "option_b": "二氧化碳",
+      "option_c": "全氟化碳",
+      "option_d": "六氟化硫",
+      "answer": "B"
+    },
+    {
+      "question_number": 391,
+      "bank_name": "暑期練習7/23",
+      "question": "鵝鑾鼻公園裡，什麼地方是蝴蝶們絕佳的避風港，可以阻擋落山風？",
+      "option_a": "燈塔",
+      "option_b": "矮灌木",
+      "option_c": "棕櫚樹",
+      "option_d": "珊瑚礁岩",
+      "answer": "D"
+    },
+    {
+      "question_number": 392,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者為評估水體品質常用之生物指標？",
+      "option_a": "青黴菌",
+      "option_b": "大腸桿菌群",
+      "option_c": "藍綠菌",
+      "option_d": "肉毒桿菌",
+      "answer": "B"
+    },
+    {
+      "question_number": 393,
+      "bank_name": "暑期練習7/23",
+      "question": "由板塊擠壓而成的臺灣，地殻活動仍持續進行。下列有關敘述何者是「錯誤」的？",
+      "option_a": "嘉南平原的沉積物有部分來自中央山脈",
+      "option_b": "陸地上升會加速侵蝕作用的進行",
+      "option_c": "數百萬年後，臺灣可能被侵蝕成平坦的地形，高山將消失",
+      "option_d": "板塊擠壓使斷層活動頻繁",
+      "answer": "C"
+    },
+    {
+      "question_number": 394,
+      "bank_name": "暑期練習7/23",
+      "question": "環境部修正「免洗餐具限制使用對象及實施方式」公告，自112年何時起，8類限制使用對象不得提供生物可分解塑膠製成之免洗餐具？",
+      "option_a": "7月1日",
+      "option_b": "8月1日",
+      "option_c": "9月1日",
+      "option_d": "10月1日",
+      "answer": "B"
+    },
+    {
+      "question_number": 395,
+      "bank_name": "暑期練習7/23",
+      "question": "想要在墾丁國家公園觀賞最壯觀的猛禽遷徙景觀最好的季節是？",
+      "option_a": "春天",
+      "option_b": "夏天",
+      "option_c": "秋天",
+      "option_d": "冬天",
+      "answer": "C"
+    },
+    {
+      "question_number": 396,
+      "bank_name": "暑期練習7/23",
+      "question": "民眾在丟垃圾時，應依政府規定將垃圾分為幾類？",
+      "option_a": "五大類",
+      "option_b": "四大類",
+      "option_c": "三大類",
+      "option_d": "兩大類",
+      "answer": "C"
+    },
+    {
+      "question_number": 397,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者是土石流的特徵？",
+      "option_a": "表面流速慢，下面流速快",
+      "option_b": "表面流速快，下面流速慢",
+      "option_c": "泥沙濃度低",
+      "option_d": "衝擊力不大",
+      "answer": "B"
+    },
+    {
+      "question_number": 398,
+      "bank_name": "暑期練習7/23",
+      "question": "用自來水養魚，為什麼容易造成魚兒死亡？",
+      "option_a": "自來水中沒有氧氣",
+      "option_b": "自來水中沒有養分",
+      "option_c": "自來水中含有餘氯",
+      "option_d": "自來水中含有臭氧",
+      "answer": "C"
+    },
+    {
+      "question_number": 399,
+      "bank_name": "暑期練習7/23",
+      "question": "下列何者是從源頭減少土壤污染的方法？",
+      "option_a": "改善工業製程，降低製程污染排放",
+      "option_b": "把污染的土壤移到別的地方",
+      "option_c": "針對可能污染的土壤進行土壤檢測",
+      "option_d": "把有污染的區域劃定為污染管制區",
+      "answer": "A"
+    },
+    {
+      "question_number": 400,
+      "bank_name": "暑期練習7/23",
+      "question": "環境部於111年1月1日起推動「廢車回收一站通」服務，請問下列選項中何者對於此服務的描述錯誤？",
+      "option_a": "報廢車輛可以不用至監理站辦理",
+      "option_b": "回收獎勵金直接匯入戶頭",
+      "option_c": "完成報廢車籍，且汽車車齡達5年以上者，可申請回收獎勵金",
+      "option_d": "車牌可交由回收商代為繳回",
+      "answer": "C"
+    },
+    {
+      "question_number": 401,
+      "bank_name": "暑期練習7/27",
+      "question": "以下哪一項國際協議為全球共同面對氣候變遷與減碳的行動框架？",
+      "option_a": "巴塞爾公約",
+      "option_b": "巴黎協定",
+      "option_c": "斯德哥爾摩公約",
+      "option_d": "蒙特婁議定書",
+      "answer": "B"
+    },
+    {
+      "question_number": 402,
+      "bank_name": "暑期練習7/27",
+      "question": "根據《文化資產保存法》，下列何者敘述錯誤？",
+      "option_a": "毀損或移走古蹟，可能判刑並罰錢。",
+      "option_b": "文化資產若損壞，要回復原狀，若無法回復則賠償損害。",
+      "option_c": "國寶或重要古物要出國，需先申請主管機關核准。",
+      "option_d": "公有古物想要複製收藏，為個人行為，政府不會干涉。",
+      "answer": "D"
+    },
+    {
+      "question_number": 403,
+      "bank_name": "暑期練習7/27",
+      "question": "隨著科技的進步，現代科學家運用什麼方法，來進行更高效率的「微生物研究」？",
+      "option_a": "用培養液及特定的培養條件，培養出微生物。",
+      "option_b": "次世代基因定序法(Next Generation Sequencing, NGS)",
+      "option_c": "桑格定序法(Sanger sequencing)",
+      "option_d": "以上皆為高效率的研究方式",
+      "answer": "B"
+    },
+    {
+      "question_number": 404,
+      "bank_name": "暑期練習7/27",
+      "question": "焚化底渣資源化處理後，所分離出的鐵金屬與非鐵金屬，應依規定如何處理？",
+      "option_a": "由合格回收商處理",
+      "option_b": "掩埋處理",
+      "option_c": "覆土處理",
+      "option_d": "焚化廠處理",
+      "answer": "A"
+    },
+    {
+      "question_number": 405,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者不是臺灣「2050 淨零排放」十二項關鍵戰略？",
+      "option_a": "前瞻能源",
+      "option_b": "海洋保育",
+      "option_c": "公正轉型",
+      "option_d": "綠色金融",
+      "answer": "B"
+    },
+    {
+      "question_number": 406,
+      "bank_name": "暑期練習7/27",
+      "question": "過去大安森林公園曾經捕捉到鱷魚。推測鱷魚出現的來源為何？",
+      "option_a": "遭民眾棄養的寵物",
+      "option_b": "公園內原有的生物",
+      "option_c": "政府引入用來增加公園內生物多",
+      "option_d": "學術單位進行的保育研究",
+      "answer": "A"
+    },
+    {
+      "question_number": 407,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者為泰雅族傳統織布的重要原料？",
+      "option_a": "棉花",
+      "option_b": "亞麻",
+      "option_c": "黃麻",
+      "option_d": "苧麻",
+      "answer": "D"
+    },
+    {
+      "question_number": 408,
+      "bank_name": "暑期練習7/27",
+      "question": "以下哪一項飲食行為最符合低碳飲食原則？",
+      "option_a": "食用高級進口和牛",
+      "option_b": "食用在地當季水果",
+      "option_c": "食用網購外送餐點",
+      "option_d": "食用精緻烘焙甜點",
+      "answer": "B"
+    },
+    {
+      "question_number": 409,
+      "bank_name": "暑期練習7/27",
+      "question": "研究指出，碳排放增加使氣候系統變得不穩定，進而加劇自然災害的發生。下列哪一項策略最有助於從源頭減緩這類災害的發生？",
+      "option_a": "鼓勵使用再生能源",
+      "option_b": "興建海水淡化廠以應對乾旱",
+      "option_c": "加強預警系統以提早應對災害",
+      "option_d": "設置消波塊以減緩海岸侵蝕",
+      "answer": "A"
+    },
+    {
+      "question_number": 410,
+      "bank_name": "暑期練習7/27",
+      "question": "DDT造成生物放大效應的原因為何？",
+      "option_a": "因DDT在生物體內無法分解，在生物體內的濃度隨著食物鏈的階層逐漸增加",
+      "option_b": "因高級消費者體內分解DDT的能力較生產者低",
+      "option_c": "因為較大型的動物偏好捕食具DDT的生物",
+      "option_d": "因DDT使受污染生物的總生物量增大",
+      "answer": "A"
+    },
+    {
+      "question_number": 411,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者不是環保標章產品的特性？",
+      "option_a": "可回收",
+      "option_b": "較貴",
+      "option_c": "省資源",
+      "option_d": "低污染",
+      "answer": "B"
+    },
+    {
+      "question_number": 412,
+      "bank_name": "暑期練習7/27",
+      "question": "若在模擬情境中，發現未來海平面上升1公尺，造成大量人口需遷移。政府應採取下列哪項策略較為有效？",
+      "option_a": "禁止媒體報導災情",
+      "option_b": "放任居民自行搬遷",
+      "option_c": "停止所有農業活動",
+      "option_d": "規劃遷村與都市轉型",
+      "answer": "D"
+    },
+    {
+      "question_number": 413,
+      "bank_name": "暑期練習7/27",
+      "question": "以下關於海水淡化的敘述，何者不正確？",
+      "option_a": "海水淡化又稱為海水脫鹽",
+      "option_b": "海水淡化的目的主要是為了提供民生用水",
+      "option_c": "台灣目前的海水淡化廠大多數設立在淡水資源較不足的離島",
+      "option_d": "海水淡化會導致海平面下降，減緩氣候變遷帶來的衝擊",
+      "answer": "D"
+    },
+    {
+      "question_number": 414,
+      "bank_name": "暑期練習7/27",
+      "question": "與自然萬物和諧共處，以「燒墾游耕」方式放火燒草而不施肥，請問這是哪一族群的傳統農耕技法？",
+      "option_a": "泰雅族",
+      "option_b": "平埔族",
+      "option_c": "西拉雅族",
+      "option_d": "邵族",
+      "answer": "A"
+    },
+    {
+      "question_number": 415,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者是目前臺灣生物資源遭受威脅的主因之一？",
+      "option_a": "生物因天擇被淘汰",
+      "option_b": "因原生生物彼此競爭大，導致物種減少",
+      "option_c": "土地過度開發或不當利用",
+      "option_d": "遭到天敵捕獵",
+      "answer": "C"
+    },
+    {
+      "question_number": 416,
+      "bank_name": "暑期練習7/27",
+      "question": "人類常會利用各種地形從事適合的活動，下列哪一項開發與地殼曾經有過的隆升作用無關？",
+      "option_a": "半屏山的水泥工廠",
+      "option_b": "長濱海蝕洞內的廟宇",
+      "option_c": "花東海階上的聚落",
+      "option_d": "蘭陽平原上的水田",
+      "answer": "D"
+    },
+    {
+      "question_number": 417,
+      "bank_name": "暑期練習7/27",
+      "question": "每逢秋、冬季節，臺灣各個河口形成賞鳥最佳地點。若要欣賞大量「黑面琵鷺」過冬景象，以下何處最有機會？",
+      "option_a": "高屏溪口",
+      "option_b": "大甲溪口",
+      "option_c": "曾文溪口",
+      "option_d": "淡水河口",
+      "answer": "C"
+    },
+    {
+      "question_number": 418,
+      "bank_name": "暑期練習7/27",
+      "question": "下列對於自然資源保育的敍述哪一項是「錯誤」的？{...}>自然資源依其形成的特徵和被人類利用時間的長短，...[...]>有限的自然資源中，一部分是...",
+      "option_a": "{...}可分為可再生資源及非再生資源兩類",
+      "option_b": "可再生的自然資源是指在一定時間內透過自然生產或其他循環過程來補充",
+      "option_c": "[...]可更新的，如水、土壤、動物、植物等，故不需要特別珍惜",
+      "option_d": "[...]不可更新的，如泥炭、煤、石油、各種礦物等，在地球的存量有限，故應合理的利用",
+      "answer": "C"
+    },
+    {
+      "question_number": 419,
+      "bank_name": "暑期練習7/27",
+      "question": "土石流災害之發生，乃因泥、砂、礫及巨石等地質材料與水之混合物受重力作用後產生流動所造成之災害，其發生包括一些要件，下列哪一項描述「不是」相關要件？",
+      "option_a": "足夠的上游堆積物",
+      "option_b": "有效的河床坡度",
+      "option_c": "充足的水量",
+      "option_d": "水土保持良好",
+      "answer": "D"
+    },
+    {
+      "question_number": 420,
+      "bank_name": "暑期練習7/27",
+      "question": "台灣雖有多座水庫，但仍經常出現缺少危機，以下關於水庫的敘述何者正確？",
+      "option_a": "缺水主要是因為原本興建的水庫太小，無法續存足夠的水量",
+      "option_b": "由於許多水庫泥沙淤積嚴重，降低了原本水庫的蓄水量",
+      "option_c": "水庫興建位置錯誤，因此無法蓄積足夠的水量",
+      "option_d": "水庫的水量都作為發電用途，無法提供給民生及工業用水使用",
+      "answer": "B"
+    },
+    {
+      "question_number": 421,
+      "bank_name": "暑期練習7/27",
+      "question": "為了達到源頭減量，環境部於112年7月訂定了哪一項限制，並在114年1月1日起正式生效？",
+      "option_a": "旅宿業不得主動提供一次性個人用品。",
+      "option_b": "菜市場不得主動提供塑膠袋給民眾。",
+      "option_c": "網購包裝材料不可使用含聚氯乙烯塑膠材質。",
+      "option_d": "全國飲料店全面禁用一次性塑膠杯。",
+      "answer": "A"
+    },
+    {
+      "question_number": 422,
+      "bank_name": "暑期練習7/27",
+      "question": "一場颱風重創台灣，造成嚴重災損。由於重建資源有限，政府在分配資源時，若要落實「氣候正義」的理念，應優先考量哪一群體？",
+      "option_a": "擁有保險的富人家庭",
+      "option_b": "無家可歸的弱勢族群",
+      "option_c": "房地產開發商",
+      "option_d": "股市投資客",
+      "answer": "B"
+    },
+    {
+      "question_number": 423,
+      "bank_name": "暑期練習7/27",
+      "question": "卡式爐瓦斯罐用完後，應當以『完、包、警、收』四步驟進行處理，請問關於口訣的意義，何者「錯誤」？",
+      "option_a": "完：確認用完",
+      "option_b": "包：單獨打包",
+      "option_c": "警：加註示警",
+      "option_d": "收：不可回收",
+      "answer": "D"
+    },
+    {
+      "question_number": 424,
+      "bank_name": "暑期練習7/27",
+      "question": "「潮汐發電」的發電原理為何？",
+      "option_a": "利用海水的溫差",
+      "option_b": "利用海水的波動",
+      "option_c": "利用海流的流動",
+      "option_d": "利用海水的水位差",
+      "answer": "D"
+    },
+    {
+      "question_number": 425,
+      "bank_name": "暑期練習7/27",
+      "question": "請問我國哪座國家公園地形由花崗岩、紅土臺地及海岸低地所組成？",
+      "option_a": "台江國家公園",
+      "option_b": "金門國家公園",
+      "option_c": "太魯閣國家公園",
+      "option_d": "雪霸國家公園",
+      "answer": "B"
+    },
+    {
+      "question_number": 426,
+      "bank_name": "暑期練習7/27",
+      "question": "為什麼每個人都應該參與減緩氣候變遷的行動？",
+      "option_a": "因為氣候變遷只影響其他國家",
+      "option_b": "個人行動無法改變氣候變遷",
+      "option_c": "每個人的小行動累積起來可以帶來正面改變",
+      "option_d": "氣候變遷只需要政府處理，和人民無關",
+      "answer": "C"
+    },
+    {
+      "question_number": 427,
+      "bank_name": "暑期練習7/27",
+      "question": "颱風來臨時容易造成土石流災害，其主要原因是下列何者？",
+      "option_a": "颱風氣流引發海水倒灌，使土石遭侵蝕鬆動",
+      "option_b": "颱風帶來短時強降雨，沖刷土石造成鬆動",
+      "option_c": "颱風引發地震，使土石鬆動",
+      "option_d": "颱風造成颳強風，使土石被吹落",
+      "answer": "B"
+    },
+    {
+      "question_number": 428,
+      "bank_name": "暑期練習7/27",
+      "question": "1987年聯合國提出《我們的未來》報告書，其中指出「永續發展」的理念是？",
+      "option_a": "完全禁用一次性餐具",
+      "option_b": "各國減少硫化物排出量及削減氮氧化物30%",
+      "option_c": "2008~2012年達到二氧化碳減量5~8%",
+      "option_d": "滿足當代需求，且不損及後代滿足其需要之發展",
+      "answer": "D"
+    },
+    {
+      "question_number": 429,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者「不是」飲用水水質標準中物理性之標準項目？",
+      "option_a": "臭度",
+      "option_b": "濁度",
+      "option_c": "硬度",
+      "option_d": "色度",
+      "answer": "C"
+    },
+    {
+      "question_number": 430,
+      "bank_name": "暑期練習7/27",
+      "question": "下列關於微生物的說明，何者錯誤？",
+      "option_a": "指人類肉眼看不見的微小生物，但不包含藻類。",
+      "option_b": "十七世紀雷文霍克發明顯微鏡，人類才看到微生物的真面目。",
+      "option_c": "腸道中的微生物，比人體全身的細胞還要多！",
+      "option_d": "腸道中的微生物可促進人體的養分吸收。",
+      "answer": "A"
+    },
+    {
+      "question_number": 431,
+      "bank_name": "暑期練習7/27",
+      "question": "公害病是指因公害而生的各種疾病，請問下列何者「不是」公害病？",
+      "option_a": "油症",
+      "option_b": "烏腳病",
+      "option_c": "痛痛病",
+      "option_d": "黃熱病",
+      "answer": "D"
+    },
+    {
+      "question_number": 432,
+      "bank_name": "暑期練習7/27",
+      "question": "如果垃圾掩埋場沒管理好，垃圾滲出水流出來，最容易汙染哪一種資源？",
+      "option_a": "空氣",
+      "option_b": "聲音",
+      "option_c": "地下水",
+      "option_d": "能源",
+      "answer": "C"
+    },
+    {
+      "question_number": 433,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者不屬於二日綠色旅遊行程的必要條件？",
+      "option_a": "環保餐廳/綠食飯桌用餐",
+      "option_b": "環境教育設施場所或生態遊憩場所",
+      "option_c": "搭乘大眾運輸",
+      "option_d": "環保標章旅館住宿",
+      "answer": "C"
+    },
+    {
+      "question_number": 434,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者是利用垃圾焚化廠處理垃圾的最主要優點？",
+      "option_a": "消除所有毒性",
+      "option_b": "減少原本的垃圾體積",
+      "option_c": "降低空氣污染",
+      "option_d": "簡化處理垃圾的程序",
+      "answer": "B"
+    },
+    {
+      "question_number": 435,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者不是台灣針對「永續旅遊」所做出的努力？",
+      "option_a": "環境部規定自114年起，旅宿業者不得主動提供一次性備品。",
+      "option_b": "清境地區業者大量興建民宿，促使當地成為熱門旅遊景點。",
+      "option_c": "龜山島管制每日登島人數，減少過多遊客造成的生態壓力。",
+      "option_d": "「台灣好行」景點接駁公車規劃，提升各景點的大眾運輸可及性。",
+      "answer": "B"
+    },
+    {
+      "question_number": 436,
+      "bank_name": "暑期練習7/27",
+      "question": "購買環保標章產品能夠實踐哪一項理念？",
+      "option_a": "增加商品包裝，提升吸引力",
+      "option_b": "搭配促銷活動，大量採購囤貨",
+      "option_c": "提升使用效率，減少資源浪費",
+      "option_d": "使用化學塗料，提高產品耐久性",
+      "answer": "C"
+    },
+    {
+      "question_number": 437,
+      "bank_name": "暑期練習7/27",
+      "question": "海上油輪漏油後，要用什麼方法清理油污？",
+      "option_a": "自然分解",
+      "option_b": "用吸油棉清理",
+      "option_c": "用洗潔劑分解油污",
+      "option_d": "加更多水稀釋油污",
+      "answer": "B"
+    },
+    {
+      "question_number": 438,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何種空氣污染物是機車排氣檢驗的檢測項目？",
+      "option_a": "懸浮固體及氨氮",
+      "option_b": "一氧化碳及碳氫化合物",
+      "option_c": "懸浮微粒及硫氧化物",
+      "option_d": "氮氧化物及鉛",
+      "answer": "B"
+    },
+    {
+      "question_number": 439,
+      "bank_name": "暑期練習7/27",
+      "question": "釩液流電池與鋰電池相比，有哪些不同之處？",
+      "option_a": "釩液流電池只能用一次。",
+      "option_b": "釩液流電池用顏色顯示電力狀態，且更安全。",
+      "option_c": "鋰電池體積比釩液流電池大很多。",
+      "option_d": "相較於鋰電池，釩液流電池有較多爆炸的風險。",
+      "answer": "B"
+    },
+    {
+      "question_number": 440,
+      "bank_name": "暑期練習7/27",
+      "question": "當湖泊養分過多時，會對河川或湖泊中的生物棲息環境造成何種影響？",
+      "option_a": "魚類會大量繁殖",
+      "option_b": "增加水中氧氣",
+      "option_c": "藻類會大量繁殖",
+      "option_d": "增加魚類的活動空間",
+      "answer": "C"
+    },
+    {
+      "question_number": 441,
+      "bank_name": "暑期練習7/27",
+      "question": "下列何者並非天然濕地所具有的功能？",
+      "option_a": "調節水資源",
+      "option_b": "具備觀光與遊憩功能",
+      "option_c": "生物棲地與食物來源",
+      "option_d": "重要軍事戰略地形",
+      "answer": "D"
+    },
+    {
+      "question_number": 442,
+      "bank_name": "暑期練習7/27",
+      "question": "以下哪一種細菌對珊瑚的生長有重要的影響？",
+      "option_a": "鏈黴菌",
+      "option_b": "葡萄球菌",
+      "option_c": "乳酸菌",
+      "option_d": "綠硫菌",
+      "answer": "D"
+    },
+    {
+      "question_number": 443,
+      "bank_name": "暑期練習7/27",
+      "question": "關於土壤的敘述，下列何者正確？",
+      "option_a": "土壤是由岩石風化後產生的碎屑組成，成分非常單純。",
+      "option_b": "土壤只是植物需要的，對動物沒有太大的幫助。",
+      "option_c": "土壤裡除了有岩石碎屑，還混有生物遺體腐化後的物質，並有分解者幫忙分解。",
+      "option_d": "健康的土壤應該越乾淨越好，不可以有生物或枯葉殘渣。",
+      "answer": "C"
+    },
+    {
+      "question_number": 444,
+      "bank_name": "暑期練習7/27",
+      "question": "氣象局針對山區發布「土石流黃色警戒」訊息。下列哪項是居民應採取的正確行動？",
+      "option_a": "馬上返家收拾行李",
+      "option_b": "前往山區觀察情況",
+      "option_c": "注意政府指示並準備撤離",
+      "option_d": "進入山區幫忙拍攝影片",
+      "answer": "C"
+    },
+    {
+      "question_number": 445,
+      "bank_name": "暑期練習7/27",
+      "question": "台灣的離岸風機主要建在哪裡？",
+      "option_a": "台灣西部的沿岸地帶。",
+      "option_b": "臺南、高雄與屏東外海。",
+      "option_c": "宜蘭、花蓮與台東外海。",
+      "option_d": "新竹、苗栗與彰化外海。",
+      "answer": "D"
+    },
+    {
+      "question_number": 446,
+      "bank_name": "暑期練習7/27",
+      "question": "有關省水標章的描述，以下何者不正確？",
+      "option_a": "標章中的箭頭向上，代表將中心的水滴接起，強調回收再利用",
+      "option_b": "右邊的三條水帶代表著愛水、節水、親水，鼓勵民眾愛護水資源",
+      "option_c": "省水標章只有藍色一種顏色，若看到金色的標章代表是偽造的標章",
+      "option_d": "貼有省水標章的器材與一般傳統器材相比，表示可以節省一半以上的用水量",
+      "answer": "C"
+    },
+    {
+      "question_number": 447,
+      "bank_name": "暑期練習7/27",
+      "question": "聯合國提書SDGs永續發展目標，請問目標6是什麼？",
+      "option_a": "經濟適用的潔淨能源",
+      "option_b": "保育及維護海洋資源",
+      "option_c": "氣候行動",
+      "option_d": "清潔飲水和衛生設施",
+      "answer": "D"
+    },
+    {
+      "question_number": 448,
+      "bank_name": "暑期練習7/27",
+      "question": "針對河川污染問題，以下哪一項做法最符合永續發展的整治策略？",
+      "option_a": "倒入消毒水殺菌",
+      "option_b": "以用水泥鋪設保護堤岸",
+      "option_c": "拔除水中植物淨化水質",
+      "option_d": "建設人工濕地進行自然淨化",
+      "answer": "D"
+    },
+    {
+      "question_number": 449,
+      "bank_name": "暑期練習7/27",
+      "question": "以下哪一項不是「看不見的多樣性」影片中提到的保育行動？",
+      "option_a": "種回小米，找回泰雅族族民的傳統農耕方式。",
+      "option_b": "培養對珊瑚有幫助的好菌，幫助珊瑚健康。",
+      "option_c": "一地多用，在魚塭養殖廠設置太陽能發電。",
+      "option_d": "利用山林裡的微生物菌種來種菜和養雞。",
+      "answer": "C"
+    },
+    {
+      "question_number": 450,
+      "bank_name": "暑期練習7/27",
+      "question": "臺灣的飲用水主要來源為何？",
+      "option_a": "回收水",
+      "option_b": "海水淡化",
+      "option_c": "跟別國購買",
+      "option_d": "河川",
+      "answer": "D"
+    },
+    {
+      "question_number": 451,
+      "bank_name": "暑期練習7/30",
+      "question": "有關黑面琵鷺的敘述，下列哪個選項是「錯誤」的？",
+      "option_a": "黑面琵鷺瀕臨絕種，屬於世界級保育類動物",
+      "option_b": "黑面琵鷺是候鳥，他們每年會跨越許多國家到臺灣過冬",
+      "option_c": "目前為了黑面琵鷺，我們必須保護臺南七股濕地，不宜開發為工業用地",
+      "option_d": "為保育黑面琵鷺，我們應將他們關在動物園，方便加以照顧使其數量增加",
+      "answer": "D"
+    },
+    {
+      "question_number": 452,
+      "bank_name": "暑期練習7/30",
+      "question": "目前臺灣「能源」供給以下列何者為最主要的？",
+      "option_a": "煤",
+      "option_b": "石油",
+      "option_c": "核能",
+      "option_d": "液化天然氣",
+      "answer": "B"
+    },
+    {
+      "question_number": 453,
+      "bank_name": "暑期練習7/30",
+      "question": "全球可劃分為熱帶、溫帶、寒帶三個氣候帶。劃分此三個氣候帶的指標為哪兩條緯線？",
+      "option_a": "本初經線、赤道",
+      "option_b": "赤道、回歸線",
+      "option_c": "回歸線、極圈",
+      "option_d": "國際換日線、赤道",
+      "answer": "C"
+    },
+    {
+      "question_number": 454,
+      "bank_name": "暑期練習7/30",
+      "question": "地球平均氣溫愈來愈高，一般認為的主因為下列何者？",
+      "option_a": "火山活動增加",
+      "option_b": "人為二氧化碳的排放量增加",
+      "option_c": "太陽輻射",
+      "option_d": "空氣中帶有硫酸及硝酸成分",
+      "answer": "B"
+    },
+    {
+      "question_number": 455,
+      "bank_name": "暑期練習7/30",
+      "question": "下列有關登革熱的敘述何者「錯誤」？",
+      "option_a": "主要是經由蚊子叮吮而感染",
+      "option_b": "應在住屋加裝紗窗、紗門",
+      "option_c": "家中積水容器可不用清理",
+      "option_d": "會有發燒的症狀",
+      "answer": "C"
+    },
+    {
+      "question_number": 456,
+      "bank_name": "暑期練習7/30",
+      "question": "全臺第一座太陽能高鐵車站為何？",
+      "option_a": "臺中站",
+      "option_b": "左營站",
+      "option_c": "苗栗站",
+      "option_d": "臺北站",
+      "answer": "C"
+    },
+    {
+      "question_number": 457,
+      "bank_name": "暑期練習7/30",
+      "question": "金門民宅興建朝同一方向並坐落於前低後高的基地上，形成什麼建築布局?",
+      "option_a": "一條龍",
+      "option_b": "三合院",
+      "option_c": "四合院",
+      "option_d": "梳式",
+      "answer": "D"
+    },
+    {
+      "question_number": 458,
+      "bank_name": "暑期練習7/30",
+      "question": "有關生物分類系統描述，下列哪個選項是「錯誤」的？",
+      "option_a": "以7個階層分類",
+      "option_b": "分類階層越高種類越多",
+      "option_c": "越低階的種類越少，但越相近",
+      "option_d": "外表相似即代表物種相近",
+      "answer": "D"
+    },
+    {
+      "question_number": 459,
+      "bank_name": "暑期練習7/30",
+      "question": "國內受太平洋高壓影響，全臺天氣炎熱，當氣溫達38°C以上且持續3日以上，中央氣象局高溫資訊所顯示燈號為？",
+      "option_a": "綠",
+      "option_b": "黃",
+      "option_c": "橙",
+      "option_d": "紅",
+      "answer": "D"
+    },
+    {
+      "question_number": 460,
+      "bank_name": "暑期練習7/30",
+      "question": "目前世界衛生組織中所定義的「細懸浮微粒」，係指空氣中的哪一項污染物？",
+      "option_a": "PM1.0",
+      "option_b": "PM2.5",
+      "option_c": "PM10",
+      "option_d": "TSP",
+      "answer": "B"
+    },
+    {
+      "question_number": 461,
+      "bank_name": "暑期練習7/30",
+      "question": "道路交通管理處罰條例第44條明定，6月30日起，駕駛人行近行人穿越道或其他依法可供行人穿越之交岔路，不暫停讓行人先行通過最高罰6000元。請問執法標準以「車頭距離斑馬線上行人不足多少公尺開罰」為原則?",
+      "option_a": "4",
+      "option_b": "3",
+      "option_c": "2",
+      "option_d": "1",
+      "answer": "B"
+    },
+    {
+      "question_number": 462,
+      "bank_name": "暑期練習7/30",
+      "question": "關於壽山國家自然公園的生物，以下敘述何者正確？",
+      "option_a": "有全台灣最大群的山豬居住",
+      "option_b": "馬卡道澤蟹是此地獨特的新種",
+      "option_c": "有許多的狐猴",
+      "option_d": "芝麻蝸牛是常見蝸牛",
+      "answer": "B"
+    },
+    {
+      "question_number": 463,
+      "bank_name": "暑期練習7/30",
+      "question": "根據環境教育法第四條，下列選項中哪些是環境教育之對象?",
+      "option_a": "全體國民",
+      "option_b": "政府機關",
+      "option_c": "學校",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 464,
+      "bank_name": "暑期練習7/30",
+      "question": "由北至南依序排列臺灣本島的國家公園，下列哪個選項完全正確？",
+      "option_a": "太魯閣、雪霸、墾丁",
+      "option_b": "雪霸、太魯閣、玉山",
+      "option_c": "臺江、玉山、墾丁",
+      "option_d": "雪霸、臺江、玉山",
+      "answer": "B"
+    },
+    {
+      "question_number": 465,
+      "bank_name": "暑期練習7/30",
+      "question": "有效餘氯在自來水的安全衛生上扮演極重要的角色。如何維持自來水的有效餘氯？",
+      "option_a": "讓氯氣溶於水中",
+      "option_b": "讓六氯苯溶於水中",
+      "option_c": "讓三氯乙烷溶於水中",
+      "option_d": "讓氯乙烯溶於水中",
+      "answer": "A"
+    },
+    {
+      "question_number": 466,
+      "bank_name": "暑期練習7/30",
+      "question": "陽明山國家公園擁有獨特的錐狀或鐘狀火山體和火口湖。請問此區多屬於下列哪種岩石？",
+      "option_a": "玄武岩",
+      "option_b": "花崗岩",
+      "option_c": "安山岩",
+      "option_d": "火成岩",
+      "answer": "C"
+    },
+    {
+      "question_number": 467,
+      "bank_name": "暑期練習7/30",
+      "question": "餐飲業者達成幾項「十大惜食行動」即可成為惜食推廣種子店家？",
+      "option_a": "一項",
+      "option_b": "三項",
+      "option_c": "五項",
+      "option_d": "十項",
+      "answer": "B"
+    },
+    {
+      "question_number": 468,
+      "bank_name": "暑期練習7/30",
+      "question": "下列何者「不是」水力發電的優點？",
+      "option_a": "不會造成空氣污染",
+      "option_b": "不會有生態衍生問題",
+      "option_c": "運維成本低",
+      "option_d": "可以重複使用",
+      "answer": "B"
+    },
+    {
+      "question_number": 469,
+      "bank_name": "暑期練習7/30",
+      "question": "為推動全民食農教育，強化飲食、環境與農業之連結，特制定「食農教育法」。請問其推動方針不包含下列何者?",
+      "option_a": "支持認同在地農業",
+      "option_b": "地產地消永續農業",
+      "option_c": "傳承與創新飲食文化",
+      "option_d": "加入WTO提倡公平貿易",
+      "answer": "D"
+    },
+    {
+      "question_number": 470,
+      "bank_name": "暑期練習7/30",
+      "question": "在勞動時大量出汗，鹽份亦會同時損耗，若只補充水份容易引起肌肉抽搐疼痛。此為何種熱危害症狀？",
+      "option_a": "熱中暑",
+      "option_b": "熱痙攣",
+      "option_c": "熱衰竭",
+      "option_d": "心臟衰竭",
+      "answer": "B"
+    },
+    {
+      "question_number": 471,
+      "bank_name": "暑期練習7/30",
+      "question": "下列何者最符合「源頭減量」的環保原則？[AI重新生成]",
+      "option_a": "將使用過的寶特瓶分類回收",
+      "option_b": "將廢紙送至回收場",
+      "option_c": "購買商品時自備環保袋，減少使用一次性塑膠袋",
+      "option_d": "將廚餘集中處理製成堆肥",
+      "answer": "C"
+    },
+    {
+      "question_number": 472,
+      "bank_name": "暑期練習7/30",
+      "question": "在河道逕流量中有84.04%直接入海，主要是因為臺灣的哪個地形特性所致？",
+      "option_a": "坡陡流急",
+      "option_b": "彎彎曲曲",
+      "option_c": "河道平緩",
+      "option_d": "河道寬闊",
+      "answer": "A"
+    },
+    {
+      "question_number": 473,
+      "bank_name": "暑期練習7/30",
+      "question": "目前許多產品在包裝上均會標示哪一種資料，代表產品製造排放的二氧化碳？",
+      "option_a": "製造國家",
+      "option_b": "碳足跡",
+      "option_c": "材料成分",
+      "option_d": "運送里程",
+      "answer": "B"
+    },
+    {
+      "question_number": 474,
+      "bank_name": "暑期練習7/30",
+      "question": "水稻秋收後，農民栽種油菜花的主要目的是什麼？請選出下列最正確的答案。",
+      "option_a": "開放觀光增加收入",
+      "option_b": "作為下一季稻作的綠肥",
+      "option_c": "榨取油菜籽的油販賣",
+      "option_d": "採收油菜花販賣",
+      "answer": "B"
+    },
+    {
+      "question_number": 475,
+      "bank_name": "暑期練習7/30",
+      "question": "下列哪個選項「不是」環保標章的概念？",
+      "option_a": "低污染",
+      "option_b": "可回收",
+      "option_c": "省資源",
+      "option_d": "低單價",
+      "answer": "D"
+    },
+    {
+      "question_number": 476,
+      "bank_name": "暑期練習7/30",
+      "question": "下列哪一個對於熱島效應的描述是正確的？",
+      "option_a": "發生在小島上",
+      "option_b": "使一個地方的溫度特別的高",
+      "option_c": "多發生在植物很多的地方",
+      "option_d": "多發生在海邊",
+      "answer": "B"
+    },
+    {
+      "question_number": 477,
+      "bank_name": "暑期練習7/30",
+      "question": "下列何種物質屬於空氣中的「懸浮微粒」？",
+      "option_a": "花粉",
+      "option_b": "水氣",
+      "option_c": "氧氣",
+      "option_d": "氟氯碳化物",
+      "answer": "A"
+    },
+    {
+      "question_number": 478,
+      "bank_name": "暑期練習7/30",
+      "question": "PM2.5危害人體健康的最主要原因是什麼？",
+      "option_a": "PM2.5易隨呼吸深入人體",
+      "option_b": "PM2.5易被皮膚所吸收",
+      "option_c": "PM2.5含有重金屬",
+      "option_d": "PM2.5易沉降累積",
+      "answer": "A"
+    },
+    {
+      "question_number": 479,
+      "bank_name": "暑期練習7/30",
+      "question": "午後雷陣雨常來得急、去得快，往往讓人措手不及。有關午後雷陣雨的敘述，下列哪個選項是正確的？",
+      "option_a": "午後雷陣雨僅出現於臺灣西南部",
+      "option_b": "夏天臺灣盛行的東北風來自於海洋氣團的影響",
+      "option_c": "氣團性質視其起源地而定",
+      "option_d": "源自蒙古大陸的冷氣團為低氣壓",
+      "answer": "C"
+    },
+    {
+      "question_number": 480,
+      "bank_name": "暑期練習7/30",
+      "question": "環境中的重金屬污染，可藉由下列何種作用加深對人體的傷害？",
+      "option_a": "溫室效應",
+      "option_b": "熱島效應",
+      "option_c": "累積效應",
+      "option_d": "光化學效應",
+      "answer": "C"
+    },
+    {
+      "question_number": 481,
+      "bank_name": "暑期練習7/30",
+      "question": "下列何者對於「超級累積植物」的描述是正確的？",
+      "option_a": "可大範圍分解土壤中的重金屬物",
+      "option_b": "可吸附重金屬的一種植物",
+      "option_c": "只可分解土壤中含鐵物質",
+      "option_d": "可吸附土壤中大量的重金屬",
+      "answer": "D"
+    },
+    {
+      "question_number": 482,
+      "bank_name": "暑期練習7/30",
+      "question": "消防栓、消防車出入口，多少距離以內不得臨時停車？",
+      "option_a": "3公尺",
+      "option_b": "5公尺",
+      "option_c": "8公尺",
+      "option_d": "10公尺",
+      "answer": "B"
+    },
+    {
+      "question_number": 483,
+      "bank_name": "暑期練習7/30",
+      "question": "下列那個濕地位於鳳凰山脈與阿里山山脈嶺線分界點，且植物界線分明？",
+      "option_a": "椬梧濕地",
+      "option_b": "大湳湖濕地",
+      "option_c": "草湳濕地",
+      "option_d": "草坔濕地",
+      "answer": "D"
+    },
+    {
+      "question_number": 484,
+      "bank_name": "暑期練習7/30",
+      "question": "在哪一個國家公園內可以看到在陸蟹的繁殖季節時，舉辦協助陸蟹過馬路的保育活動?",
+      "option_a": "澎湖南方四島國家公園",
+      "option_b": "墾丁國家公園",
+      "option_c": "台江國家公園",
+      "option_d": "雪霸國家公園",
+      "answer": "B"
+    },
+    {
+      "question_number": 485,
+      "bank_name": "暑期練習7/30",
+      "question": "機車出廠滿五年每年應接受排氣定期檢驗一次，定期檢驗不合格之機車，應於多久內修復並複驗合格?",
+      "option_a": "一個月",
+      "option_b": "三個月",
+      "option_c": "六個月",
+      "option_d": "九個月",
+      "answer": "A"
+    },
+    {
+      "question_number": 486,
+      "bank_name": "暑期練習7/30",
+      "question": "為減少食物、廢棄物及溫室氣體排放等環境問題，環境部於107年開始號召餐飲業者，響應十大惜食行動，成為惜食推廣種子店家，一同推動惜食環境教育。請問下列選項中，何者不屬於惜食行動?",
+      "option_a": "為了讓餐點好看，不使用醜蔬果入菜",
+      "option_b": "將剩餘食物或食材捐贈給食物銀行",
+      "option_c": "鼓勵消費者吃多少買多少",
+      "option_d": "提供客人餐點內容的資訊",
+      "answer": "A"
+    },
+    {
+      "question_number": 487,
+      "bank_name": "暑期練習7/30",
+      "question": "中國大陸北方因燃燒化石燃料而易形成「酸雨」。上述現象，主要發生在臺灣哪一季節？",
+      "option_a": "春季",
+      "option_b": "夏季",
+      "option_c": "秋季",
+      "option_d": "冬季",
+      "answer": "D"
+    },
+    {
+      "question_number": 488,
+      "bank_name": "暑期練習7/30",
+      "question": "我們日常生活中常接觸的發票，有可能含有哪種環境荷爾蒙?",
+      "option_a": "雙酚A",
+      "option_b": "壬基酚",
+      "option_c": "戴奧辛",
+      "option_d": "十溴二苯醚",
+      "answer": "A"
+    },
+    {
+      "question_number": 489,
+      "bank_name": "暑期練習7/30",
+      "question": "下列哪一項是造成墨西哥灣海洋死區(deadzone)的主因？",
+      "option_a": "全球暖化造成",
+      "option_b": "漁民大量捕撈魚群",
+      "option_c": "藻類過度繁殖造成",
+      "option_d": "海底火山爆發",
+      "answer": "C"
+    },
+    {
+      "question_number": 490,
+      "bank_name": "暑期練習7/30",
+      "question": "臺灣東部海域是什麼？",
+      "option_a": "太平洋",
+      "option_b": "福建海峽",
+      "option_c": "巴士海峽",
+      "option_d": "東海",
+      "answer": "A"
+    },
+    {
+      "question_number": 491,
+      "bank_name": "暑期練習7/30",
+      "question": "下列哪一項指標為臺灣水庫水質優養化程度指標？",
+      "option_a": "RPI",
+      "option_b": "CPI",
+      "option_c": "CTSI",
+      "option_d": "WQI",
+      "answer": "C"
+    },
+    {
+      "question_number": 492,
+      "bank_name": "暑期練習7/30",
+      "question": "以下哪些天然災害經常發生在板塊邊界？(A)火山 | (B)地震 | (C)大型山崩與堰塞湖 | (D)沙塵暴。",
+      "option_a": "[A]",
+      "option_b": "[AB]",
+      "option_c": "[ABC]",
+      "option_d": "[ABCD]",
+      "answer": "C"
+    },
+    {
+      "question_number": 493,
+      "bank_name": "暑期練習7/30",
+      "question": "下列有關「空氣污染」的敘述，哪個選項是「錯誤」的？",
+      "option_a": "PSI值超過100對人體健康會造成影響",
+      "option_b": "懸浮微粒含量高而降低能見度，這種現象稱為「靄」",
+      "option_c": "政府對於懸浮微粒主要來源區，會加強稽查和清掃",
+      "option_d": "環保機關會依不同的營建工程徵收空氣污染防制費",
+      "answer": "B"
+    },
+    {
+      "question_number": 494,
+      "bank_name": "暑期練習7/30",
+      "question": "下列何者「不屬於」綠色商品？",
+      "option_a": "獲得能源標章產品",
+      "option_b": "獲得環保標章產品",
+      "option_c": "獲得綠建築標章產品",
+      "option_d": "獲得CNS標章產品",
+      "answer": "D"
+    },
+    {
+      "question_number": 495,
+      "bank_name": "暑期練習7/30",
+      "question": "聲音超過多少分貝就會影響人的睡眠品質?",
+      "option_a": "40分貝",
+      "option_b": "60分貝",
+      "option_c": "70分貝",
+      "option_d": "80分貝",
+      "answer": "A"
+    },
+    {
+      "question_number": 496,
+      "bank_name": "暑期練習7/30",
+      "question": "多溴二苯醚的化學結構類似戴奧辛，請問以下何者為其特性?",
+      "option_a": "具持久性",
+      "option_b": "不易分解",
+      "option_c": "易生物累積",
+      "option_d": "以上皆是",
+      "answer": "D"
+    },
+    {
+      "question_number": 497,
+      "bank_name": "暑期練習7/30",
+      "question": "依據我國空氣污染防制法施行細則分類，下列何者不屬於粒狀污染物？",
+      "option_a": "油煙",
+      "option_b": "懸浮微粒",
+      "option_c": "臭氧",
+      "option_d": "酸霧",
+      "answer": "C"
+    },
+    {
+      "question_number": 498,
+      "bank_name": "暑期練習7/30",
+      "question": "於海岸棄置廢棄物，對海洋生物棲地造成嚴重破壞，違規棄置垃圾可依下列何者法規處以罰鍰?",
+      "option_a": "環境教育法",
+      "option_b": "廢棄物清理法",
+      "option_c": "水污染防治法",
+      "option_d": "資源回收再利用法",
+      "answer": "B"
+    },
+    {
+      "question_number": 499,
+      "bank_name": "暑期練習7/30",
+      "question": "為處理垃圾爆量問題環境部擬於2023年提出《資源循環促進法》來因應，下列對此法案的敘述何者錯誤？",
+      "option_a": "此法案係將《廢棄物清理法》及《資源回收再利用法》整併",
+      "option_b": "此法案目地在翻轉廢棄物定義，推動資源極大化，廢棄物極小化",
+      "option_c": "此法擬對不具再利用價值的廢棄物，公告為政府責任物，由政府吸收處理費用",
+      "option_d": "此法也會對汙染環境的業者加重其刑責",
+      "answer": "D"
+    },
+    {
+      "question_number": 500,
+      "bank_name": "暑期練習7/30",
+      "question": "下列哪一個是造成河川有太多養分的原因？",
+      "option_a": "排泄物流入河川",
+      "option_b": "石油流入河川",
+      "option_c": "重金屬流入河川",
+      "option_d": "廢熱流入河川",
+      "answer": "A"
+    }
+  ],
+  "tutorial_questions": [
+    {
+      "question_number": 1,
+      "bank_name": "新手教學",
+      "question": "我們群組名稱為何？",
+      "option_a": "115年環境知識競賽",
+      "option_b": "115年環境知識比賽",
+      "option_c": "115年環保知識競賽",
+      "option_d": "115年環保知識比賽",
+      "answer": "A"
+    },
+    {
+      "question_number": 2,
+      "bank_name": "新手教學",
+      "question": "我們群組有幾個人？",
+      "option_a": "8個",
+      "option_b": "9個",
+      "option_c": "10個",
+      "option_d": "11個",
+      "answer": "C"
+    },
+    {
+      "question_number": 3,
+      "bank_name": "新手教學",
+      "question": "暑假練習在每周的哪兩天？",
+      "option_a": "三,五",
+      "option_b": "二,四",
+      "option_c": "一,六",
+      "option_d": "一,四",
+      "answer": "D"
+    },
+    {
+      "question_number": 4,
+      "bank_name": "新手教學",
+      "question": "暑假練習一次有多少題？",
+      "option_a": "30題",
+      "option_b": "50題",
+      "option_c": "70題",
+      "option_d": "100題",
+      "answer": "B"
+    },
+    {
+      "question_number": 5,
+      "bank_name": "新手教學",
+      "question": "下列哪種做法可以防止土石流發生？",
+      "option_a": "在山坡地上蓋民宿",
+      "option_b": "做好水土保持",
+      "option_c": "將山坡地闢建成果園",
+      "option_d": "大量砍伐森林",
+      "answer": "B"
+    },
+    {
+      "question_number": 6,
+      "bank_name": "新手教學",
+      "question": "某國家具有下列哪種特點，比較有可能面臨人口老化的社會問題？",
+      "option_a": "教育水準低",
+      "option_b": "死亡率高",
+      "option_c": "出生率低",
+      "option_d": "國民所得低",
+      "answer": "C"
+    },
+    {
+      "question_number": 7,
+      "bank_name": "新手教學",
+      "question": "廢機油應該如何處理較為適當？",
+      "option_a": "倒進馬桶",
+      "option_b": "拿去附近的機車行回收",
+      "option_c": "在水槽沖洗掉",
+      "option_d": "倒入排水溝",
+      "answer": "B"
+    },
+    {
+      "question_number": 8,
+      "bank_name": "新手教學",
+      "question": "下列何者「不能」減輕溫室效應？",
+      "option_a": "大量燒煤，以解決能源問題",
+      "option_b": "提倡使用節能技術和節能產品",
+      "option_c": "植樹造林，嚴禁亂砍濫伐森林",
+      "option_d": "提倡公共交通或步行方式出行",
+      "answer": "A"
+    },
+    {
+      "question_number": 9,
+      "bank_name": "新手教學",
+      "question": "造成臺灣南部濱海地區地層下陷最主要的原因為何？",
+      "option_a": "當地房子蓋得太重",
+      "option_b": "居住人口太多",
+      "option_c": "養殖業超抽地下水",
+      "option_d": "時常發生地震",
+      "answer": "C"
+    }
+  ]
+}
